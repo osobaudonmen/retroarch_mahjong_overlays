@@ -1,5 +1,27 @@
 <html>
 <body>
+    <div id="cmd">
+        <div>A-N :
+            width = <input id="anWidth" value="120" size="4">
+            height = <input id="anHeight" value="180" size="4">
+            color = <input id="anFGC" value="#000" size="8">
+            bcolor = <input id="anBGC" value="#ddd" size="8">
+            font = <input id="anFont" value="bold 90px Arial">
+            <input id="anLabels" value="A,B,C,D,E,F,G,H,I,J,K,L,M,N" size="50">
+        </div> 
+        <div>KanChiPon :
+            width = <input id="cpkWidth" value="200" size="4">
+            height = <input id="cpkHeight" value="120" size="4">
+            color = <input id="cpkFGC" value="#000" size="8">
+            bcolor = <input id="cpkBGC" value="#ddd" size="8">
+            font = <input id="cpkFont" value="bold 60px Arial">
+            <input id="cpkLabels" value="チー,ポン,カン,リーチ,アガリ" size="50">
+        </div> 
+        <div>
+            <button id="gen">Generate</button>
+        </div>
+    </div>
+    <div id="result"></div>
 <style>
 @keyframes changeBg {
   0% { background-color: red; }
@@ -13,13 +35,18 @@
 body {
   animation: changeBg 5s infinite;
 }
+
+#cmd {
+    background-color: #fff;
+}
 </style>
 <script>
-function generateButtonImage(text, width = 120, height = 180, fontSize = '90px') {
+const result = document.querySelector('#result');
+
+function generateButtonImage(text, width, height, fgc, bgc, font) {
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
     
-    // 角丸の四角を描画する関数
     function drawRoundedRect(ctx, x, y, width, height, radius) {
         ctx.beginPath();
         ctx.moveTo(x + radius, y);
@@ -37,59 +64,60 @@ function generateButtonImage(text, width = 120, height = 180, fontSize = '90px')
     canvas.width = width;
     canvas.height = height;
     
-    // 背景を塗る
-   ctx.clearRect(0, 0, width, height);
+    ctx.clearRect(0, 0, width, height);
 
-  // 角丸の図形を描画
-    ctx.fillStyle = "#ddd"; // 背景色
-    drawRoundedRect(ctx, 5, 5, width - 10, height - 10, 20); // 角丸の半径は20px
+    ctx.fillStyle = bgc;
+    drawRoundedRect(ctx, 5, 5, width - 10, height - 10, 20);
     ctx.fill();
     
-    // テキストを描画
-    ctx.fillStyle = "#000";
-    ctx.font = `bold ${fontSize} Arial`;
+    ctx.fillStyle = fgc;
+    ctx.font = font;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     ctx.fillText(text, width / 2, height / 2 + 5);
     
-    // 画像をダウンロードできるようにする
     const imageDataURL = canvas.toDataURL("image/png");
-    
-    // プレビュー画像を表示
+
     const preview = document.createElement("img");
     preview.src = imageDataURL;
     preview.alt = "Button Preview";
     
-    // ダウンロードリンクを作成
     const link = document.createElement("a");
     link.href = imageDataURL;
     link.download = text + ".png";
     link.appendChild(preview);
 
-	document.body.appendChild(link);
+	result.appendChild(link);
 }
 
-generateButtonImage("A");
-generateButtonImage("B");
-generateButtonImage("C");
-generateButtonImage("D");
-generateButtonImage("E");
-generateButtonImage("F");
-generateButtonImage("G");
-generateButtonImage("H");
-generateButtonImage("I");
-generateButtonImage("J");
-generateButtonImage("K");
-generateButtonImage("L");
-generateButtonImage("M");
-generateButtonImage("N");
+function generateButtons()
+{
+    result.innerHTML = '';
 
-const w = 200, h = 120;
-generateButtonImage("チー", w, h, '60px');
-generateButtonImage("ポン", w, h, '60px');
-generateButtonImage("カン", w, h, '60px');
-generateButtonImage("リーチ", w, h, '60px');
-generateButtonImage("アガリ", w, h, '60px');
+    const anw = document.querySelector('#anWidth').value;
+    const anh = document.querySelector('#anHeight').value;
+    const anfgc = document.querySelector('#anFGC').value;
+    const anbgc = document.querySelector('#anBGC').value;
+    const anf = document.querySelector('#anFont').value;
+    const anl = document.querySelector('#anLabels').value;
+    for (const l of anl.split(',')) {
+        generateButtonImage(l, anw, anh, anfgc, anbgc, anf);
+    }
+
+    const cpkw = document.querySelector('#cpkWidth').value;
+    const cpkh = document.querySelector('#cpkHeight').value;
+    const cpkfgc = document.querySelector('#cpkFGC').value;
+    const cpkbgc = document.querySelector('#cpkBGC').value;
+    const cpkf = document.querySelector('#cpkFont').value;
+    const cpkl = document.querySelector('#cpkLabels').value;
+    for (const l of cpkl.split(',')) {
+        generateButtonImage(l, cpkw, cpkh, cpkfgc, cpkbgc,cpkf);
+    }
+}
+
+generateButtons();
+
+document.querySelector('#gen').addEventListener('click', generateButtons);
 </script>
 </body>
 </html>
