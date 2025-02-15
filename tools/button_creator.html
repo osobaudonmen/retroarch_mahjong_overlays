@@ -1,0 +1,95 @@
+<html>
+<body>
+<style>
+@keyframes changeBg {
+  0% { background-color: red; }
+  20% { background-color: white; }
+  40% { background-color: blue; }
+  60% { background-color: black; }
+  80% { background-color: green; }
+  100% { background-color: red; }
+}
+
+body {
+  animation: changeBg 5s infinite;
+}
+</style>
+<script>
+function generateButtonImage(text, width = 120, height = 180, fontSize = '90px') {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    
+    // 角丸の四角を描画する関数
+    function drawRoundedRect(ctx, x, y, width, height, radius) {
+        ctx.beginPath();
+        ctx.moveTo(x + radius, y);
+        ctx.lineTo(x + width - radius, y);
+        ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+        ctx.lineTo(x + width, y + height - radius);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+        ctx.lineTo(x + radius, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+        ctx.lineTo(x, y + radius);
+        ctx.quadraticCurveTo(x, y, x + radius, y);
+        ctx.closePath();
+    }
+
+    canvas.width = width;
+    canvas.height = height;
+    
+    // 背景を塗る
+   ctx.clearRect(0, 0, width, height);
+
+  // 角丸の図形を描画
+    ctx.fillStyle = "#ddd"; // 背景色
+    drawRoundedRect(ctx, 5, 5, width - 10, height - 10, 20); // 角丸の半径は20px
+    ctx.fill();
+    
+    // テキストを描画
+    ctx.fillStyle = "#000";
+    ctx.font = `bold ${fontSize} Arial`;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(text, width / 2, height / 2 + 5);
+    
+    // 画像をダウンロードできるようにする
+    const imageDataURL = canvas.toDataURL("image/png");
+    
+    // プレビュー画像を表示
+    const preview = document.createElement("img");
+    preview.src = imageDataURL;
+    preview.alt = "Button Preview";
+    
+    // ダウンロードリンクを作成
+    const link = document.createElement("a");
+    link.href = imageDataURL;
+    link.download = text + ".png";
+    link.appendChild(preview);
+
+	document.body.appendChild(link);
+}
+
+generateButtonImage("A");
+generateButtonImage("B");
+generateButtonImage("C");
+generateButtonImage("D");
+generateButtonImage("E");
+generateButtonImage("F");
+generateButtonImage("G");
+generateButtonImage("H");
+generateButtonImage("I");
+generateButtonImage("J");
+generateButtonImage("K");
+generateButtonImage("L");
+generateButtonImage("M");
+generateButtonImage("N");
+
+const w = 200, h = 120;
+generateButtonImage("チー", w, h, '60px');
+generateButtonImage("ポン", w, h, '60px');
+generateButtonImage("カン", w, h, '60px');
+generateButtonImage("リーチ", w, h, '60px');
+generateButtonImage("アガリ", w, h, '60px');
+</script>
+</body>
+</html>
