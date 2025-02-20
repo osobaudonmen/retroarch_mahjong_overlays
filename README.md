@@ -3,12 +3,8 @@
 ## ファイルの説明
 
 - overlays/mahjong/ : MAME/FBNeoの麻雀用オーバーレイ
-  - mahjong.cfg : 牌の操作を下に並べたバージョン
-  - mahjong_side.cfg : 牌の操作を左右に並べたバージョン
-  - marjong_arrows.cfg : チーポンカンリーチを十字ーに割り当てた改造FBNeo用の、牌の操作を下に並べたバージョン
-  - marjong_side_arrows.cfg : チーポンカンリーチを十字ーに割り当てた改造FBNeo用の、牌の操作を左右に並べたバージョン
-- tamplates/ : overlays/のcfgのテンプレート。makeでcfgを生成する。
-- tools/ : オーバーレイで使用する素材を作るためのスクリプトなど
+  - mahjong_(ROMファイル名).cfg : ROMファイル名はFBNeoのファイル名
+  - mahjong_(ROMファイル名)_alt.cfg : チーポンカンリーチを十字ーに割り当てた改造FBNeo用
 
 ## メモ
 
