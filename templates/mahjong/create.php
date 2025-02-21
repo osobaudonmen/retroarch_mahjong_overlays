@@ -10,6 +10,7 @@ printf("chi, pon, kan reach  = %s\n", implode(', ', $keyMap));
 $tmpl = file_get_contents(__DIR__ . '/mahjong.tmpl');
 
 $games = [
+    'cultures' => [1, 0.0720, 0.0624, 0.89, 0, 0.033, 0.11, 0.927],
     'mjkjidai' => [1, 0.1430, 0.0518, 0.91, 0, 0.027, 0.09, 0.835],
     'janjans1' => [1, 0.0600, 0.0650, 0.89, 0, 0.034, 0.11, 0.939],
     'mj4simai' => [1, 0.0720, 0.0650, 0.89, 0, 0.034, 0.11, 0.939],
