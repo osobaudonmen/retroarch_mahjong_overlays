@@ -12,7 +12,7 @@
 - overlays/mahjong_arrow_keys/ : チーポンカンリーチを十字ーに割り当てた改造FBNeo用オーバーレイ
 
 各ディレクトリにはゲームごとにボタンの位置を調整したcfgを作成している。  
-mahjong_(ROMファイル名)_alt.cfg : 
+mahjong_(ROMファイル名).cfg : 
 
 ## メモ
 
