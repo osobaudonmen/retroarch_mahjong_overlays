@@ -1,5 +1,12 @@
 <?php
 
+$keyMap = match ($argv[1]) {
+    'arrow_keys' => ['retrok_left', 'retrok_down', 'retrok_right', 'retrok_up'],
+    default      => ['retrok_space', 'retrok_alt', 'retrok_ctrl', 'retrok_shift'],
+};
+
+printf("chi, pon, kan reach  = %s\n", implode(', ', $keyMap));
+
 $tmpl = file_get_contents(__DIR__ . '/mahjong.tmpl');
 
 $games = [
@@ -11,21 +18,14 @@ $games = [
 
 foreach ($games as $name => $pos) {
     $overlay = createOverlay(...$pos);
-    foreach (
-        [
-        ''     => ['retrok_space', 'retrok_alt', 'retrok_ctrl', 'retrok_shift'],
-        '_alt' => ['retrok_left', 'retrok_down', 'retrok_right', 'retrok_up'],
-        ] as $suffix => $keyMap
-    ) {
-        $cfg = str_replace(
-            ['%KEY_CHI%', '%KEY_PON%', '%KEY_KAN%', '%KEY_REACH%', '%OVERLAY%'],
-            [...$keyMap, $overlay],
-            $tmpl
-        );
-        $file = "mahjong_$name$suffix.cfg";
-        echo "$file\n";
-        file_put_contents($file, $cfg);
-    }
+    $cfg = str_replace(
+        ['%KEY_CHI%', '%KEY_PON%', '%KEY_KAN%', '%KEY_REACH%', '%OVERLAY%'],
+        [...$keyMap, $overlay],
+        $tmpl
+    );
+    $file = "mahjong_$name.cfg";
+    echo "$file\n";
+    file_put_contents($file, $cfg);
 }
 
 function createOverlay($n, $ox, $dx, $oy, $dy, $w, $h, $nx)
