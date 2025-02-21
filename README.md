@@ -9,8 +9,10 @@
 中ボタンでオーバーレイ切り替え。何も表示しないオーバーレイはどこかタッチしたら切り替え。
 
 - overlays/mahjong/ : MAME/FBNeoの麻雀用オーバーレイ
-  - mahjong_(ROMファイル名).cfg : ROMファイル名はFBNeoのファイル名
-  - mahjong_(ROMファイル名)_alt.cfg : チーポンカンリーチを十字ーに割り当てた改造FBNeo用
+- overlays/mahjong_arrow_keys/ : チーポンカンリーチを十字ーに割り当てた改造FBNeo用オーバーレイ
+
+各ディレクトリにはゲームごとにボタンの位置を調整したcfgを作成している。  
+mahjong_(ROMファイル名)_alt.cfg : 
 
 ## メモ
 
