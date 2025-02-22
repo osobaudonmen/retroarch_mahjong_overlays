@@ -74,8 +74,8 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 
 ## メモ
 
-- bnstars1は動かないがクローンのbnstarsは動く
-- jongputeは動かないがクローンのttmahjngは動く
+- FBNeoでbnstars1は動かないがクローンのbnstarsは動く
+- FBNeoでjongputeは動かないがクローンのttmahjngは動く
 - FBNeoはオーバーレイのキーボード入力が期待通りに動かないのでコアを改造する必要あるかもしれません。 
 - [改造FBNeo](https://github.com/osobaudonmen/FBNeo)
   - [チーポンカンリーチを十字キーに割り当てる](https://github.com/libretro/FBNeo/commit/5aa25b959dd24b6599b8a41f3b38fa6136f7dac0)
