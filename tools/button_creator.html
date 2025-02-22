@@ -27,6 +27,11 @@
             font = <input id="cpkFont" value="bold 60px Arial">
             <input id="cpkLabels" value="チー,ポン,カン,リーチ,アガリ" size="50">
         </div> 
+        <div>One Color Card :
+            width = <input id="occWidth" value="2" size="4">
+            height = <input id="occHeight" value="2" size="4">
+            <input id="occColors" value="rgba(255,0,0,.5) rgba(0,255,0,.5) rgba(0,0,255,.5)" size="50">
+        </div> 
         <div>
             <button id="gen">Generate</button>
         </div>
@@ -100,6 +105,32 @@ function generateButtonImage(text, width, height, fgc, bgc, font) {
 	result.appendChild(link);
 }
 
+function generateCard(width, height, color) {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    
+    canvas.width = width;
+    canvas.height = height;
+    
+    ctx.fillStyle = color;
+    ctx.fillRect(0, 0, width, height);
+
+    const imageDataURL = canvas.toDataURL("image/png");
+
+    const preview = document.createElement("img");
+    preview.src = imageDataURL;
+    preview.alt = "Button Preview";
+    preview.style.minWidth = '30px';
+    preview.style.minHeight = '30px';
+    
+    const link = document.createElement("a");
+    link.href = imageDataURL;
+    link.download = color + ".png";
+    link.appendChild(preview);
+
+	result.appendChild(link);
+}
+
 function generateButtons()
 {
     result.innerHTML = '';
@@ -122,6 +153,38 @@ function generateButtons()
     const cpkl = document.querySelector('#cpkLabels').value;
     for (const l of cpkl.split(',')) {
         generateButtonImage(l, cpkw, cpkh, cpkfgc, cpkbgc,cpkf);
+    }
+}
+
+function generateButtons()
+{
+    result.innerHTML = '';
+
+    const anw = document.querySelector('#anWidth').value;
+    const anh = document.querySelector('#anHeight').value;
+    const anfgc = document.querySelector('#anFGC').value;
+    const anbgc = document.querySelector('#anBGC').value;
+    const anf = document.querySelector('#anFont').value;
+    const anl = document.querySelector('#anLabels').value;
+    for (const l of anl.split(',')) {
+        generateButtonImage(l, anw, anh, anfgc, anbgc, anf);
+    }
+
+    const cpkw = document.querySelector('#cpkWidth').value;
+    const cpkh = document.querySelector('#cpkHeight').value;
+    const cpkfgc = document.querySelector('#cpkFGC').value;
+    const cpkbgc = document.querySelector('#cpkBGC').value;
+    const cpkf = document.querySelector('#cpkFont').value;
+    const cpkl = document.querySelector('#cpkLabels').value;
+    for (const l of cpkl.split(',')) {
+        generateButtonImage(l, cpkw, cpkh, cpkfgc, cpkbgc,cpkf);
+    }
+
+    const occw = document.querySelector('#occWidth').value;
+    const occh = document.querySelector('#occHeight').value;
+    const occc = document.querySelector('#occColors').value;
+    for (const c of occc.split(' ')) {
+        generateCard(occw, occh, c);
     }
 }
 
