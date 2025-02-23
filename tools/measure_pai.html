@@ -1,0 +1,144 @@
+<html>
+<style>
+body
+{
+    padding: 0;
+    margin: 0;
+}
+#wrapper
+{
+    padding: 0;
+    border: none;
+    user-select: none;
+}
+.xbar
+{
+    position: absolute;
+    width: 1px;
+    height: 100vh;
+    border: none;
+    cursor: ew-resize;
+}
+#xs
+{
+    left: 100px;
+    border-left: 1px solid #f00;
+}
+#xm
+{
+    left: 400px;
+    border-left: 1px solid #0f0;
+}
+#xn
+{
+    left: 500px;
+    border-left: 1px solid #00f;
+}
+.ybar
+{
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    border: none;
+    cursor: ns-resize;
+}
+#yu
+{
+    top: 400px;
+    border-top: 1px solid #f00;
+}
+#yd
+{
+    top: 500px;
+    border-top: 1px solid #00f;
+}
+pre
+{
+    padding: 10px;
+}
+</style>
+<body>
+    <div id="wrapper">
+        <div id="xs" class="xbar"></div>
+        <div id="xm" class="xbar"></div>
+        <div id="xn" class="xbar"></div>
+        <div id="yu" class="ybar"></div>
+        <div id="yd" class="ybar"></div>
+        <img id="scr" src="screen.png">
+    </div>
+    <pre id="log"></pre>
+<script>
+const log = document.querySelector('#log');
+const scr = document.querySelector('#scr');
+const xs  = document.querySelector('#xs');
+const xm  = document.querySelector('#xm');
+const xn  = document.querySelector('#xn');
+const yu  = document.querySelector('#yu');
+const yd  = document.querySelector('#yd');
+
+addRuler(xs, true, false);
+addRuler(xm, true, false);
+addRuler(xn, true, false);
+addRuler(yu, false, true);
+addRuler(yd, false, true);
+displayInfo();
+
+function addRuler(ruler, x = true, y = true)
+{
+    let offsetX = 0, offsetY = 0, isDragging = false;
+
+    ruler.addEventListener("mousedown", (e) => {
+        isDragging = true;
+            if (x) {offsetX = e.clientX - ruler.offsetLeft;}
+            if (y) {offsetY = e.clientY - ruler.offsetTop;}
+    });
+
+    document.addEventListener("mousemove", (e) => {
+        if (isDragging) {
+            if (x) {ruler.style.left = `${e.clientX - offsetX}px`;}
+            if (y) {ruler.style.top = `${e.clientY - offsetY}px`;}
+        }
+    });
+
+    document.addEventListener("mouseup", () => {
+        if (isDragging) {
+            displayInfo();
+        }
+        isDragging = false;
+    });
+}
+
+function displayInfo()
+{
+    const w = scr.width;
+    const h = scr.height;
+    const x0 = xs.offsetLeft; 
+    const x1 = xm.offsetLeft; 
+    const x2 = xn.offsetLeft; 
+    const y0 = yu.offsetTop; 
+    const y1 = yd.offsetTop; 
+
+    const hw = (x1 - x0) / 13 / 2;
+    const hh = (y1 - y0) / 2;
+    const xo = x0 + hw;
+    const xd = hw * 2;
+    const yo = y0 + hh;
+    const no = x2 + hw;
+
+    const nhw = hw / w;
+    const nhh = hh / h;
+    const nxo = xo / w;;
+    const nxd = xd / w;
+    const nyo = yo / h;
+    const nno = no / w;;
+
+    log.innerText = 
+            `img : w=${w}, h=${h}\n` +
+            `x   : ${x0}, ${x1}, ${x2}\n` +
+            `y   : ${y0}, ${y1}\n` +
+            `[1, ${xo}, ${xd}, ${yo}, 0, ${hw}, ${hh}, ${no}]\n` +
+            `[1, ${nxo}, ${nxd}, ${nyo}, 0, ${nhw}, ${nhh}, ${nno}]`;
+}
+</script>
+</body>
+</html>
