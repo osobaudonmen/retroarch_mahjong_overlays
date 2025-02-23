@@ -212,7 +212,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |kanatuen| Kanatsuen no Onna (Japan 880905)||
 |kirarast| Ryuusei Janshi Kirara Star||
 |kisekaem| Kisekae Mahjong||
-|kiwame| Pro Mahjong Kiwame||
+|kiwame| Pro Mahjong Kiwame|mahjong_kiwame.cfg|チーとか効かないかも|
 |kiwames| Pro Mahjong Kiwame S (J 951020 V1.208)||
 |koikois2| Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)||
 |koinomp| Mahjong Koi no Magic Potion (Japan)||
