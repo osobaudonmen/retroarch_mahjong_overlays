@@ -88,14 +88,14 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 
 |ROMファイル名|説明|オーバーレイファイル|
 |---|---|---|
-|4psimasy| Mahjong 4P Shimasho (Japan)||
-|7jigen| 7jigen no Youseitachi - Mahjong 7 Dimensions (Japan)||
+|4psimasy| Mahjong 4P Shimasho (Japan)|mahjong_4psimasy.cfg|
+|7jigen| 7jigen no Youseitachi - Mahjong 7 Dimensions (Japan)|mahjong_7jigen.cfg|
 |aimode| Ai-mode - Pet Shiiku (Japan)||
-|akamj| Aka Mahjong (Double Bet, ver 1 16)||
-|akiss| Mahjong Angel Kiss (ver 1.0)||
-|apparel| Apparel Night (Japan 860929)||
-|av2mj1bb| AV2Mahjong No.1 Bay Bridge no Seijo (Japan)||
-|av2mj2rg| AV2Mahjong No.2 Rouge no Kaori (Japan)||
+|akamj| Aka Mahjong (Double Bet, ver 1 16)|mahjong_akamj.cfg|
+|akiss| Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|
+|apparel| Apparel Night (Japan 860929)|mahjong_apparel.cfg|
+|av2mj1bb| AV2Mahjong No.1 Bay Bridge no Seijo (Japan)|mahjong_av2mj1bb.cfg|
+|av2mj2rg| AV2Mahjong No.2 Rouge no Kaori (Japan)|mahjong_av2mj2rg.cfg|
 |avmjts| AV-Mahjong Two Shot (Japan Ver 1.00 1990/05/21)||
 |bakatono| Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||
 |bananadr| Mahjong Banana Dream (Japan 891124)||
