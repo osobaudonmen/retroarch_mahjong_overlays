@@ -46,8 +46,8 @@ RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で�
 
 FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧（クローンは除く）を作成した。  
 
-|ROMファイル名|説明|オーバーレイファイル|
-|---|---|---|
+|ROMファイル名|説明|オーバーレイファイル|備考|
+|---|---|---|---|
 | akiss| Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|
 | bnstars1| Vs. Janshi Brandnew Stars|mahjong_bnstars1.cfg|
 | cdsteljn| DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg|
@@ -58,13 +58,13 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 | hotgmck| Taisen Hot Gimmick (Japan)|mahjong_hotgmck.cfg|
 | hotgmck3| Taisen Hot Gimmick 3 Digital Surfing (Japan)|mahjong_hotgmck.cfg|
 | hotgmcki| Mahjong Hot Gimmick Integral (Japan)|mahjong_hotgmck.cfg|
-| hypreac2| Mahjong Hyper Reaction 2 (Japan)|Joystickモードがあるので不要|
-| hypreact| Mahjong Hyper Reaction (Japan)|Joystickモードがあるので不要|
+| hypreac2| Mahjong Hyper Reaction 2 (Japan)||Joystickモードがあるので不要|
+| hypreact| Mahjong Hyper Reaction (Japan)||Joystickモードがあるので不要|
 | janjans1| Lovely Pop Mahjong JangJang Shimasho (Japan)|mahjong_janjans1.cfg|
 | janjans2| Lovely Pop Mahjong JangJang Shimasho 2 (Japan)|mahjong_janjans2.cfg|
 | jongpute| Jongputer|mahjong_jongpute.cfg|
 | kirarast| Ryuusei Janshi Kirara Star|mahjong_kirarast.cfg|
-| koikois2| Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)|Joystickモードがあるので不要|
+| koikois2| Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)||Joystickモードがあるので不要|
 | marukin| Super Marukin-Ban (Japan 911128)|mahjong_mgakuen.cfg|
 | mgakuen| Mahjong Gakuen|mahjong_mgakuen.cfg|
 | mgakuen2| Mahjong Gakuen 2 Gakuen-chou no Fukushuu|mahjong_mgakuen.cfg|
