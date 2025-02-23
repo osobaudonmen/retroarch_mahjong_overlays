@@ -89,7 +89,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |ROMファイル名|説明|オーバーレイファイル|備考|
 |---|---|---|---|
 |4psimasy| Mahjong 4P Shimasho (Japan)|mahjong_4psimasy.cfg|
-|7jigen| 7jigen no Youseitachi - Mahjong 7 Dimensions (Japan)|mahjong_7jigen.cfg|チーとか効かないかも|
+|7jigen| 7jigen no Youseitachi - Mahjong 7 Dimensions (Japan)|mahjong_7jigen.cfg||
 |aimode| Ai-mode - Pet Shiiku (Japan)||
 |akamj| Aka Mahjong (Double Bet, ver 1 16)|mahjong_akamj.cfg|
 |akiss| Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|FBNeoと共通|
@@ -99,7 +99,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |avmjts| AV-Mahjong Two Shot (Japan Ver 1.00 1990/05/21)||初期で逆さま。DIPスイッチで回転できる|
 |bakatono| Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||DIPスイッチでJoyStickが使えそう|
 |bananadr| Mahjong Banana Dream (Japan 891124)||Betボタンが要りそう|
-|bijokkog| Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg|チーとか効かないかも|
+|bijokkog| Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg||
 |bijokkoy| Bijokko Yume Monogatari (Japan 870925)||
 |bikiniko| BiKiNikko - Okinawa de Ippai Shichaimashita (Japan)||
 |bishjan| Bishou Jan (Japan, Ver. 203)||
@@ -212,7 +212,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |kanatuen| Kanatsuen no Onna (Japan 880905)||
 |kirarast| Ryuusei Janshi Kirara Star||
 |kisekaem| Kisekae Mahjong||
-|kiwame| Pro Mahjong Kiwame|mahjong_kiwame.cfg|チーとか効かないかも|
+|kiwame| Pro Mahjong Kiwame|mahjong_kiwame.cfg||
 |kiwames| Pro Mahjong Kiwame S (J 951020 V1.208)||
 |koikois2| Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)||
 |koinomp| Mahjong Koi no Magic Potion (Japan)||
