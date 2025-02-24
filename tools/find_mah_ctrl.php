@@ -15,7 +15,8 @@ foreach ($games as $game) {
     $isDevice  = (string)$game['isdevice'] === 'yes';
     $isRunning = (string)$game['runnable'] !== 'no';
     $isClone   = !!$game['cloneof'];
-    if ($isRunning && !$isDevice && !$isClone) {
+    $isWorking = (string)$game->driver['status'] !== 'preliminary';
+    if ($isRunning && $isWorking && !$isDevice && !$isClone) {
         checkGame($game);
     }
 }
