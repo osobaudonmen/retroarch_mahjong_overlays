@@ -295,8 +295,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |pastelg| Pastel Gal (Japan 851224)||
 |patimono| Mahjong Pachinko Monogatari (Japan)||
 |ponchin| Mahjong Pon Chin Kan (Japan set 1)||
-|psailor1| Bishoujo Janshi Pretty Sailor 18-kin (Japan)||
-|psailor2| Bishoujo Janshi Pretty Sailor 2 (Japan)||
+|psailor1| Bishoujo Janshi Pretty Sailor 18-kin (Japan)|mahjong_psailor1.cfg|
+|psailor2| Bishoujo Janshi Pretty Sailor 2 (Japan)|mahjong_psailor1.cfg|
 |pstadium| Mahjong Panic Stadium (Japan)||
 |qlgs| Que Long Gaoshou (S501CN)||
 |qmhayaku| Quiz-Mahjong Hayaku Yatteyo! (Japan)||
