@@ -107,7 +107,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |cafebrk| Mahjong Cafe Break (Ver. 1.01J)||白画面のまま|
 |cafedoll| Mahjong Cafe Doll (Japan, Ver. 1.00)||
 |cafepara| Mahjong Cafe Paradise (Ver. 1.00)||
-|cafetime| Mahjong Cafe Time||
+|cafetime| Mahjong Cafe Time||Aが効かない？Rateボタンが要りそう|
 |ccasino| Chinese Casino (Japan)||
 |cdsteljn| DS Telejan (DECO Cassette) (Japan)||
 |chalgirl| Challenge Girl (Falcon bootleg)||
