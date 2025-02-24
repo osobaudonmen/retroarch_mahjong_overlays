@@ -104,7 +104,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |bikiniko| BiKiNikko - Okinawa de Ippai Shichaimashita (Japan)||
 |bishjan| Bishou Jan (Japan, Ver. 203)||
 |bnstars1| Vs. Janshi Brandnew Stars||
-|cafebrk| Mahjong Cafe Break (Ver. 1.01J)||
+|cafebrk| Mahjong Cafe Break (Ver. 1.01J)||白画面のまま|
 |cafedoll| Mahjong Cafe Doll (Japan, Ver. 1.00)||
 |cafepara| Mahjong Cafe Paradise (Ver. 1.00)||
 |cafetime| Mahjong Cafe Time||
