@@ -295,8 +295,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |pastelg| Pastel Gal (Japan 851224)||
 |patimono| Mahjong Pachinko Monogatari (Japan)||
 |ponchin| Mahjong Pon Chin Kan (Japan set 1)||
-|psailor1| Bishoujo Janshi Pretty Sailor 18-kin (Japan)||
-|psailor2| Bishoujo Janshi Pretty Sailor 2 (Japan)||
+|psailor1| Bishoujo Janshi Pretty Sailor 18-kin (Japan)|mahjong_psailor1.cfg|
+|psailor2| Bishoujo Janshi Pretty Sailor 2 (Japan)|mahjong_psailor1.cfg|
 |pstadium| Mahjong Panic Stadium (Japan)||
 |qlgs| Que Long Gaoshou (S501CN)||
 |qmhayaku| Quiz-Mahjong Hayaku Yatteyo! (Japan)||
@@ -343,7 +343,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |uchuuai| Mahjong Uchuu yori Ai wo komete (Japan)||
 |ultramhm| Ultra Maru-hi Mahjong (Japan)||
 |usagi| Usagi (V2.02J 2001/10/02 12:41:19)||
-|vanilla| Mahjong Vanilla Syndrome (Japan)||
+|vanilla| Mahjong Vanilla Syndrome (Japan)|mahjong_vanilla.cfg|
 |vitaminc| Mahjong Vitamin C (Japan)||
 |vmahjong| Virtual Mahjong (J 961214 V1.000)||
 |vsmjtria| VS Mahjong Triangle||
@@ -352,7 +352,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |xymg| Xingyun Man Guan (China, V651C)||
 |yarunara| Mahjong Yarunara (Japan)||
 |yosimoto| Mahjong Yoshimoto Gekijou (Japan)||
-|yujan| Yu-Jan||
+|yujan| Yu-Jan|mahjong_yujan.cfg|
 |zhongguo| Zhongguo Chu Da D (V102C)||
 
 ## メモ
