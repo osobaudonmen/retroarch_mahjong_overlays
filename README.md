@@ -138,13 +138,13 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |gekisha| Mahjong Gekisha (Japan)||
 |goodejan| Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)||
 |hanamomo| Mahjong Hana no Momoko gumi (Japan 881201)||
-|hgkairak| Taisen Hot Gimmick Kairakuten (Japan)||
+|hgkairak| Taisen Hot Gimmick Kairakuten (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
 |hipai| Hi Pai Paradise||
 |hipai2| Hi Pai Paradise 2||
-|hotgm4ev| Taisen Hot Gimmick 4 Ever (Japan)||
-|hotgmck| Taisen Hot Gimmick (Japan)||
-|hotgmck3| Taisen Hot Gimmick 3 Digital Surfing (Japan)||
-|hotgmcki| Mahjong Hot Gimmick Integral (Japan)||
+|hotgm4ev| Taisen Hot Gimmick 4 Ever (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
+|hotgmck| Taisen Hot Gimmick (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
+|hotgmck3| Taisen Hot Gimmick 3 Digital Surfing (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
+|hotgmcki| Mahjong Hot Gimmick Integral (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
 |hourouki| Mahjong Hourouki Part 1 - Seishun Hen (Japan)||
 |housemn2| House Mannequin Roppongi Live hen (Japan 870418)||
 |housemnq| House Mannequin (Japan 870217)||
