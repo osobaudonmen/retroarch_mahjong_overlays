@@ -1,4 +1,4 @@
-all: mahjong mahjong_arrow_keys mahjong_debug
+all: mahjong mahjong_arrow_keys mahjong_debug mahjong_arrow_keys_debug
 
 mahjong:
 	cd overlays/mahjong/ && php ../../templates/mahjong/create.php
