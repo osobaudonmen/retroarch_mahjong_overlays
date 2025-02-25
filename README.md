@@ -120,7 +120,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |daiyogen| Mahjong Daiyogen (Japan)||
 |dakkochn| DakkoChan House (MC-8123B, 317-5014)||
 |danchih| Danchi de Hanafuda (J 990607 V1.400)||
-|dokyusei| Mahjong Doukyuusei||
+|dokyusei| Mahjong Doukyuusei|mahjong_dokyusei.cfg|
 |dokyusp| Mahjong Doukyuusei Special||
 |dondenmj| Don Den Mahjong (Japan)||
 |dtoyoken| Mahjong Dai Touyouken (Japan)||
