@@ -8,6 +8,7 @@ RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で�
 * 「クイックメニュー > OSDオーバーレイ > オーバーレイの自動スケーリング」を無効にしておかないと、スマホなど広い画面だと牌とボタンがずれる。
 * FBNeoでオーバーレイの動作確認をしている際に、操作上の問題でゲームができないケースがでたのでFBNeoを改造（[メモ](#メモ)を参照）している。
 * hotgmckなどのマルチスクリーンは考慮していない。Dip Switchesで1画面モード（[メモ](#メモ)を参照）にしてください。
+* 優先して作成してほしいゲームがあればissueに登録してください。
 
 ### オーバーレイの種類
 
@@ -16,6 +17,7 @@ RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で�
 | overlays/mahjong/ | MAME/FBNeoの麻雀用オーバーレイ |
 | overlays/mahjong_debug/ | ボタンの位置を確認するためのオーバーレイ |
 | overlays/mahjong_arrow_keys/ | チーポンカンリーチを十字ーに割り当てた改造FBNeo用オーバーレイ |
+| overlays/mahjong_arrow_keys_debug/ | mahjong_arrow_keysのボタンの位置を確認するためのオーバーレイ |
 
 各ディレクトリにはゲームごとにボタンの位置を調整したcfgを含む。  
 
