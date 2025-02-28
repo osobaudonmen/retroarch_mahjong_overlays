@@ -15,9 +15,7 @@ RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で�
 |ディレクトリ|説明|
 |---|---|
 | overlays/mahjong/ | MAME/FBNeoの麻雀用オーバーレイ |
-| overlays/mahjong_debug/ | ボタンの位置を確認するためのオーバーレイ |
 | overlays/mahjong_arrow_keys/ | チーポンカンリーチを十字ーに割り当てた改造FBNeo用オーバーレイ |
-| overlays/mahjong_arrow_keys_debug/ | mahjong_arrow_keysのボタンの位置を確認するためのオーバーレイ |
 
 各ディレクトリにはゲームごとにボタンの位置を調整したcfgを含む。  
 
@@ -25,24 +23,36 @@ RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で�
 
 ### レイヤー
 
-麻雀用オーバーレイは次の3枚のレイヤーで構成する。
+麻雀用オーバーレイは次の5枚のレイヤーで構成する。
 
-- AからNまでボタンを表示するレイヤー  
+- 通常ボタンレイヤー(横長画面用)  
+スマホで横長画面表示した際に左右にできる余白にボタンを配置する。 
 牌が表示されない画面でA～Nボタンを押したり、鳴いて牌とボタンがずれたりした時に使用する。
-- 牌にボタンを被せたレイヤー  
+- 通常ボタンレイヤー(縦長画面用)  
+スマホで縦長画面表示した際に下にできる余白にボタンを配置する。 
+牌が表示されない画面でA～Nボタンを押したり、鳴いて牌とボタンがずれたりした時に使用する。
+- 牌ボタンレイヤー（ラベルあり）  
 牌を直接タップして切ったり、Nの位置をタップして牌を引くことができる。
-- 何も表示しないレイヤー  
-ボタンが重なって情報が読み取りにくい場合などに使用する。
+タップできる個所にうっすらとA～Nのラベルを表示する。
+- 牌ボタンレイヤー (ラベルなし） 
+牌を直接タップして切ったり、Nの位置をタップして牌を引くことができる。
+牌に重ねたボタンは透明である。
+- 空レイヤー  
+何も表示しない。ボタンが重なって情報が読み取りにくい場合などに使用する。
 
-画面の真ん中あたり（画像の広い赤い部分）をタップすると3枚のレイヤーが順繰りに切り替わる。  
-<img src="images/debug.png" width="400">
+「クイックメニュー > OSDオーバーレイ > オーバーレイの自動回転」を有効にしていると、画面の縦横比で自動で通常ボタンレイヤーの縦長画面用と横長画面用が切り替わる。  
 
 #### ボタン
 
-<img src="overlays/mahjong/ra.png" width="25"> メニュー切り替え  
-<img src="overlays/mahjong/ff.png" width="25"> 早送りの切り替え  
-<img src="overlays/mahjong/co.png" width="25"> コイン投入  
-<img src="overlays/mahjong/pl.png" width="25"> スタートボタン  
+|ボタン|説明|
+|---|---|
+|<img src="overlays/mahjong/settings.png" width="25">| メニュー切り替え  |
+|<img src="overlays/mahjong/forward.png" width="25">| 早送りの切り替え|  
+|<img src="overlays/mahjong/landscape.png" width="25">| 横長画面用の通常ボタンレイヤーが使用されている時に表示されて、押したら縦長画面用に切り替わる。<br>オーバーレイの自動回転が有効な場合は自動制御されて押しても切り替わらない。|  
+|<img src="overlays/mahjong/portrait.png" width="25">| 縦長画面用の通常ボタンレイヤーが使用されている時に表示されて、押したら横長画面用に切り替わる。<br>オーバーレイの自動回転が有効な場合は自動制御されて押しても切り替わらない。|  
+|<img src="overlays/mahjong/layers.png" width="25">| レイヤー切り替え |
+|<img src="overlays/mahjong/coin.png" width="25">| コイン投入  |
+|<img src="overlays/mahjong/play.png" width="25">| スタートボタン|  
 
 ### FBNeoの麻雀ゲーム
 
