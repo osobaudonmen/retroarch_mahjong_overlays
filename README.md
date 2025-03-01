@@ -56,6 +56,8 @@ RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で�
 
 FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧（クローンは除く）を作成した。  
 
+<!-- fbneo_games -->
+
 |ROMファイル名|説明|オーバーレイファイル|備考|
 |---|---|---|---|
 | akiss| Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|
@@ -85,6 +87,8 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 | srmp4| Super Real Mahjong PIV (Japan)|mahjong_srmp4.cfg|
 | srmp7| Super Real Mahjong P7 (Japan)|mahjong_srmp7.cfg|
 | suchie2| Idol Janshi Suchie-Pai II (ver 1.1)|mahjong_suchie2.cfg|
+
+<!-- fbneo_games -->
 
 ### MAMEの麻雀ゲーム
 
