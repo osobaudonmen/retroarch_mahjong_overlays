@@ -96,6 +96,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 - クローンではない
 - player1のcontrollerがmahjongでボタンが19個以上で30個ではない
 
+<!-- mame_games -->
+
 |ROMファイル名|説明|オーバーレイファイル|備考|
 |---|---|---|---|
 |4psimasy| Mahjong 4P Shimasho (Japan)|mahjong_4psimasy.cfg|
@@ -364,6 +366,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |yosimoto| Mahjong Yoshimoto Gekijou (Japan)||
 |yujan| Yu-Jan|mahjong_yujan.cfg|
 |zhongguo| Zhongguo Chu Da D (V102C)||
+
+<!-- /mame_games -->
 
 ## メモ
 
