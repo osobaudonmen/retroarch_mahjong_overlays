@@ -102,7 +102,7 @@ if ($readmeFile) {
             $data[1] = $name;
             $data[2] = $desc;
         } else {
-            $data = [$name, $desc];
+            $data = ['', $name, $desc, '', '', ''];
         }
         if (!MameDatFile::isOriginal($game)) {
             $note = sprintf('%sが動作しない代わり。', $game['cloneof']);

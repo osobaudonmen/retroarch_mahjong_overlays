@@ -39,7 +39,7 @@ class ReadmeFile
         $text = file_get_contents($readmeFile);
         $tName = preg_quote($tableName, '#');
         $text = preg_replace(
-            "#<!-- $tName -->.*?<!-- /$tName -->#",
+            "#<!-- $tName -->.*?<!-- /$tName -->#s",
             implode("\n", $table),
             $text
         );
