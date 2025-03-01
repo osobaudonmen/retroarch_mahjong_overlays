@@ -61,7 +61,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |ROMファイル名|説明|オーバーレイファイル|備考|
 |---|---|---|---|
 |akiss|Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|
-|bnstars|Vs. Janshi Brandnew Stars (Ver 1.1, MegaSystem 32 Version)||bnstars1が動作しない代わり。|
+|bnstars|Vs. Janshi Brandnew Stars (Ver 1.1, MegaSystem 32 Version)|mahjong_bnstars1.cfg|bnstars1が動作しない代わり。|
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg|
 |cultures|Jibun wo Migaku Culture School Mahjong Hen|mahjong_cultures.cfg|
 |ejanhs|E Jong High School (Japan)|mahjong_ejanhs.cfg|
@@ -88,7 +88,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |srmp4|Super Real Mahjong PIV (Japan)|mahjong_srmp4.cfg|
 |srmp7|Super Real Mahjong P7 (Japan)|mahjong_srmp7.cfg|
 |suchie2|Idol Janshi Suchie-Pai II (ver 1.1)|mahjong_suchie2.cfg|
-|ttmahjng|T.T Mahjong||jongputeが動作しない代わり。|
+|ttmahjng|T.T Mahjong|mahjong_jongpute.cfg|jongputeが動作しない代わり。|
 
 <!-- /fbneo_games -->
 
