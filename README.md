@@ -88,7 +88,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 | srmp7| Super Real Mahjong P7 (Japan)|mahjong_srmp7.cfg|
 | suchie2| Idol Janshi Suchie-Pai II (ver 1.1)|mahjong_suchie2.cfg|
 
-<!-- fbneo_games -->
+<!-- /fbneo_games -->
 
 ### MAMEの麻雀ゲーム
 
