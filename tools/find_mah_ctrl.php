@@ -1,5 +1,11 @@
 <?php
 
+namespace OsobaTool;
+
+require_once(__DIR__ . '/Classes/MameDatFile.php');
+
+use OsobaTool\Classes\MameDatFile;
+
 $datFile = $argv[1];
 
 if (!file_exists($datFile)) {
@@ -7,36 +13,10 @@ if (!file_exists($datFile)) {
     exit(1);
 }
 
-$xml = simplexml_load_file($datFile);
+$games = MameDatFile::readGames($datFile, ['playable', 'original', 'mahjong']);
 
-$clones = [];
-$games = $xml->game ?: $xml->machine;
 foreach ($games as $game) {
-    $isDevice  = (string)$game['isdevice'] === 'yes';
-    $isRunning = (string)$game['runnable'] !== 'no';
-    $isClone   = !!$game['cloneof'];
-    $isWorking = (string)$game->driver['status'] !== 'preliminary';
-    if ($isRunning && $isWorking && !$isDevice && !$isClone) {
-        checkGame($game);
-    }
-}
-
-function checkGame($game)
-{
-    foreach ($game->input as $input) {
-        //$coins = (int)$input['coins'];
-        foreach ($input->control as $ctrl) {
-            if ((string)$ctrl['type'] === 'mahjong') {
-                $player  = (int)$ctrl['player'];
-                $buttons = (int)$ctrl['buttons'];
-                if ($player <= 1 && 19 <= $buttons && $buttons !== 30) {
-                    $name = (string)$game['name'];
-                    $desc = (string)$game->description;
-                    echo "$name, $desc\n";
-                    //echo "$name, $coins, $player, $buttons, $desc\n";
-                    return;
-                }
-            }
-        }
-    }
+    $name = (string)$game['name'];
+    $desc = (string)$game->description;
+    echo "$name, $desc\n";
 }
