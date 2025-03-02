@@ -84,7 +84,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |mj4simai|Wakakusamonogatari Mahjong Yonshimai (Japan)|mahjong_mj4simai.cfg|
 |mjkjidai|Mahjong Kyou Jidai (Japan)|mahjong_mjkjidai.cfg|
 |mjnquest|Mahjong Quest (Japan)|mahjong_mjnquest.cfg|
-|sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)|||
+|sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)|mahjong_sjryuko.cfg||
 |srmp4|Super Real Mahjong PIV (Japan)|mahjong_srmp4.cfg|
 |srmp7|Super Real Mahjong P7 (Japan)|mahjong_srmp7.cfg|
 |suchie2|Idol Janshi Suchie-Pai II (ver 1.1)|mahjong_suchie2.cfg|
@@ -332,7 +332,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |seljan|Sel-Jan (Japan)||
 |seljan2|Return Of Sel Jan II (Japan, NM557)||
 |sengokmj|Sengoku Mahjong (Japan)||
-|sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)||
+|sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)|mahjong_sjryuko.cfg|FBNeoと共通|
 |srmp1|Super Real Mahjong Part 1 (Japan)||
 |srmp2|Super Real Mahjong Part 2 (Japan)||
 |srmp3|Super Real Mahjong Part 3 (Japan)||
