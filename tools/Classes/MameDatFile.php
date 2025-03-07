@@ -41,10 +41,11 @@ class MameDatFile
 
     public static function isPlayable(SimpleXMLElement $game): bool
     {
+        $isBios    = (string)$game['isbios'] === 'yes';
         $isDevice  = (string)$game['isdevice'] === 'yes';
         $isRunning = (string)$game['runnable'] !== 'no';
         $isWorking = (string)$game->driver['status'] !== 'preliminary';
-        return $isRunning && $isWorking && !$isDevice;
+        return $isRunning && $isWorking && !$isDevice && !$isBios;
     }
 
     public static function isMahjong(SimpleXMLElement $game): bool
