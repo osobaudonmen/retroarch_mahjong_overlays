@@ -39,6 +39,11 @@ class MameDatFile
         return !$game['cloneof'];
     }
 
+    public static function isArcade(SimpleXMLElement $game): bool
+    {
+        return !$game->softwarelist;
+    }
+
     public static function isPlayable(SimpleXMLElement $game): bool
     {
         $isBios    = (string)$game['isbios'] === 'yes';
