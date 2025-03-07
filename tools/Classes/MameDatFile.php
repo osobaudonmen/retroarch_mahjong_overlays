@@ -43,9 +43,9 @@ class MameDatFile
     {
         $isBios    = (string)$game['isbios'] === 'yes';
         $isDevice  = (string)$game['isdevice'] === 'yes';
-        $isRunning = (string)$game['runnable'] !== 'no';
+        $isRunnable = (string)$game['runnable'] !== 'no';
         $isWorking = (string)$game->driver['status'] !== 'preliminary';
-        return $isRunning && $isWorking && !$isDevice && !$isBios;
+        return $isRunnable && $isWorking && !$isDevice && !$isBios;
     }
 
     public static function isMahjong(SimpleXMLElement $game): bool
