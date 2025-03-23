@@ -2,43 +2,48 @@
 
 ## 麻雀用オーバーレイ
 
-RetroArchのMAME/FBNeoでスマホなど物理キーボードがない環境で、麻雀ゲームをプレイすることが厳しい。  
-そこで、麻雀用のOSDオーバーレイを作成して問題を解決する。  
+RetroArchのMAME/FBNeoで麻雀ゲームをプレイする際、スマートフォンなど物理キーボードのない環境では操作が困難です。
+この問題を解決するため、麻雀専用のOSDオーバーレイを作成しました。
 
-* 「クイックメニュー > OSDオーバーレイ > オーバーレイの自動スケーリング」を無効にしておかないと、スマホなど広い画面だと牌とボタンがずれる。
-* FBNeoでオーバーレイの動作確認をしている際に、操作上の問題でゲームができないケースがでたのでFBNeoを改造（[メモ](#メモ)を参照）している。
-* hotgmckなどのマルチスクリーンは考慮していない。Dip Switchesで1画面モード（[メモ](#メモ)を参照）にすること。
-* 優先して作成してほしいゲームがあればissueに登録すると対応するかもしれない。
+### 注意事項
+
+* スマートフォンなどの広い画面で牌とボタンがずれる問題を防ぐため、「クイックメニュー > OSDオーバーレイ > オーバーレイの自動スケーリング」は無効にしてください。
+* FBNeoでの操作性向上のため、コアに改良を加えています（詳細は[メモ](#メモ)を参照）。
+* hotgmckなどのマルチスクリーン対応ゲームは、Dip Switchesで1画面モードに設定する必要があります（[メモ](#メモ)を参照）。
+* 対応してほしいゲームがありましたら、issueに登録してください。可能な範囲で対応いたします。
 
 ### オーバーレイの種類
 
 |ディレクトリ|説明|
 |---|---|
-| overlays/mahjong/ | MAME/FBNeoの麻雀用オーバーレイ |
-| overlays/mahjong_arrow_keys/ | チーポンカンリーチを十字ーに割り当てた改造FBNeo用オーバーレイ |
+| overlays/mahjong/ | MAME/FBNeo用の標準的な麻雀オーバーレイ |
+| overlays/mahjong_arrow_keys/ | チー・ポン・カン・リーチを十字キーに割り当てた改造FBNeo用オーバーレイ |
 
-各ディレクトリにはゲームごとにボタンの位置を調整したcfgを含む。  
+各ディレクトリには、ゲームごとにボタン配置を最適化したcfgファイルが含まれています。  
+ファイル名の形式：`mahjong_(ROMファイル名).cfg`
 
-`mahjong_(ROMファイル名).cfg`
+### レイヤー構成
 
-### レイヤー
+麻雀用オーバーレイは、以下の5種類のレイヤーで構成されています：
 
-麻雀用オーバーレイは次の5枚のレイヤーで構成する。
+1. 通常ボタンレイヤー（横長画面用）  
+   スマートフォンを横向きで使用する際、画面左右の余白にボタンを配置します。
 
-- 通常ボタンレイヤー(横長画面用)  
-スマホで横長画面表示した際に左右にできる余白にボタンを配置することを想定している。 
-- 通常ボタンレイヤー(縦長画面用)  
-スマホで縦長画面表示した際に下にできる余白にボタンを配置することを想定している。 
-- 牌ボタンレイヤー（ラベルあり）  
-牌を直接タップして切ったり、Nの位置をタップして牌を引くことができる。
-タップできる個所にうっすらとA～Nのラベルを表示する。
-- 牌ボタンレイヤー (ラベルなし）  
-牌を直接タップして切ったり、Nの位置をタップして牌を引くことができる。
-牌に重ねたボタンは透明である。
-- 空レイヤー  
-何も表示しない。ボタンが重なって情報が読み取りにくい場合などに使用する。
+2. 通常ボタンレイヤー（縦長画面用）  
+   スマートフォンを縦向きで使用する際、画面下部の余白にボタンを配置します。
 
-「クイックメニュー > OSDオーバーレイ > オーバーレイの自動回転」を有効にしていると、画面の縦横比で自動で通常ボタンレイヤーの縦長画面用と横長画面用が切り替わる。  
+3. 牌ボタンレイヤー（ラベルあり）  
+   牌を直接タップして切ったり、Nの位置をタップして牌を引くことができます。
+   タップ可能な箇所にA～Nのラベルを半透明で表示します。
+
+4. 牌ボタンレイヤー（ラベルなし）  
+   ラベルありと同様の機能を持ちますが、視認性を重視してラベルを表示しません。
+   牌に重ねたボタンは透明です。
+
+5. 空レイヤー  
+   ボタンの重なりで情報が見づらい場合などに使用する、何も表示しないレイヤーです。
+
+「クイックメニュー > OSDオーバーレイ > オーバーレイの自動回転」を有効にすると、画面の縦横比に応じて通常ボタンレイヤーが自動的に切り替わります。
 
 #### ボタン
 
@@ -65,7 +70,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg|
 |cultures|Jibun wo Migaku Culture School Mahjong Hen|mahjong_cultures.cfg|
 |ejanhs|E Jong High School (Japan)|mahjong_ejanhs.cfg|
-|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|||
+|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)||
 |hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|mahjong_hotgmck.cfg|
 |hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|mahjong_hotgmck.cfg|
 |hotgmck|Taisen Hot Gimmick (Japan)|mahjong_hotgmck.cfg|
@@ -377,20 +382,36 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 
 ## メモ
 
-- FBNeoでbnstars1は動かないがクローンのbnstarsは動く
-- FBNeoでjongputeは動かないがクローンのttmahjngは動く
-- FBNeoはオーバーレイのキーボード入力が期待通りに動かないのでコアを改造する必要あるかもしれない。 
-- [改造FBNeo](https://github.com/osobaudonmen/FBNeo)
-  - [チーポンカンリーチを十字キーに割り当てる](https://github.com/libretro/FBNeo/commit/5aa25b959dd24b6599b8a41f3b38fa6136f7dac0)
-  - [オーバーレイのキーボード入力対応](https://github.com/libretro/FBNeo/commit/cd59d8c56b3434bba46c51b84f01bc7e9579145a)
-  - [mgakuenでコインが入らない問題対応](https://github.com/libretro/FBNeo/commit/2f02c62a0e4aaea30c8946ffdf2fb0f4d4ac99a6)
-  - [mgakuen2のオーバーレイでNが効かない問題対応](https://github.com/libretro/FBNeo/commit/92ab04c7a619f16ebe329c03bc3627818663497e)
-- 牌を選択しても反応しないと思ったらmahjong_debugを使って牌とボタンの位置が一致しているか確認するとよい。だいたい「オーバーレイの自動スケーリング」でずれている。
-- MAMEのhotgmckの初期表示が2画面表示になっているのを、スマホでも（物理キーボードがなくても）次の手順で1画面表示にできる。
-  1. OSDオーバーレイでキーボード（標準のoverlays/keyboards/US-101とか）を選ぶ。
-  2. Tabを押すとMAMEのオプションメニューがでる。今後の処理は十字キーとエンターで操作する。
-  3. Video Optionsを選択する
-  4. Screen #0を選ぶ
-  5. Screen 0 Standard (4:3) とか Screen 0 Pixel Aspect (10:7) を選ぶ
-  6. MAMEのオプションメニューが閉じるまでEscキーを押す
-- とりあえず牌とボタンの調整だけをしたが、ポンとかのボタンをゲームごとに邪魔にならない位置に避けたい
+### 動作に関する注意点
+
+- FBNeoでは`bnstars1`は動作しませんが、クローンの`bnstars`は動作します
+- FBNeoでは`jongpute`は動作しませんが、クローンの`ttmahjng`は動作します
+- FBNeoではオーバーレイのキーボード入力が期待通りに動作しない場合があるため、コアの改造が必要となる場合があります
+
+### 改造FBNeoについて
+
+[改造版FBNeo](https://github.com/osobaudonmen/FBNeo)では、以下の改善を実施しています：
+
+- [チー・ポン・カン・リーチを十字キーに割り当て](https://github.com/libretro/FBNeo/commit/5aa25b959dd24b6599b8a41f3b38fa6136f7dac0)
+- [オーバーレイのキーボード入力対応](https://github.com/libretro/FBNeo/commit/cd59d8c56b3434bba46c51b84f01bc7e9579145a)
+- [mgakuenでコインが入らない問題の修正](https://github.com/libretro/FBNeo/commit/2f02c62a0e4aaea30c8946ffdf2fb0f4d4ac99a6)
+- [mgakuen2のオーバーレイでNキーが効かない問題の修正](https://github.com/libretro/FBNeo/commit/92ab04c7a619f16ebe329c03bc3627818663497e)
+
+### トラブルシューティング
+
+- 牌を選択しても反応がない場合は、`mahjong_debug`を使用して牌とボタンの位置が一致しているか確認してください。多くの場合、「オーバーレイの自動スケーリング」が原因でずれが生じています。
+
+### MAMEのhotgmckを1画面表示にする方法
+
+スマートフォンでも（物理キーボードがなくても）以下の手順で1画面表示に設定できます：
+
+1. OSDオーバーレイでキーボード（標準の`overlays/keyboards/US-101`など）を選択
+2. Tabキーを押してMAMEのオプションメニューを表示（以降は十字キーとエンターで操作）
+3. Video Optionsを選択
+4. Screen #0を選択
+5. Screen 0 Standard (4:3)またはScreen 0 Pixel Aspect (10:7)を選択
+6. MAMEのオプションメニューが閉じるまでEscキーを押す
+
+### 今後の改善予定
+
+- ポンなどのボタンを、ゲームごとに邪魔にならない位置に配置する最適化を予定しています
