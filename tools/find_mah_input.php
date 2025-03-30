@@ -8,10 +8,15 @@ require_once(__DIR__ . '/Classes/ReadmeFile.php');
 use OsobaTool\Classes\MameDatFile;
 use OsobaTool\Classes\ReadmeFile;
 
-$datFile    = $argv[1];
-$fbSrc      = $argv[2];
-$readmeFile = $argv[3] ?? null;
+$fbSrc      = $argv[1];
+$readmeFile = $argv[2] ?? null;
 
+if (!is_dir($fbSrc)) {
+    echo "$fbSrc not found.\n";
+    exit(1);
+}
+
+$datFile = "$fbSrc/dats/FinalBurn Neo (ClrMame Pro XML, Arcade only).dat";
 if (!file_exists($datFile)) {
     echo "$datFile not found.\n";
     exit(1);
@@ -57,7 +62,12 @@ foreach ($candidates as $candidate) {
     $desc = (string)$candidate->description;
     $srcf = (string)$candidate['sourcefile'];
 
-    $src = file_get_contents($fbSrc . '/src/burn/drv/' . $srcf);
+    $srcp = $fbSrc . '/src/burn/drv/' . $srcf;
+    if (!file_exists($srcp)) {
+        echo "$scrp not found\n";
+        exit(1);
+    }
+    $src = file_get_contents($srcp);
     if (str_contains($src, 'mah reach')) {
         $inps = [];
 
