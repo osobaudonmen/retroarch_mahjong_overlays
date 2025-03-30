@@ -318,7 +318,6 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |neruton|Mahjong Neruton Haikujiradan (Japan, Rev. B?)||
 |ngpgal|Nekketsu Grand-Prix Gal (Japan)||
 |ngtbunny|Night Bunny (Japan 840601 MRN 2-10)||
-|nichidvd|Nichibutsu High Rate DVD BIOS||
 |nightgal|Night Gal (Japan 840920 AG 1-00)||
 |nmsengen|Nekketsu Mahjong Sengen! AFTER 5 (Japan)||
 |ntopstar|Mahjong Nerae! Top Star (Japan)||
