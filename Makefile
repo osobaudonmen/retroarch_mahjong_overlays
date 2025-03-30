@@ -15,5 +15,5 @@ install_develop:
 update:
 	composer update
 
-install_develop:
+update_develop:
 	COMPOSER=composer.develop.json composer update
