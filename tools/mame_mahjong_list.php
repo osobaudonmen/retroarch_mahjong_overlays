@@ -2,10 +2,10 @@
 
 namespace OsobaTool;
 
-require_once(__DIR__ . '/Classes/MameDatFile.php');
+require_once(__DIR__ . '/../vendor/autoload.php');
 require_once(__DIR__ . '/Classes/ReadmeFile.php');
 
-use OsobaTool\Classes\MameDatFile;
+use Menrui\Reader\MameDat;
 use OsobaTool\Classes\ReadmeFile;
 
 $datFile    = $argv[1];
@@ -25,7 +25,7 @@ if ($readmeFile) {
     $readmeGames = ReadmeFile::readTable($readmeFile, 'mame_games');
 }
 
-$games = MameDatFile::readGames($datFile, ['playable', 'original', 'mahjong']);
+$games = MameDat::read($datFile, ['playable', 'original', 'mahjong']);
 
 if ($readmeFile) {
     $table = [

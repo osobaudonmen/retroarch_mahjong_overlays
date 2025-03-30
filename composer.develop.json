@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../menrui"
+    },
+    {
+      "type": "path",
+      "url": "../readers"
+    }
+  ],
+  "require": {
+    "menrui/menrui": "*",
+    "menrui/readers": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

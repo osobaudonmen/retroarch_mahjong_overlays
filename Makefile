@@ -6,3 +6,14 @@ mahjong:
 mahjong_arrow_keys:
 	cd overlays/mahjong_arrow_keys/ && php ../../templates/mahjong/create.php arrow_keys
 
+install:
+	composer install
+
+install_develop:
+	COMPOSER=composer.develop.json composer install
+
+update:
+	composer update
+
+install_develop:
+	COMPOSER=composer.develop.json composer update

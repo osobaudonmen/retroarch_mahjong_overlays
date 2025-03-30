@@ -1,0 +1,17 @@
+{
+    "name": "osoba/retroarch_custom_overlays",
+    "description": "retroarch custom overlays",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "menrui/menrui": "*",
+        "menrui/readers": "*"
+    },
+    "scripts": {},
+    "bin": ["bin/ccd2cue"],
+    "autoload": {
+        "psr-4": {
+            "Menrui\\": "src/"
+        }
+    }
+}

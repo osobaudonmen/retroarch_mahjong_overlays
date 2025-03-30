@@ -2,10 +2,10 @@
 
 namespace OsobaTool;
 
-require_once(__DIR__ . '/Classes/MameDatFile.php');
+require_once(__DIR__ . '/../vendor/autoload.php');
 require_once(__DIR__ . '/Classes/ReadmeFile.php');
 
-use OsobaTool\Classes\MameDatFile;
+use Menrui\Reader\MameDat;
 use OsobaTool\Classes\ReadmeFile;
 
 $fbSrc      = $argv[1];
@@ -34,10 +34,10 @@ if ($readmeFile) {
 $unplayables = [];
 $clones      = [];
 $candidates  = [];
-$games       = MameDatFile::readGames($datFile);
+$games       = MameDat::read($datFile);
 foreach ($games as $game) {
-    if (MameDatFile::isOriginal($game)) {
-        if (MameDatFile::isPlayable($game)) {
+    if (MameDat::isOriginal($game)) {
+        if (MameDat::isPlayable($game)) {
             $candidates[] = $game;
         } else {
             $unplayables[] = $game;
@@ -114,7 +114,7 @@ if ($readmeFile) {
         } else {
             $data = ['', $name, $desc, '', '', ''];
         }
-        if (!MameDatFile::isOriginal($game)) {
+        if (!MameDat::isOriginal($game)) {
             $note = sprintf('%sが動作しない代わり。', $game['cloneof']);
             $data[3] = $data[3] ?? '';
             $data[4] = $data[4] ?? '';
