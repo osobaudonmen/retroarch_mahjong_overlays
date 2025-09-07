@@ -139,24 +139,22 @@ function displayInfo()
 
     const hw = (x1 - x0) / 13 / 2;
     const hh = (y1 - y0) / 2;
-    const xo = x0 + hw;
-    const xd = hw * 2;
-    const yo = y0 + hh;
-    const no = x2 + hw;
+    const ax = x0;
+    const ay = y0;
+    const nx = x2;
 
-    const nhw = hw / w;
-    const nhh = hh / h;
-    const nxo = xo / w;;
-    const nxd = xd / w;
-    const nyo = yo / h;
-    const nno = no / w;;
+    const nax = ax / w;;
+    const nay = ay / h;
+    const nnx = nx / w;;
+    const nw = hw * 2 / w;
+    const nh = hh * 2 / h;
 
     log.innerText = 
             `img : w=${w}, h=${h}\n` +
             `x   : A:LEFT=${x0}, M:RIGHT=${x1}, N:LEFT=${x2}\n` +
             `y   : TOP=${y0}, BOTTOM=${y1}\n` +
             `\n\n` +
-            `[${nxo}, ${nxd}, ${nyo}, 0, ${nhw}, ${nhh}, ${nno}]`;
+            `[${nax}, ${nay}, ${nw}, ${nh}, ${nnx}]`;
 }
 </script>
 </body>
