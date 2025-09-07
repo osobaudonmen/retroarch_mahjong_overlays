@@ -131,11 +131,15 @@ function displayInfo()
 {
     const w = scr.width;
     const h = scr.height;
-    const x0 = xs.offsetLeft; 
-    const x1 = xm.offsetLeft; 
-    const x2 = xn.offsetLeft; 
-    const y0 = yu.offsetTop; 
-    const y1 = yd.offsetTop; 
+
+    const constrainX = (x) => Math.max(0, Math.min(x, w));
+    const constrainY = (y) => Math.max(0, Math.min(y, h));
+
+    const x0 = constrainX(xs.offsetLeft); 
+    const x1 = constrainX(xm.offsetLeft); 
+    const x2 = constrainX(xn.offsetLeft); 
+    const y0 = constrainY(yu.offsetTop); 
+    const y1 = constrainY(yd.offsetTop); 
 
     const hw = (x1 - x0) / 13 / 2;
     const hh = (y1 - y0) / 2;
@@ -154,7 +158,7 @@ function displayInfo()
             `x   : A:LEFT=${x0}, M:RIGHT=${x1}, N:LEFT=${x2}\n` +
             `y   : TOP=${y0}, BOTTOM=${y1}\n` +
             `\n\n` +
-            `[${nax}, ${nay}, ${nw}, ${nh}, ${nnx}]`;
+            `[${nax.toFixed(6)}, ${nay.toFixed(6)}, ${nw.toFixed(6)}, ${nh.toFixed(6)}, ${nnx.toFixed(6)}]`;
 }
 </script>
 </body>
