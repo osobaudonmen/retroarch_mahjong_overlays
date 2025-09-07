@@ -334,7 +334,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)||
 |otatidai|Disco Mahjong Otachidai no Okite (Japan)||
 |otonano|Otona no Mahjong (Japan 880628)||
-|pachiten|Medal Mahjong Pachi-Slot Tengoku (Japan)||
+|pachiten|Medal Mahjong Pachi-Slot Tengoku (Japan)||BETボタンがいる|
 |pastelg|Pastel Gal (Japan 851224)||
 |patimono|Mahjong Pachinko Monogatari (Japan)||
 |ponchin|Mahjong Pon Chin Kan (Japan set 1)||
