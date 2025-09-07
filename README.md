@@ -82,6 +82,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |ROMファイル名|説明|オーバーレイファイル|備考|
 |---|---|---|---|
 |akiss|Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|
+|bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||NeoGeoはDIPスイッチでJoyStickが使える|
 |bnstars|Vs. Janshi Brandnew Stars (Ver 1.1, MegaSystem 32 Version)|mahjong_bnstars1.cfg|bnstars1が動作しない代わり。|
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg|
 |cultures|Jibun wo Migaku Culture School Mahjong Hen|mahjong_cultures.cfg|
@@ -96,11 +97,14 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |hypreact|Mahjong Hyper Reaction (Japan)||Joystickモードがあるので不要|
 |janjans1|Lovely Pop Mahjong JangJang Shimasho (Japan)|mahjong_janjans1.cfg|
 |janjans2|Lovely Pop Mahjong JangJang Shimasho 2 (Japan)|mahjong_janjans2.cfg|
+|janshin|Janshin Densetsu - Quest of Jongmaster||NeoGeoはDIPスイッチでJoyStickが使える|
 |kirarast|Ryuusei Janshi Kirara Star|mahjong_kirarast.cfg|
 |koikois2|Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)||Joystickモードがあるので不要|
+|mahretsu|Mahjong Kyo Retsuden (NGM-004 ~ NGH-004)||NeoGeoはDIPスイッチでJoyStickが使える|
 |marukin|Super Marukin-Ban (Japan 911128)|mahjong_mgakuen.cfg|
 |mgakuen|Mahjong Gakuen|mahjong_mgakuen.cfg|
 |mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|mahjong_mgakuen.cfg|
+|minasan|Minasan no Okagesamadesu! Dai Sugoroku Taikai (MOM-001 ~ MOH-001)||NeoGeoはDIPスイッチでJoyStickが使える|
 |mirage|Mirage Youjuu Mahjongden (Japan)|mahjong_mirage.cfg|
 |mj4simai|Wakakusamonogatari Mahjong Yonshimai (Japan)|mahjong_mj4simai.cfg|
 |mjkjidai|Mahjong Kyou Jidai (Japan)|mahjong_mjkjidai.cfg|
@@ -132,7 +136,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |akamj|Aka Mahjong (Double Bet, ver 1 16)|mahjong_akamj.cfg|
 |akiss|Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|FBNeoと共通|
 |apparel|Apparel Night (Japan 860929)|mahjong_apparel.cfg|
-|bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||DIPスイッチでJoyStickが使えそう|
+|bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||NeoGeoはDIPスイッチでJoyStickが使える|
 |bananadr|Mahjong Banana Dream (Japan 891124)||Betボタンが要りそう|
 |bijokkog|Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg||
 |bijokkoy|Bijokko Yume Monogatari (Japan 870925)||
