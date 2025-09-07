@@ -414,12 +414,10 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 
 ### 改造FBNeoについて
 
-[改造版FBNeo](https://github.com/osobaudonmen/FBNeo)では、以下の改善を実施しています：
+[改造版FBNeo](https://github.com/osobaudonmen/FBNeo)では、以下のような改善を実施しています。
 
-- [チー・ポン・カン・リーチを十字キーに割り当て](https://github.com/libretro/FBNeo/commit/5aa25b959dd24b6599b8a41f3b38fa6136f7dac0)
-- [オーバーレイのキーボード入力対応](https://github.com/libretro/FBNeo/commit/cd59d8c56b3434bba46c51b84f01bc7e9579145a)
-- [mgakuenでコインが入らない問題の修正](https://github.com/libretro/FBNeo/commit/2f02c62a0e4aaea30c8946ffdf2fb0f4d4ac99a6)
-- [mgakuen2のオーバーレイでNキーが効かない問題の修正](https://github.com/libretro/FBNeo/commit/92ab04c7a619f16ebe329c03bc3627818663497e)
+- チー・ポン・カン・リーチを十字キーに割り当て
+- オーバーレイの牌操作の修正
 
 ### トラブルシューティング
 
