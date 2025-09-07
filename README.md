@@ -121,7 +121,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 
 MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。  
 
-- MAME v0.274
+- MAME v0.280
 - デバイスではない
 - 動作する
 - クローンではない
@@ -177,7 +177,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |gakusai2|Mahjong Gakuensai 2 (Japan)||
 |gal10ren|Mahjong Gal 10-renpatsu (Japan)||
 |galkaika|Mahjong Gal no Kaika (Japan)||
-|galkoku|Mahjong Gal no Kokuhaku (Japan)||
+|galkoku|Mahjong Gal no Kokuhaku (Japan, set 1)||
 |gekisha|Mahjong Gekisha (Japan)||
 |goodejan|Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)||
 |hanamomo|Mahjong Hana no Momoko gumi (Japan 881201)||
@@ -298,14 +298,15 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |mjnatsu|Mahjong Natsu Monogatari (Japan)||
 |mjnquest|Mahjong Quest (Japan)|mahjong_mjnquest.cfg|FBNeoと共通|
 |mjprivat|Mahjong Private (Japan)||
-|mjreach|Mahjong Reach (Ver. 1.00)||
-|mjreach1|Mahjong Reach Ippatsu (Japan)||
+|mjreach|Mahjong Reach (Ver. 1.00, set 1)||
+|mjreach1|Mahjong Reach Ippatsu (Japan, NM526-NSI)||
 |mjschuka|Mahjong Super Dai Chuuka Ken (Japan, D115)||
 |mjsenpu|Mahjong Senpu (Japan)||
 |mjsikaku|Mahjong Shikaku (Japan 880908)||
 |mjsister|Mahjong Sisters (Japan)||
 |mjuraden|Mahjong Uranai Densetsu (Japan)||
 |mjvegasa|Mahjong Vegas (Japan, unprotected)||
+|mjxysl|Majiang Xingyun Shenlong (China, D121)|
 |mjyougo|Mahjong-yougo no Kisotairyoku (Japan)||
 |mjyuugi|Mahjong Yuugi (Japan set 1)||
 |mkeibaou|Mahjong Keibaou (Japan)||
@@ -350,7 +351,6 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |royalqn|Royal Queen (Japan 841010 RQ 0-07)||
 |sailorws|Mahjong Sailor Wars (Japan set 1)||
 |scandal|Scandal Mahjong (Japan 890213)||
-|sdmg2|Chaoji Da Manguan II (China, V754C, set 1)||
 |secolove|Second Love (Japan 861201)||
 |seiha|Seiha (Japan 870725)||
 |seljan|Sel-Jan (Japan)||
@@ -372,6 +372,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |swinggal|Swing Gal (Japan 871221)||
 |taiwanmb|Taiwan Mahjong (Japan 881208)||
 |tarzanc|Tarzan Chuang Tian Guan (China, V109C, set 1)||
+|tct2p|Tarzan Chuang Tian Guan 2 Jiaqiang Ban (V306CN)|
 |telmahjn|Telephone Mahjong (Japan 890111)||
 |tenkai|Mahjong Tenkaigen (Japan)||
 |themj|The Mah-jong (Japan, set 1)||
@@ -382,6 +383,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |touryuu|Touryuumon (V1.1)?||
 |triplew1|Mahjong Triple Wars (Japan)||
 |triplew2|Mahjong Triple Wars 2 (Japan)||
+|tshs|Tiansheng Haoshou (V201CN)|
+|tswxp|Taishan Wuxian Jiaqiang Ban (V101CN)|
 |uchuuai|Mahjong Uchuu yori Ai wo komete (Japan)||
 |ultramhm|Ultra Maru-hi Mahjong (Japan)||
 |usagi|Usagi (V2.02J 2001/10/02 12:41:19)||
@@ -391,7 +394,9 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |vsmjtria|VS Mahjong Triangle||
 |warahana|Warai no Hana Tenshi (Japan)||
 |wcatcher|Mahjong Wakuwaku Catcher (Japan)||
-|xymg|Xingyun Man Guan (China, V651C)||
+|xyddzhh|Xingyun Dou Dizhu|
+|xymg|Xingyun Manguan (China, V651C, set 1)||
+|xypdk|Xingyun Pao De Kuai (V106CN)|
 |yarunara|Mahjong Yarunara (Japan)||
 |yosimoto|Mahjong Yoshimoto Gekijou (Japan)||
 |yujan|Yu-Jan|mahjong_yujan.cfg|
