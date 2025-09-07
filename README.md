@@ -87,7 +87,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg|
 |cultures|Jibun wo Migaku Culture School Mahjong Hen|mahjong_cultures.cfg|
 |ejanhs|E Jong High School (Japan)|mahjong_ejanhs.cfg|
-|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)||
+|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|mahjong_ejsakura.cfg|
 |hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|mahjong_hotgmck.cfg|
 |hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|mahjong_hotgmck.cfg|
 |hotgmck|Taisen Hot Gimmick (Japan)|mahjong_hotgmck.cfg|
@@ -167,7 +167,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |dtoyoken|Mahjong Dai Touyouken (Japan)||
 |dunhuang|Mahjong Dunhuang||
 |ejanhs|E Jong High School (Japan)|mahjong_ejanhs.cfg|FBNeoと共通|
-|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)||
+|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|mahjong_ejsakura.cfg|FBNeoと共通|
 |fengyunh|Fengyun Hui||
 |fromanc2|Taisen Idol-Mahjong Final Romance 2 (Japan, newer)||
 |fromanc4|Taisen Mahjong Final Romance 4 (Japan)||
