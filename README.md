@@ -139,7 +139,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||NeoGeoはDIPスイッチでJoyStickが使える|
 |bananadr|Mahjong Banana Dream (Japan 891124)||Betボタンが要りそう|
 |bijokkog|Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg||
-|bijokkoy|Bijokko Yume Monogatari (Japan 870925)||
+|bijokkoy|Bijokko Yume Monogatari (Japan 870925)|mahjong_bijokkog.cfg|
 |bnstars1|Vs. Janshi Brandnew Stars|mahjong_bnstars1.cfg||
 |cafetime|Mahjong Cafe Time||Aが効かない？Rateボタンが要りそう|
 |ccasino|Chinese Casino (Japan)||
