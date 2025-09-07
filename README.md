@@ -145,7 +145,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |ccasino|Chinese Casino (Japan)|mahjong_ccasino.cfg|
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg||
 |chinmoku|Mahjong Chinmoku no Hentai (Japan 900511)|mahjong_chinmoku.cfg|
-|chinsan|Ganbare Chinsan Ooshoubu (MC-8123A, 317-5012)||
+|chinsan|Ganbare Chinsan Ooshoubu (MC-8123A, 317-5012)|mahjong_chinsan.cfg|
 |citylove|City Love (Japan 860908)||
 |cjddz|Chaoji Dou Dizhu (V219CN)||
 |cjddzlf|Chaoji Dou Dizhu Liang Fu Pai (V109CN)||
