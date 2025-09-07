@@ -134,16 +134,16 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |4psimasy|Mahjong 4P Shimasho (Japan)|mahjong_4psimasy.cfg|
 |7jigen|7jigen no Youseitachi - Mahjong 7 Dimensions (Japan)|mahjong_7jigen.cfg||
 |akamj|Aka Mahjong (Double Bet, ver 1 16)|mahjong_akamj.cfg|
-|akiss|Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg|FBNeoと共通|
+|akiss|Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg||
 |apparel|Apparel Night (Japan 860929)|mahjong_apparel.cfg|
 |bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||NeoGeoはDIPスイッチでJoyStickが使える|
 |bananadr|Mahjong Banana Dream (Japan 891124)||Betボタンが要りそう|
 |bijokkog|Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg||
 |bijokkoy|Bijokko Yume Monogatari (Japan 870925)||
-|bnstars1|Vs. Janshi Brandnew Stars|mahjong_bnstars1.cfg|FBNeoと共通|
+|bnstars1|Vs. Janshi Brandnew Stars|mahjong_bnstars1.cfg||
 |cafetime|Mahjong Cafe Time||Aが効かない？Rateボタンが要りそう|
 |ccasino|Chinese Casino (Japan)||
-|cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg|FBNeoと共通|
+|cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg||
 |chinmoku|Mahjong Chinmoku no Hentai (Japan 900511)||
 |chinsan|Ganbare Chinsan Ooshoubu (MC-8123A, 317-5012)||
 |citylove|City Love (Japan 860908)||
@@ -155,7 +155,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |cmehyou|Mahjong Circuit no Mehyou (Japan)||
 |crystal2|Crystal Gal 2 (Japan 860620)||
 |crystalg|Crystal Gal (Japan 860512)||
-|cultures|Jibun wo Migaku Culture School Mahjong Hen|mahjong_cultures.cfg|FBNeoと共通|
+|cultures|Jibun wo Migaku Culture School Mahjong Hen|mahjong_cultures.cfg||
 |daimyojn|Mahjong Daimyojin (Japan, T017-PB-00)||
 |daisyari|Daisyarin (Japan)||
 |daiyogen|Mahjong Daiyogen (Japan)||
@@ -166,8 +166,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |dondenmj|Don Den Mahjong (Japan)||
 |dtoyoken|Mahjong Dai Touyouken (Japan)||
 |dunhuang|Mahjong Dunhuang||
-|ejanhs|E Jong High School (Japan)|mahjong_ejanhs.cfg|FBNeoと共通|
-|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|mahjong_ejsakura.cfg|FBNeoと共通|
+|ejanhs|E Jong High School (Japan)|mahjong_ejanhs.cfg||
+|ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|mahjong_ejsakura.cfg||
 |fengyunh|Fengyun Hui||
 |fromanc2|Taisen Idol-Mahjong Final Romance 2 (Japan, newer)||
 |fromanc4|Taisen Mahjong Final Romance 4 (Japan)||
@@ -181,13 +181,13 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |gekisha|Mahjong Gekisha (Japan)||
 |goodejan|Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)||
 |hanamomo|Mahjong Hana no Momoko gumi (Japan 881201)||
-|hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
+|hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|mahjong_hotgmck.cfg||
 |hipai|Hi Pai Paradise||
 |hipai2|Hi Pai Paradise 2||
-|hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
-|hotgmck|Taisen Hot Gimmick (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
-|hotgmck3|Taisen Hot Gimmick 3 Digital Surfing (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
-|hotgmcki|Mahjong Hot Gimmick Integral (Japan)|mahjong_hotgmck.cfg|FBNeoと共通|
+|hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|mahjong_hotgmck.cfg||
+|hotgmck|Taisen Hot Gimmick (Japan)|mahjong_hotgmck.cfg||
+|hotgmck3|Taisen Hot Gimmick 3 Digital Surfing (Japan)|mahjong_hotgmck.cfg||
+|hotgmcki|Mahjong Hot Gimmick Integral (Japan)|mahjong_hotgmck.cfg||
 |hourouki|Mahjong Hourouki Part 1 - Seishun Hen (Japan)||
 |housemn2|House Mannequin Roppongi Live hen (Japan 870418)||
 |housemnq|House Mannequin (Japan 870217)||
@@ -201,8 +201,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |janbari|Mahjong Janjan Baribari (Japan)||
 |jangou|Jangou (Japan)||
 |jangtaku|Jang Taku (V 1.3)||
-|janjans1|Lovely Pop Mahjong JangJang Shimasho (Japan)|mahjong_janjans1.cfg|FBNeoと共通|
-|janjans2|Lovely Pop Mahjong JangJang Shimasho 2 (Japan)|mahjong_janjans2.cfg|FBNeoと共通|
+|janjans1|Lovely Pop Mahjong JangJang Shimasho (Japan)|mahjong_janjans1.cfg||
+|janjans2|Lovely Pop Mahjong JangJang Shimasho 2 (Japan)|mahjong_janjans2.cfg||
 |janptr96|Janputer '96 (Japan)||
 |janptrsp|Janputer Special (Japan)||
 |janputer|New Double Bet Mahjong (bootleg of Royal Mahjong, set 1)||
@@ -220,7 +220,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |kaguya2|Mahjong Kaguyahime Sono2 (Japan 890829)||
 |kakumei|Mahjong Kakumei (Japan)||
 |kanatuen|Kanatsuen no Onna (Japan 880905)||
-|kirarast|Ryuusei Janshi Kirara Star|mahjong_kirarast.cfg|FBNeoと共通|
+|kirarast|Ryuusei Janshi Kirara Star|mahjong_kirarast.cfg||
 |kiwame|Pro Mahjong Kiwame|mahjong_kiwame.cfg||
 |kiwames|Pro Mahjong Kiwame S (J 951020 V1.208)||
 |koikois2|Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)||Joystickモードがあるので不要|
@@ -243,21 +243,21 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |majrjhdx|Mahjong Raijinhai DX (Ver. D105)||
 |majs101b|Mahjong Studio 101 (Japan)||
 |makaijan|Makaijan (Japan)||
-|marukin|Super Marukin-Ban (Japan 911128)|mahjong_mgakuen.cfg|FBNeoと共通|
+|marukin|Super Marukin-Ban (Japan 911128)|mahjong_mgakuen.cfg||
 |mayumi|Kiki-Ippatsu Mayumi-chan||
 |mcnpshnt|Mahjong Campus Hunting (Japan)||
 |mcontest|Miss Mahjong Contest (Japan)||
 |mfunclub|Mahjong Fun Club - Idol Saizensen (Japan)||
-|mgakuen|Mahjong Gakuen|mahjong_mgakuen.cfg|FBNeoと共通|
-|mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|mahjong_mgakuen.cfg|FBNeoと共通|
+|mgakuen|Mahjong Gakuen|mahjong_mgakuen.cfg||
+|mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|mahjong_mgakuen.cfg||
 |mgcs3|Manguan Caishen 3 (V101CN)||
 |mgmen89|Mahjong G-MEN'89 (Japan 890425)||
 |mgzz|Manguan Zhizun (V101CN)||
 |mhgaiden|Mahjong Hourouki Gaiden (Japan)||
 |mhhonban|Mahjong Housoukyoku Honbanchuu (Japan)||
 |minasan|Minasan no Okagesamadesu! Dai Sugoroku Taikai (MOM-001 ~ MOH-001)||
-|mirage|Mirage Youjuu Mahjongden (Japan)|mahjong_mirage.cfg|FBNeoと共通|
-|mj4simai|Wakakusamonogatari Mahjong Yonshimai (Japan)|mahjong_mj4simai.cfg|FBNeoと共通|
+|mirage|Mirage Youjuu Mahjongden (Japan)|mahjong_mirage.cfg||
+|mj4simai|Wakakusamonogatari Mahjong Yonshimai (Japan)|mahjong_mj4simai.cfg||
 |mjangels|Mahjong Angels - Comic Theater Vol.2 (Japan)||
 |mjapinky|Almond Pinky (Japan)||
 |mjcamera|Mahjong Camera Kozou (Japan 881109, newer hardware)||
@@ -284,7 +284,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |mjikaga|Mahjong Ikaga Desu ka (Japan)||
 |mjjoship|Mahjong Joshi Pro-wres -Give up 5 byou mae- (Japan)||
 |mjkinjas|Mahjong Kinjirareta Asobi (Japan)||
-|mjkjidai|Mahjong Kyou Jidai (Japan)|mahjong_mjkjidai.cfg|FBNeoと共通|
+|mjkjidai|Mahjong Kyou Jidai (Japan)|mahjong_mjkjidai.cfg||
 |mjkoiura|Mahjong Koi Uranai (Japan set 1)||
 |mjkojink|Mahjong Kojinkyouju (Private Teacher) (Japan)||
 |mjlaman|Mahjong La Man (Japan)||
@@ -296,7 +296,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |mjmyuniv|Mahjong The Mysterious Universe (Japan, D85)||
 |mjnanpas|Mahjong Nanpa Story (Japan 890713)||
 |mjnatsu|Mahjong Natsu Monogatari (Japan)||
-|mjnquest|Mahjong Quest (Japan)|mahjong_mjnquest.cfg|FBNeoと共通|
+|mjnquest|Mahjong Quest (Japan)|mahjong_mjnquest.cfg||
 |mjprivat|Mahjong Private (Japan)||
 |mjreach|Mahjong Reach (Ver. 1.00, set 1)||
 |mjreach1|Mahjong Reach Ippatsu (Japan, NM526-NSI)||
@@ -356,17 +356,17 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |seljan|Sel-Jan (Japan)||
 |seljan2|Return Of Sel Jan II (Japan, NM557)||
 |sengokmj|Sengoku Mahjong (Japan)||
-|sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)|mahjong_sjryuko.cfg|FBNeoと共通|
+|sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)|mahjong_sjryuko.cfg||
 |srmp1|Super Real Mahjong Part 1 (Japan)||
 |srmp2|Super Real Mahjong Part 2 (Japan)||
 |srmp3|Super Real Mahjong Part 3 (Japan)||
-|srmp4|Super Real Mahjong PIV (Japan)|mahjong_srmp4.cfg|FBNeoと共通|
+|srmp4|Super Real Mahjong PIV (Japan)|mahjong_srmp4.cfg||
 |srmp5|Super Real Mahjong P5||
 |srmp6|Super Real Mahjong P6 (Japan)||
-|srmp7|Super Real Mahjong P7 (Japan)|mahjong_srmp7.cfg|FBNeoと共通|
+|srmp7|Super Real Mahjong P7 (Japan)|mahjong_srmp7.cfg||
 |srmvs|Super Real Mahjong VS (Rev A)||
 |sryudens|Mahjong Seiryu Densetsu (Japan, NM502)||
-|suchie2|Idol Janshi Suchie-Pai II (ver 1.1)|mahjong_suchie2.cfg|FBNeoと共通|
+|suchie2|Idol Janshi Suchie-Pai II (ver 1.1)|mahjong_suchie2.cfg||
 |suchiesp|Idol Janshi Suchie-Pai Special (Japan)||
 |suzume|Watashiha Suzumechan (Japan)||
 |swinggal|Swing Gal (Japan 871221)||
