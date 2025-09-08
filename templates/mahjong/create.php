@@ -18,7 +18,7 @@ foreach ($games as $name => $pos) {
     $num = 0;
     $bet = '';
     if (in_array('bet', $pos)) {
-        $bet = "\\1\n";
+        $bet = "\\1";
         $num++;
     }
 
