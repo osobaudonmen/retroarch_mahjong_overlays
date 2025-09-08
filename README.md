@@ -138,7 +138,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |akiss|Mahjong Angel Kiss (ver 1.0)|mahjong_akiss.cfg||
 |apparel|Apparel Night (Japan 860929)|mahjong_apparel.cfg|
 |bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)||NeoGeoはDIPスイッチでJoyStickが使える|
-|bananadr|Mahjong Banana Dream (Japan 891124)||Betボタンが要りそう|
+|bananadr|Mahjong Banana Dream (Japan 891124)||Betボタンあり|
 |bijokkog|Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg||
 |bijokkoy|Bijokko Yume Monogatari (Japan 870925)|mahjong_bijokkog.cfg|
 |bnstars1|Vs. Janshi Brandnew Stars|mahjong_bnstars1.cfg||
