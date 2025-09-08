@@ -142,7 +142,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |bijokkog|Bijokko Gakuen (Japan 880116)|mahjong_bijokkog.cfg||
 |bijokkoy|Bijokko Yume Monogatari (Japan 870925)|mahjong_bijokkog.cfg|
 |bnstars1|Vs. Janshi Brandnew Stars|mahjong_bnstars1.cfg||
-|cafetime|Mahjong Cafe Time||Aが効かない？Rateボタンが要りそう|
+|cafetime|Mahjong Cafe Time|mahjong_cafetime.cfg|Bet(Rate)ボタンあり|
 |ccasino|Chinese Casino (Japan)|mahjong_ccasino.cfg|
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|mahjong_cdsteljn.cfg||
 |chinmoku|Mahjong Chinmoku no Hentai (Japan 900511)|mahjong_chinmoku.cfg|
