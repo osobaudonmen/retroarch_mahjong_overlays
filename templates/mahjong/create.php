@@ -1,11 +1,5 @@
 <?php
 
-$keyMap = match ($argv[1] ?? null) {
-    'arrow_keys' => ['retrok_left', 'retrok_down', 'retrok_right', 'retrok_up'],
-    default      => ['retrok_space', 'retrok_alt', 'retrok_ctrl', 'retrok_shift'],
-};
-printf("chi, pon, kan reach = %s\n", implode(', ', $keyMap));
-
 $isDebug = 'debug' === ($argv[2] ?? null);
 printf("debug = %s\n", $isDebug ? 'true' : 'false');
 
@@ -16,11 +10,7 @@ $games = include(__DIR__ . '/games.php');
 foreach ($games as $name => $pos) {
     $overlay1 = createOverlay(1, ...$pos);
     $overlay4 = createOverlay(4, ...$pos);
-    $cfg = str_replace(
-        ['%KEY_CHI%', '%KEY_PON%', '%KEY_KAN%', '%KEY_REACH%', '%OVERLAY1%', '%OVERLAY4%'],
-        [...$keyMap, $overlay1, $overlay4],
-        $tmpl
-    );
+    $cfg = str_replace(['%OVERLAY1%', '%OVERLAY4%'], [$overlay1, $overlay4], $tmpl);
     if (!$isDebug) {
         $cfg = preg_replace('/### BEGIN DEBUG.+?### END DEBUG/s', '', $cfg);
     }
