@@ -24,10 +24,11 @@ RetroArchのMAME/FBNeoで麻雀ゲームをプレイする際、スマートフ�
 * スマートフォンなどの広い画面で牌とボタンがずれる問題を防ぐため、「クイックメニュー > OSDオーバーレイ > オーバーレイの自動スケーリング」は無効にしてください。
 * hotgmckなどのマルチスクリーン対応ゲームは、Dip Switchesで1画面モードに設定する必要があります（[メモ](#メモ)を参照）。
 * FBNeoはオーバーレイのキーボード入力が期待通りに動作しない不具合があるバージョンもあり、コアの改造が必要となる場合があります
+* BETボタンがMAMEだと3でFBNeoだと2に割り当てられているが、BETボタンを必要とするゲームはMAMEの方が多いはずなので3にする
 
 ### オーバーレイの説明
 
-MAME, FBNeo用の麻雀ゲーム別オーバーレイを配置しています。
+MAME/FBNeo用の麻雀ゲーム別オーバーレイを配置しています。
 
 ```
 overlays/mahjong/
@@ -422,3 +423,23 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 5. Screen 0 Standard (4:3)またはScreen 0 Pixel Aspect (10:7)を選択
 6. MAMEのオプションメニューが閉じるまでEscキーを押す
 
+### MAME/FBNeoのキーバインド
+
+|ボタン|MAME|FBNeo|
+|---|---|---|
+|A-N        |A-N        |A-N|
+|カン       |Left Ctrl  |Left Ctrl|
+|ポン       |Left Alt   |Left Alt|
+|チー       |Space      |Space|
+|リーチ     |Left Shift |Left Shift|
+|ロン       |Z          |Z|
+|Flip Flop  |Y          |Y|
+|Last Chance|Right Alt  |Right Alt|
+|Bet        |3          |2|
+|Take Score |Right Ctrl |Right Ctrl|
+|Double Up  |Right Shift|Right Shift|
+|Big        |Enter      |Enter|
+|Small      |Backspace  |Backspace|
+
+- https://docs.mamedev.org/usingmame/defaultkeys.html#default-mahjong-and-hanafuda-keys
+- https://github.com/libretro/FBNeo/blob/master/src/burner/libretro/retro_input.cpp
