@@ -32,8 +32,7 @@ RetroArchのMAME/FBNeoで麻雀ゲームをプレイする際、スマートフ�
 
 |ディレクトリ|説明|
 |---|---|
-| overlays/mahjong/ | MAME/FBNeo用の標準的な麻雀オーバーレイ |
-| overlays/mahjong_arrow_keys/ | チー・ポン・カン・リーチを十字キーに割り当てた改造FBNeo用オーバーレイ |
+| overlays/mahjong/ | MAME, FBNeo用の麻雀ゲーム別オーバーレイ |
 
 各ディレクトリには、ゲームごとにボタン配置を最適化したcfgファイルが含まれています。  
 ファイル名の形式：`mahjong_(ROMファイル名).cfg`
@@ -411,13 +410,6 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 - FBNeoでは`bnstars1`は動作しませんが、クローンの`bnstars`は動作します
 - FBNeoでは`jongpute`は動作しませんが、クローンの`ttmahjng`は動作します
 - FBNeoではオーバーレイのキーボード入力が期待通りに動作しない場合があるため、コアの改造が必要となる場合があります
-
-### 改造FBNeoについて
-
-[改造版FBNeo](https://github.com/osobaudonmen/FBNeo)では、以下のような改善を実施しています。
-
-- チー・ポン・カン・リーチを十字キーに割り当て
-- オーバーレイの牌操作の修正
 
 ### MAMEのhotgmckを1画面表示にする方法
 
