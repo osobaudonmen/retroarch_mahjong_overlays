@@ -46,6 +46,7 @@ return array_merge(
     convertFormat([
         'chinmoku' => [0.015625, 0.8333333333333334, 0.05857371794871795, 0.1638888888888889, 0.7958333333333333],
         'chinsan'  => [0.118304, 0.791667, 0.051940, 0.208333, 0.827009],
+        'bananadr' => [0.030083, 0.804979, 0.062560, 0.186722, 0.905602, 'bet'],
     ]),
 );
 
@@ -53,11 +54,11 @@ function convertFormat($data)
 {
     $r = [];
     foreach ($data as $n => $g) {
-        $ax = $g[0];
-        $ay = $g[1];
-        $w  = $g[2];
-        $h  = $g[3];
-        $nx = $g[4];
+        $ax = array_shift($g);
+        $ay = array_shift($g);
+        $w  = array_shift($g);
+        $h  = array_shift($g);
+        $nx = array_shift($g);
         $r[$n] = [
             $ax + $w / 2,
             $w,
@@ -67,6 +68,9 @@ function convertFormat($data)
             $h / 2,
             $nx + $w / 2,
         ];
+        foreach ($g as $gg) {
+            $r[$n][] = $gg;
+        }
     }
     return $r;
 }

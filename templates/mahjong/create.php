@@ -15,6 +15,25 @@ foreach ($games as $name => $pos) {
         $cfg = preg_replace('/### BEGIN DEBUG.+?### END DEBUG/s', '', $cfg);
     }
 
+    $num = 0;
+    $bet = '';
+    if (in_array('bet', $pos)) {
+        $bet = "\\1\n";
+        $num++;
+    }
+
+    $cfg = preg_replace(
+        ['/%BET:(.+?)%\n/s'],
+        [$bet],
+        $cfg,
+    );
+
+    $cfg = preg_replace_callback(
+        '/%NUM:(\\d+)%/',
+        fn ($m) => $m[1] + $num,
+        $cfg,
+    );
+
     $file = "mahjong_$name.cfg";
     echo "$file\n";
     file_put_contents($file, $cfg);
