@@ -165,7 +165,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|||
 |jongshin|Jong Shin (Japan)|Dyna Electronics|1986|||
 |suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|||
-|makaijan|Makaijan (Japan)|Dynax|1987|||
+|makaijan|Makaijan (Japan)|Dynax|1987|mahjong_makaijan.cfg|[BET]|
 |mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|||
 |tontonb|Tonton (Japan)|Dynax|1987|||
 |janyuki|Jong Yu Ki (Japan)|Dynax|1988|||
