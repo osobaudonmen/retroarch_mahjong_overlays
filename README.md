@@ -160,7 +160,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |swinggal|Swing Gal (Japan 871221)|Digital Denshi|1987|||
 |bananadr|Mahjong Banana Dream (Japan 891124)|Digital Soft|1989|mahjong_bananadr.cfg|[BET]|
 |idhimitu|Idol no Himitsu (Japan 890304)|Digital Soft|1989|mahjong_idhimitu.cfg|[BET]|
-|vsmjtria|VS Mahjong Triangle|Dyna|1986|||
+|vsmjtria|VS Mahjong Triangle|Dyna|1986||対戦用の2画面表示を1画面にする方法がわからない|
 |jangtaku|Jang Taku (V 1.3)|Dyna Computer|1986|||
 |dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|||
 |jongshin|Jong Shin (Japan)|Dyna Electronics|1986|||
