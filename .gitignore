@@ -4,4 +4,4 @@ composer.develop.lock
 tools/screen.png
 vendor/
 mame.dat
-fbneo.dat
+fbneo
