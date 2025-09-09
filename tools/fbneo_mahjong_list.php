@@ -102,25 +102,30 @@ ksort($outputs);
 
 if ($readmeFile) {
     $table = [
-        '|ROMファイル名|説明|オーバーレイファイル|備考|',
-        '|---|---|---|---|',
+        '|ROMファイル名|説明|製造元|年|オーバーレイファイル|備考|',
+        '|---|---|---|---|---|---|',
     ];
     foreach ($outputs as $game) {
         $name = (string)$game['name'];
         $desc = (string)$game->description;
+        $manu = (string)$game->manufacturer;
+        $year = (string)$game->year;
         if ($data = ($readmeGames[$name] ?? false)) {
             $data[1] = $name;
             $data[2] = $desc;
+            $data[3] = $manu;
+            $data[4] = $year;
         } else {
-            $data = ['', $name, $desc, '', '', ''];
+            $data = ['', $name, $desc, $manu, $year, '', '', ''];
         }
         if (!MameDat::isOriginal($game)) {
             $note = sprintf('%sが動作しない代わり。', $game['cloneof']);
-            $data[3] = $data[3] ?? '';
-            $data[4] = $data[4] ?? '';
-            if (!str_contains($data[4], $note)) {
-                $data[4] = $note . $data[4];
+            if (!str_contains($data[6], $note)) {
+                $data[6] = $note . $data[6];
             }
+        }
+        for ($i = 0; $i < 8; $i++) {
+            $data[$i] = $data[$i] ?? '';
         }
         $table[] = implode('|', $data);
     }
