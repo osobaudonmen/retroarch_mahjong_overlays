@@ -3,3 +3,5 @@ composer.develop.lock
 *.swp
 tools/screen.png
 vendor/
+mame.dat
+fbneo.dat

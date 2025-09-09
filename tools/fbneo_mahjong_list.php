@@ -99,6 +99,7 @@ foreach ($candidates as $candidate) {
 }
 
 ksort($outputs);
+ReadmeFile::sortGames($outputs);
 
 if ($readmeFile) {
     $table = [

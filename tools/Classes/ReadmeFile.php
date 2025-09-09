@@ -45,4 +45,15 @@ class ReadmeFile
         );
         file_put_contents($readmeFile, $text);
     }
+
+    public static function sortGames(array &$games): void
+    {
+        usort($games, function ($a, $b) {
+            $r = strcmp((string)$a->manufacturer, (string)$b->manufacturer);
+            if ($r === 0) {
+                $r = (int)$a->year - (int)$b->year;
+            }
+            return $r;
+        });
+    }
 }

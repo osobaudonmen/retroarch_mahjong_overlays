@@ -26,6 +26,8 @@ if ($readmeFile) {
 }
 
 $games = MameDat::read($datFile, ['playable', 'original', 'mahjong']);
+$games = iterator_to_array($games);
+ReadmeFile::sortGames($games);
 
 if ($readmeFile) {
     $table = [
@@ -38,11 +40,16 @@ if ($readmeFile) {
         $manu = (string)$game->manufacturer;
         $year = (string)$game->year;
         if ($data = ($readmeGames[$name] ?? false)) {
-            $data[1] = $name;
-            $data[2] = $desc;
-            $data[3] = $manu;
-            $data[4] = $year;
-            $table[] = implode('|', $data);
+            $table[] = implode('|', [
+                '',
+                $name,
+                $desc,
+                $manu,
+                $year,
+                $data[5] ?? '',
+                $data[6] ?? '',
+                '',
+            ]);
         } else {
             $table[] = "|$name|$desc|$manu|$year|";
         }
