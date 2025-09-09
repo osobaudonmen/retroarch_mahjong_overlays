@@ -53,6 +53,9 @@ class ReadmeFile
             if ($r === 0) {
                 $r = (int)$a->year - (int)$b->year;
             }
+            if ($r === 0) {
+                $r = strcmp((string)$a['name'], (string)$b['name']);
+            }
             return $r;
         });
     }
