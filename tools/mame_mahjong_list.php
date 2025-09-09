@@ -29,18 +29,22 @@ $games = MameDat::read($datFile, ['playable', 'original', 'mahjong']);
 
 if ($readmeFile) {
     $table = [
-        '|ROMファイル名|説明|オーバーレイファイル|備考|',
-        '|---|---|---|---|',
+        '|ROMファイル名|説明|製造元|年|オーバーレイファイル|備考|',
+        '|---|---|---|---|---|---|',
     ];
     foreach ($games as $game) {
         $name = (string)$game['name'];
         $desc = (string)$game->description;
+        $manu = (string)$game->manufacturer;
+        $year = (string)$game->year;
         if ($data = ($readmeGames[$name] ?? false)) {
             $data[1] = $name;
             $data[2] = $desc;
+            $data[3] = $manu;
+            $data[4] = $year;
             $table[] = implode('|', $data);
         } else {
-            $table[] = "|$name|$desc|";
+            $table[] = "|$name|$desc|$manu|$year|";
         }
     }
     ReadmeFile::writeTable($readmeFile, 'mame_games', $table);
