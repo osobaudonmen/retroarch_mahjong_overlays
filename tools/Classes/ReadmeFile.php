@@ -59,4 +59,29 @@ class ReadmeFile
             return $r;
         });
     }
+
+    public static function fix(array $data): array
+    {
+        for ($i = 0; $i < 8; $i++) {
+            $data[$i] = $data[$i] ?? '';
+        }
+
+        $extra = [];
+        $name  = $data[1];
+        if (!$data[5]) {
+            $path = sprintf('overlays/mahjong/mahjong_%s.cfg', $name);
+            if (file_exists($path)) {
+                $data[5] = basename($path);
+                if (str_contains(file_get_contents($path), 'bet.png')) {
+                    $extra[] = '[BET]';
+                }
+            }
+        }
+        foreach ($extra as $e) {
+            if (!str_contains($data[6], $e)) {
+                $data[6] = $e . $data[6];
+            }
+        }
+        return $data;
+    }
 }

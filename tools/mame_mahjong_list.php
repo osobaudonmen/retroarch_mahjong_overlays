@@ -40,19 +40,20 @@ if ($readmeFile) {
         $manu = (string)$game->manufacturer;
         $year = (string)$game->year;
         if ($data = ($readmeGames[$name] ?? false)) {
-            $table[] = implode('|', [
-                '',
-                $name,
-                $desc,
-                $manu,
-                $year,
-                $data[5] ?? '',
-                $data[6] ?? '',
-                '',
-            ]);
         } else {
-            $table[] = "|$name|$desc|$manu|$year|";
+            $data = ['', $name, $desc ,$manu, $year];
         }
+        $data = ReadmeFile::fix($data);
+        $table[] = implode('|', [
+            '',
+            $name,
+            $desc,
+            $manu,
+            $year,
+            $data[5] ?? '',
+            $data[6] ?? '',
+            '',
+        ]);
     }
     ReadmeFile::writeTable($readmeFile, 'mame_games', $table);
     echo "updated $readmeFile.\n";

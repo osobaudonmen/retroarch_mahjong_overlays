@@ -158,8 +158,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)|Daiichi Denshi|1988|||
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|Data East Corporation|1981|mahjong_cdsteljn.cfg||
 |swinggal|Swing Gal (Japan 871221)|Digital Denshi|1987|||
-|bananadr|Mahjong Banana Dream (Japan 891124)|Digital Soft|1989||Betボタンあり|
-|idhimitu|Idol no Himitsu (Japan 890304)|Digital Soft|1989|mahjong_idhimitu.cfg|BETボタンあり|
+|bananadr|Mahjong Banana Dream (Japan 891124)|Digital Soft|1989|mahjong_bananadr.cfg|[BET]|
+|idhimitu|Idol no Himitsu (Japan 890304)|Digital Soft|1989|mahjong_idhimitu.cfg|[BET]|
 |vsmjtria|VS Mahjong Triangle|Dyna|1986|||
 |jangtaku|Jang Taku (V 1.3)|Dyna Computer|1986|||
 |dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|||
@@ -185,7 +185,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |tenkai|Mahjong Tenkaigen (Japan)|Dynax|1991|||
 |warahana|Warai no Hana Tenshi (Japan)|Dynax|1991|||
 |yarunara|Mahjong Yarunara (Japan)|Dynax|1991|||
-|cafetime|Mahjong Cafe Time|Dynax|1992|mahjong_cafetime.cfg|Bet(Rate)ボタンあり|
+|cafetime|Mahjong Cafe Time|Dynax|1992|mahjong_cafetime.cfg|[BET]|
 |mjelctrn|Mahjong Electron Base (parts 2 & 4, Japan)|Dynax|1993|||
 |mjmyorn2|Mahjong The Mysterious Orient Part 2 ~ Exotic Dream ~ (Japan, v1.00)|Dynax|1993|||
 |mjmyster|Mahjong The Mysterious World (Japan, set 1)|Dynax|1994|||

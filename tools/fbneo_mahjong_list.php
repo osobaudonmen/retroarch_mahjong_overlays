@@ -125,9 +125,7 @@ if ($readmeFile) {
                 $data[6] = $note . $data[6];
             }
         }
-        for ($i = 0; $i < 8; $i++) {
-            $data[$i] = $data[$i] ?? '';
-        }
+        $data = ReadmeFile::fix($data);
         $table[] = implode('|', $data);
     }
     ReadmeFile::writeTable($readmeFile, 'fbneo_games', $table);
