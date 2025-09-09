@@ -194,7 +194,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |housemnq|House Mannequin (Japan 870217)||
 |hypreac2|Mahjong Hyper Reaction 2 (Japan)||Joystickモードがあるので不要|
 |hypreact|Mahjong Hyper Reaction (Japan)||Joystickモードがあるので不要|
-|idhimitu|Idol no Himitsu (Japan 890304)||
+|idhimitu|Idol no Himitsu (Japan 890304)|mahjong_idhimitu.cfg|BETボタンあり|
 |idolmj|Idol-Mahjong Housoukyoku (Japan)||
 |iemoto|Iemoto (Japan 871020)||
 |imekura|Imekura Mahjong (Japan)||
