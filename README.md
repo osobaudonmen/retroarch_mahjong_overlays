@@ -245,7 +245,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |cjddzlf|Chaoji Dou Dizhu Liang Fu Pai (V109CN)|IGS|2005|||
 |cjtljp|Chaoji Tuolaji Jiaqiang Ban (V206CN)|IGS|2005|||
 |xypdk|Xingyun Pao De Kuai (V106CN)|IGS|2005||2005|
-|tswxp|Taishan Wuxian Jiaqiang Ban (V101CN)|IGS|2006||2006|
+|tswxp|Taishan Wuxian Jiaqiang Ban (V101CN)|IGS|2006||麻雀ではない|
 |mgcs3|Manguan Caishen 3 (V101CN)|IGS|2007||Joypadが使える|
 |kakumei|Mahjong Kakumei (Japan)|Jaleco|1990|||
 |suchiesp|Idol Janshi Suchie-Pai Special (Japan)|Jaleco|1993|||
@@ -405,7 +405,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |yujan|Yu-Jan|Yubis / T.System|1999|mahjong_yujan.cfg||
 |mgakuen|Mahjong Gakuen|Yuga|1988|mahjong_mgakuen.cfg||
 |marukin|Super Marukin-Ban (Japan 911128)|Yuga|1990|mahjong_mgakuen.cfg||
-|touryuu|Touryuumon (V1.1)?|Yuki Enterprise|2005||麻雀ではない。おそらくdatのミス。|
+|touryuu|Touryuumon (V1.1)?|Yuki Enterprise|2005||麻雀ではない|
 |janputer|New Double Bet Mahjong (bootleg of Royal Mahjong, set 1)|bootleg (Paradise Denshi Ltd. / Mes)|1981|||
 |akamj|Aka Mahjong (Double Bet, ver 1 16)|bootleg (Paradise Electronics)|1990|mahjong_akamj.cfg||
 
