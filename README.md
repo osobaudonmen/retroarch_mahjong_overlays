@@ -195,7 +195,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |mjschuka|Mahjong Super Dai Chuuka Ken (Japan, D115)|Dynax|1995|||
 |janptr96|Janputer '96 (Japan)|Dynax|1996|||
 |majrjhdx|Mahjong Raijinhai DX (Ver. D105)|Dynax|1996|||
-|mjxysl|Majiang Xingyun Shenlong (China, D121)|Dynax|1996||1996|
+|mjxysl|Majiang Xingyun Shenlong (China, D121)|Dynax|1996|mahjong_mjxysl.cfg|[BET]1996|
 |janptrsp|Janputer Special (Japan)|Dynax|1997|||
 |mjmyorntr|Mahjong The Mysterious Orient Returns (Japan, v1.00)|Dynax|1997|||
 |mjchuuka|Maque Zhonghua Ernu (Taiwan)|Dynax|1998|||
