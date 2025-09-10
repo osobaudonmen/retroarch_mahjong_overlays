@@ -256,7 +256,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |seljan|Sel-Jan (Japan)|Jem / Dyna Corp|1983|||
 |mj4simai|Wakakusamonogatari Mahjong Yonshimai (Japan)|Maboroshi Ware|1996|mahjong_mj4simai.cfg||
 |dokyusei|Mahjong Doukyuusei|Make Software / Elf / Media Trading|1995|mahjong_dokyusei.cfg||
-|dokyusp|Mahjong Doukyuusei Special|Make Software / Elf / Media Trading|1995|||
+|dokyusp|Mahjong Doukyuusei Special|Make Software / Elf / Media Trading|1995|mahjong_dokyusp.cfg||
 |gakusai|Mahjong Gakuensai (Japan, set 1)|MakeSoft|1997|||
 |gakusai2|Mahjong Gakuensai 2 (Japan)|MakeSoft|1998|||
 |mjprivat|Mahjong Private (Japan)|Matoba|1991|||
