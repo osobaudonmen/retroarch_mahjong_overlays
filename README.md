@@ -405,7 +405,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |yujan|Yu-Jan|Yubis / T.System|1999|mahjong_yujan.cfg||
 |mgakuen|Mahjong Gakuen|Yuga|1988|mahjong_mgakuen.cfg||
 |marukin|Super Marukin-Ban (Japan 911128)|Yuga|1990|mahjong_mgakuen.cfg||
-|touryuu|Touryuumon (V1.1)?|Yuki Enterprise|2005|||
+|touryuu|Touryuumon (V1.1)?|Yuki Enterprise|2005||麻雀ではない。おそらくdatのミス。|
 |janputer|New Double Bet Mahjong (bootleg of Royal Mahjong, set 1)|bootleg (Paradise Denshi Ltd. / Mes)|1981|||
 |akamj|Aka Mahjong (Double Bet, ver 1 16)|bootleg (Paradise Electronics)|1990|mahjong_akamj.cfg||
 
