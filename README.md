@@ -321,7 +321,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |wcatcher|Mahjong Wakuwaku Catcher (Japan)|Nichibutsu|1993|||
 |mhhonban|Mahjong Housoukyoku Honbanchuu (Japan)|Nichibutsu|1994|||
 |mjlaman|Mahjong La Man (Japan)|Nichibutsu / AV Japan|1993|||
-|pachiten|Medal Mahjong Pachi-Slot Tengoku (Japan)|Nichibutsu / AV Japan / Miki Syouji|1993||BETボタンがいる|
+|pachiten|Medal Mahjong Pachi-Slot Tengoku (Japan)|Nichibutsu / AV Japan / Miki Syouji|1993|mahjong_pachiten.cfg|[BET]|
 |cmehyou|Mahjong Circuit no Mehyou (Japan)|Nichibutsu / Kawakusu|1992|||
 |mmehyou|Medal Mahjong Circuit no Mehyou (Japan)|Nichibutsu / Kawakusu|1992|||
 |galkaika|Mahjong Gal no Kaika (Japan)|Nichibutsu / T.R.Tec|1989|||
