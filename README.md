@@ -235,7 +235,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |tarzanc|Tarzan Chuang Tian Guan (China, V109C, set 1)|IGS|1999|||
 |tshs|Tiansheng Haoshou (V201CN)|IGS|2000||2000|
 |zhongguo|Zhongguo Chu Da D (V102C)|IGS|2000|||
-|mgzz|Manguan Zhizun (V101CN)|IGS|2003|||
+|mgzz|Manguan Zhizun (V101CN)|IGS|2003|mahjong_mgzz.cfg|[BET]|
 |mxsqy|Mingxing San Que Yi (China, V201CN)|IGS|2003||麻雀ではなさそう|
 |tct2p|Tarzan Chuang Tian Guan 2 Jiaqiang Ban (V306CN)|IGS|2003||麻雀ではない|
 |cjddz|Chaoji Dou Dizhu (V219CN)|IGS|2004||麻雀ではない|
