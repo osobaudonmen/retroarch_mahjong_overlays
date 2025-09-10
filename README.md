@@ -232,8 +232,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |lhzb3sjb|Long Hu Zhengba III Shengji Ban (V300C5)|IGS|1999|||
 |lthyp|Long Teng Hu Yao Duizhan Jiaqiang Ban (S104CN)|IGS|1999|||
 |qlgs|Que Long Gaoshou (S501CN)|IGS|1999|||
-|tarzanc|Tarzan Chuang Tian Guan (China, V109C, set 1)|IGS|1999|||
-|tshs|Tiansheng Haoshou (V201CN)|IGS|2000||2000|
+|tarzanc|Tarzan Chuang Tian Guan (China, V109C, set 1)|IGS|1999||麻雀ではない|
+|tshs|Tiansheng Haoshou (V201CN)|IGS|2000||麻雀ではない|
 |zhongguo|Zhongguo Chu Da D (V102C)|IGS|2000||麻雀ではない。しかし麻雀用コントローラを使う|
 |mgzz|Manguan Zhizun (V101CN)|IGS|2003|mahjong_mgzz.cfg|[BET]|
 |mxsqy|Mingxing San Que Yi (China, V201CN)|IGS|2003||麻雀ではなさそう|
