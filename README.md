@@ -211,7 +211,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |gal10ren|Mahjong Gal 10-renpatsu (Japan)|Fujic|1993|||
 |renaiclb|Mahjong Ren-ai Club (Japan)|Fujic|1993|||
 |mjegolf|Mahjong Erotica Golf (Japan)|Fujic / AV Japan|1994|||
-|xyddzhh|Xingyun Dou Dizhu|Herb Home|2006||2006|
+|xyddzhh|Xingyun Dou Dizhu|Herb Home|2006||麻雀ではない|
 |hourouki|Mahjong Hourouki Part 1 - Seishun Hen (Japan)|Home Data|1987|||
 |mhgaiden|Mahjong Hourouki Gaiden (Japan)|Home Data|1987|||
 |mjclinic|Mahjong Clinic (Japan, set 1)|Home Data|1988|||
