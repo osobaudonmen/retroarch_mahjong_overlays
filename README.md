@@ -144,8 +144,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |danchih|Danchi de Hanafuda (J 990607 V1.400)|Altron (Tecmo license)|1999|||
 |otonano|Otona no Mahjong (Japan 880628)|Apple|1988|||
 |ultramhm|Ultra Maru-hi Mahjong (Japan)|Apple|1993|||
-|hipai|Hi Pai Paradise|Aruze / Seta|2003|||
-|hipai2|Hi Pai Paradise 2|Aruze / Seta / Paon|2004|||
+|hipai|Hi Pai Paradise|Aruze / Seta|2003|mahjong_hipai.cfg||
+|hipai2|Hi Pai Paradise 2|Aruze / Seta / Paon|2004|mahjong_hipai.cfg||
 |kiwame|Pro Mahjong Kiwame|Athena|1994|mahjong_kiwame.cfg||
 |kiwames|Pro Mahjong Kiwame S (J 951020 V1.208)|Athena|1995|||
 |fengyunh|Fengyun Hui|BMC|1998|||
