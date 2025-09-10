@@ -149,7 +149,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |kiwame|Pro Mahjong Kiwame|Athena|1994|mahjong_kiwame.cfg||
 |kiwames|Pro Mahjong Kiwame S (J 951020 V1.208)|Athena|1995|||
 |fengyunh|Fengyun Hui|BMC|1998|||
-|mjmaglmp|Mahou no Lamp (v. JAA02)|BMC|2000|||
+|mjmaglmp|Mahou no Lamp (v. JAA02)|BMC|2000|mahjong_mjmaglmp.cfg|[BET]|
 |daisyari|Daisyarin (Japan)|Best System|1989|||
 |mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|||
 |apparel|Apparel Night (Japan 860929)|Central Denshi|1986|mahjong_apparel.cfg||
