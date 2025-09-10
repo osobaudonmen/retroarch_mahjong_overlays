@@ -236,14 +236,14 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |tshs|Tiansheng Haoshou (V201CN)|IGS|2000||2000|
 |zhongguo|Zhongguo Chu Da D (V102C)|IGS|2000|||
 |mgzz|Manguan Zhizun (V101CN)|IGS|2003|||
-|mxsqy|Mingxing San Que Yi (China, V201CN)|IGS|2003|||
-|tct2p|Tarzan Chuang Tian Guan 2 Jiaqiang Ban (V306CN)|IGS|2003||2003|
-|cjddz|Chaoji Dou Dizhu (V219CN)|IGS|2004|||
-|cjddzp|Chaoji Dou Dizhu Jiaqiang Ban (S300CN)|IGS|2004|||
-|lhzb4|Long Hu Zhengba 4 (V104CN)|IGS|2004|||
-|lhzb4dhb|Long Hu Zhengba 4 Dui Hua Ban (V203CN)|IGS|2004|||
-|cjddzlf|Chaoji Dou Dizhu Liang Fu Pai (V109CN)|IGS|2005|||
-|cjtljp|Chaoji Tuolaji Jiaqiang Ban (V206CN)|IGS|2005|||
+|mxsqy|Mingxing San Que Yi (China, V201CN)|IGS|2003||麻雀ではなさそう|
+|tct2p|Tarzan Chuang Tian Guan 2 Jiaqiang Ban (V306CN)|IGS|2003||麻雀ではない|
+|cjddz|Chaoji Dou Dizhu (V219CN)|IGS|2004||麻雀ではない|
+|cjddzp|Chaoji Dou Dizhu Jiaqiang Ban (S300CN)|IGS|2004||麻雀ではない|
+|lhzb4|Long Hu Zhengba 4 (V104CN)|IGS|2004||Joypadが使える|
+|lhzb4dhb|Long Hu Zhengba 4 Dui Hua Ban (V203CN)|IGS|2004||Joypadが使える|
+|cjddzlf|Chaoji Dou Dizhu Liang Fu Pai (V109CN)|IGS|2005||麻雀ではない|
+|cjtljp|Chaoji Tuolaji Jiaqiang Ban (V206CN)|IGS|2005||麻雀ではない|
 |xypdk|Xingyun Pao De Kuai (V106CN)|IGS|2005||麻雀ではない|
 |tswxp|Taishan Wuxian Jiaqiang Ban (V101CN)|IGS|2006||麻雀ではない|
 |mgcs3|Manguan Caishen 3 (V101CN)|IGS|2007||Joypadが使える|
