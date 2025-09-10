@@ -244,7 +244,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |lhzb4dhb|Long Hu Zhengba 4 Dui Hua Ban (V203CN)|IGS|2004|||
 |cjddzlf|Chaoji Dou Dizhu Liang Fu Pai (V109CN)|IGS|2005|||
 |cjtljp|Chaoji Tuolaji Jiaqiang Ban (V206CN)|IGS|2005|||
-|xypdk|Xingyun Pao De Kuai (V106CN)|IGS|2005||2005|
+|xypdk|Xingyun Pao De Kuai (V106CN)|IGS|2005||麻雀ではない|
 |tswxp|Taishan Wuxian Jiaqiang Ban (V101CN)|IGS|2006||麻雀ではない|
 |mgcs3|Manguan Caishen 3 (V101CN)|IGS|2007||Joypadが使える|
 |kakumei|Mahjong Kakumei (Japan)|Jaleco|1990|||
