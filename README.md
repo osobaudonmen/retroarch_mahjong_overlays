@@ -339,7 +339,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |hotgmck3|Taisen Hot Gimmick 3 Digital Surfing (Japan)|Psikyo|1999|mahjong_hotgmck.cfg||
 |hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|Psikyo|2000|mahjong_hotgmck.cfg||
 |hotgmcki|Mahjong Hot Gimmick Integral (Japan)|Psikyo|2001|mahjong_hotgmck.cfg||
-|mjgtaste|Mahjong G-Taste|Psikyo|2002|||
+|mjgtaste|Mahjong G-Taste|Psikyo|2002|mahjong_mjgtaste.cfg||
 |ippatsu|Ippatsu Gyakuten (Japan)|Public Software / Paradais|1986|||
 |royalqn|Royal Queen (Japan 841010 RQ 0-07)|Royal Denshi|1984|||
 |hypreact|Mahjong Hyper Reaction (Japan)|Sammy|1995||Joypadモードがあるので不要|
