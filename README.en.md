@@ -1,155 +1,134 @@
 # retroarch_custom_overlays
 
-## Table of Contents
+## Mahjong overlay
 
-- [Mahjong Overlay](#mahjong-overlay)
-  - [Important Notes](#important-notes)
-  - [Overlay Description](#overlay-description)
-    - [Layer Structure](#layer-structure)
-    - [Buttons](#buttons)
-  - [Mahjong Game List](#mahjong-game-list)
-    - [FBNeo](#fbneo)
-    - [MAME](#mame)
-- [Notes](#notes)
-  - [Operation Notes](#operation-notes)
-  - [How to Display hotgmck in Single Screen Mode on MAME](#how-to-display-hotgmck-in-single-screen-mode-on-mame)
-  - [How to Enable Joystick Controls for NeoGeo Mahjong Games on MAME](#how-to-enable-joystick-controls-for-neogeo-mahjong-games-on-mame)
-  - [How to Enable Joystick Controls for NeoGeo Mahjong Games on FBNeo](#how-to-enable-joystick-controls-for-neogeo-mahjong-games-on-fbneo)
-  - [MAME/FBNeo Key Bindings](#mamefbneo-key-bindings)
+Playing mahjong games on RetroArch's MAME/FBNeo can be difficult on devices without a physical keyboard, such as smartphones.
+To help with this, I created a dedicated OSD overlay for mahjong games.
 
-## Mahjong Overlay
+Copy the `overlays/mahjong/` directory into RetroArch's `overlays` directory to use it.
 
-Playing mahjong games on RetroArch's MAME/FBNeo can be challenging on devices without physical keyboards, such as smartphones.
-To address this issue, we have created a specialized OSD overlay for mahjong games.
+### Important notes
 
-To use the overlay, copy the `overlays/mahjong/` directory to RetroArch's `overlays` directory.
+- To prevent tile and button misalignment on wide screens (smartphones, etc.), disable "Overlay Auto-scaling" in "Quick Menu > On-Screen Overlay".
+- Multi-screen games (e.g. `hotgmck`) must be set to single-screen mode via the Dip Switches (see Notes).
+- Some FBNeo versions have a bug where overlay keyboard input does not work as expected; modifying the core may be necessary.
+- The BET button is `3` in MAME and `2` in FBNeo. Because more MAME games require the BET button, the overlays use `3`.
 
-### Important Notes
+### Overlay description
 
-- To prevent misalignment of tiles and buttons on larger screens like smartphones, disable "Overlay Auto-scaling" in "Quick Menu > On-Screen Overlay".
-- Multi-screen compatible games (like hotgmck) need to be set to single-screen mode in Dip Switches (refer to [Notes](#notes)).
-- Some versions of FBNeo may have issues with overlay keyboard input, which might require core modifications.
-- The BET button is assigned to "3" in MAME and "2" in FBNeo, but we standardized it to "3" as MAME has more games requiring the BET button.
-
-### Overlay Description
-
-Mahjong game-specific overlays for MAME/FBNeo are stored in:
+Mahjong overlays for MAME/FBNeo are provided in:
 
 ```
 overlays/mahjong/
 ```
 
-The directory contains optimized cfg files for each game and images used in the overlays.  
-Configuration filename format: `mahjong_(ROM_filename).cfg`
+The directory contains per-game `cfg` files tuned for button placement and the images used by the overlays.
+Configuration files are named `mahjong_(ROM_filename).cfg`.
 
-#### Layer Structure
+#### Layer structure
 
-The mahjong overlay consists of 5 types of layers:
+The mahjong overlay uses five layers:
 
-1. Regular Button Layer (Landscape)  
-   Places buttons in the left and right margins when using a smartphone in landscape orientation.
+1. Regular button layer (landscape)
+   - Buttons are placed in the left and right margins when the device is in landscape orientation.
 
-2. Regular Button Layer (Portrait)  
-   Places buttons in the bottom margin when using a smartphone in portrait orientation.
+2. Regular button layer (portrait)
+   - Buttons are placed in the bottom margin when the device is in portrait orientation.
 
-3. Tile Button Layer (With Labels)  
-   Allows direct tile selection by tapping and drawing tiles by tapping the N position.
-   Semi-transparent A-N labels are displayed at tappable locations.
+3. Tile button layer (with labels)
+   - Tap tiles directly to discard, or tap the N position to draw a tile.
+   - Semi-transparent labels A–N are shown at tappable positions.
 
-4. Tile Button Layer (Without Labels)  
-   Has the same functionality as the labeled version but prioritizes visibility by not showing labels.
-   Buttons overlaid on tiles are transparent.
+4. Tile button layer (without labels)
+   - Same functionality as the labeled layer but hides labels for better visibility.
+   - Buttons over tiles are transparent.
 
-5. Empty Layer  
-   A blank layer used when button overlays might obstruct important information.
+5. Empty layer
+   - A blank layer to use when overlays obstruct important information.
 
-When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the regular button layer automatically switches based on the screen aspect ratio.
+When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the regular button layer switches automatically according to the screen aspect ratio.
 
 #### Buttons
 
 |Button|Description|
 |---|---|
-|<img src="overlays/mahjong/settings.png" width="25">| Switches the menu |
-|<img src="overlays/mahjong/forward.png" width="25">| Toggles fast-forward |
-|<img src="overlays/mahjong/landscape.png" width="25">| Displayed when using the landscape regular button layer, switches to portrait mode when pressed.<br>When overlay auto-rotation is enabled, this button is automatically controlled and won't respond to presses. |
-|<img src="overlays/mahjong/portrait.png" width="25">| Displayed when using the portrait regular button layer, switches to landscape mode when pressed.<br>When overlay auto-rotation is enabled, this button is automatically controlled and won't respond to presses. |
-|<img src="overlays/mahjong/layers.png" width="25">| Switches between layers |
-|<img src="overlays/mahjong/coin.png" width="25">| Inserts a coin |
-|<img src="overlays/mahjong/play.png" width="25">| Starts the game |
+|<img src="overlays/mahjong/settings.png" width="25">| Toggle menu |
+|<img src="overlays/mahjong/forward.png" width="25">| Toggle fast-forward |
+|<img src="overlays/mahjong/landscape.png" width="25">| Shown when the landscape regular button layer is active; pressing switches to the portrait layer. When auto-rotation is enabled this is controlled automatically and pressing has no effect. |
+|<img src="overlays/mahjong/portrait.png" width="25">| Shown when the portrait regular button layer is active; pressing switches to the landscape layer. When auto-rotation is enabled this is controlled automatically and pressing has no effect. |
+|<img src="overlays/mahjong/layers.png" width="25">| Switch layers |
+|<img src="overlays/mahjong/coin.png" width="25">| Insert coin |
+|<img src="overlays/mahjong/play.png" width="25">| Start game |
 
-### Mahjong Game List
+### Mahjong game list
 
-We have compiled a list of mahjong games from FBNeo and MAME DAT files.  
-Games are sorted by manufacturer and release year, considering the similarity of their control layouts.
+I prepared lists of mahjong games from FBNeo and MAME DAT files.
+Games are sorted by manufacturer and release year, taking into account similarities in control layouts.
 
 #### FBNeo
 
-A list of mahjong games (excluding clones) compiled from FBNeo DAT files and source code.
+Mahjong games compiled from FBNeo DAT files and source (clones excluded).
 
-<!-- fbneo_games -->
-<!-- Copy the FBNeo games table here -->
-<!-- /fbneo_games -->
+[FBNeo mahjong game list](mj_fbneo.md)
 
 #### MAME
 
-A list of mahjong games extracted from MAME DAT files (v0.280) with the following criteria:
+Mahjong games extracted from MAME DAT files (v0.280) with the following conditions:
 
 - Not a device
-- Functional
+- Working
 - Not a clone
-- Player 1 controller is mahjong type with 19-29 buttons
+- Player 1 controller is "mahjong" type with 19–29 buttons
 
-<!-- mame_games -->
-<!-- Copy the MAME games table here -->
-<!-- /mame_games -->
+[MAME mahjong game list](mj_mame.md)
 
 ## Notes
 
-### Operation Notes
+### Operation notes
 
-- On FBNeo, `bnstars1` doesn't work, but its clone `bnstars` works
-- On FBNeo, `jongpute` doesn't work, but its clone `ttmahjng` works
+- On FBNeo, `bnstars1` does not work, but the clone `bnstars` works.
+- On FBNeo, `jongpute` does not work, but the clone `ttmahjng` works.
 
-### How to Display hotgmck in Single Screen Mode on MAME
+### How to display `hotgmck` in single-screen mode on MAME
 
-You can set up single-screen display on smartphones (even without a physical keyboard) using these steps:
+You can configure single-screen display on a smartphone (even without a physical keyboard) as follows:
 
-1. Select a keyboard overlay (standard `overlays/keyboards/US-101` etc.)
-2. Press Tab key to display MAME options menu (use D-pad and Enter for navigation)
-3. Select Video Options
-4. Select Screen #0
-5. Select Screen 0 Standard (4:3) or Screen 0 Pixel Aspect (10:7)
-6. Press Esc key until the MAME options menu closes
+1. Select a keyboard overlay (e.g. the standard `overlays/keyboards/US-101`).
+2. Press the Tab key to open the MAME options menu (use the D-pad and Enter to navigate).
+3. Select "Video Options".
+4. Select "Screen #0".
+5. Choose "Screen 0 Standard (4:3)" or "Screen 0 Pixel Aspect (10:7)".
+6. Press Esc until the MAME options menu closes.
 
-### How to Enable Joystick Controls for NeoGeo Mahjong Games on MAME
+### How to enable joystick controls for NeoGeo mahjong games on MAME
 
-Follow these steps to switch to joystick controls:
+Change the controller to joystick as follows:
 
-1. Press Tab key during gameplay to open MAME menu
-2. Select DIP Switches
-3. Set Controller to Joystick
-4. Reset System to restart the game
+1. Press Tab during gameplay to open the MAME menu.
+2. Select "DIP Switches".
+3. Set "Controller" to "Joystick".
+4. Use "Reset System" to restart the game.
 
-However, the gamepad button mapping may not be correct, requiring keyboard input.
+Note: gamepad button mapping may not be set correctly; keyboard input may still be required.
 
 Keyboard mappings:
-- `Coin1`: `5` key
-- `Start1`: `1` key
-- Directions + Actions: `ABCDEF` keys (or `HIJKLM` keys) correspond to "Up Down Left Right A B"
+- `Coin1`: `5`
+- `Start1`: `1`
+- Directions + actions: `ABCDEF` (or `HIJKLM`) correspond to Up Down Left Right A B
 
-### How to Enable Joystick Controls for NeoGeo Mahjong Games on FBNeo
+### How to enable joystick controls for NeoGeo mahjong games on FBNeo
 
-Follow these steps to switch to joystick controls:
+Change the core option as follows:
 
-1. Open RetroArch menu
-2. Open Core Options
-3. Open DIP Switches
-4. Turn off Mahjong control panel
-5. Restart the game
+1. Open the RetroArch menu.
+2. Open "Core Options".
+3. Open "DIP Switches".
+4. Turn off "Mahjong control panel".
+5. Restart the game.
 
-Unlike MAME, this setting alone enables gamepad controls.
+Unlike MAME, this setting alone allows control via gamepad.
 
-### MAME/FBNeo Key Bindings
+### MAME/FBNeo key bindings
 
 |Button|MAME|FBNeo|
 |---|---|---|
@@ -168,3 +147,4 @@ Unlike MAME, this setting alone enables gamepad controls.
 |Small      |Backspace  |Backspace|
 
 - https://docs.mamedev.org/usingmame/defaultkeys.html#default-mahjong-and-hanafuda-keys
+- https://github.com/libretro/FBNeo/blob/master/src/burner/libretro/retro_input.cpp
