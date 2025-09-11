@@ -18,7 +18,7 @@ update_develop:
 readme: readme_fbneo readme_mame
 
 readme_fbneo:
-	php tools/fbneo_mahjong_list.php fbneo README.md
+	php tools/fbneo_mahjong_list.php fbneo mj_fbneo.md
 
 readme_mame:
-	php tools/mame_mahjong_list.php mame.dat README.md
+	php tools/mame_mahjong_list.php mame.dat mj_mame.md
