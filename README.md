@@ -332,7 +332,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |janbari|Mahjong Janjan Baribari (Japan)|Nichibutsu / Yubis / AV Japan|1992|||
 |mjreach1|Mahjong Reach Ippatsu (Japan, NM526-NSI)|Nihon System|1998|||
 |mmahjong|Micom Mahjong|Nippon Mail Service|1982|||
-|mjsenpu|Mahjong Senpu (Japan)|Oriental Soft|2002|||
+|mjsenpu|Mahjong Senpu (Japan)|Oriental Soft|2002|mahjong_mjsenpu.cfg|[BET]|
 |kanatuen|Kanatsuen no Onna (Japan 880905)|Panac|1988|||
 |hotgmck|Taisen Hot Gimmick (Japan)|Psikyo|1997|mahjong_hotgmck.cfg||
 |hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|Psikyo|1998|mahjong_hotgmck.cfg||
