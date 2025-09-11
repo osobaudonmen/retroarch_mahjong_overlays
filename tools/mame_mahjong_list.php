@@ -31,7 +31,7 @@ ReadmeFile::sortGames($games);
 
 if ($readmeFile) {
     $table = [
-        '|ROMファイル名|説明|製造元|年|オーバーレイファイル|備考|',
+        '|ROM set|Game title|Manufacture|Year|Overlay file|Notes|',
         '|---|---|---|---|---|---|',
     ];
     foreach ($games as $game) {

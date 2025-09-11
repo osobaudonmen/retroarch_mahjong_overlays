@@ -1,6 +1,6 @@
 <!-- mame_games -->
 
-|ROMファイル名|説明|製造元|年|オーバーレイファイル|備考|
+|ROM set|Game title|Manufacture|Year|Overlay file|Notes|
 |---|---|---|---|---|---|
 |janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994|||
 |rmhaihai|Real Mahjong Haihai (Japan, newer)|Alba|1985|||

@@ -1,6 +1,6 @@
 <!-- fbneo_games -->
 
-|ROMファイル名|説明|製造元|年|オーバーレイファイル|備考|
+|ROM set|Game title|Manufacture|Year|Overlay file|Notes|
 |---|---|---|---|---|---|
 |janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994||NeoGeoはDIPスイッチでJoyStickが使える|
 |ttmahjng|T.T Mahjong|Alpha Denshi Co. (Taito license)|1981|mahjong_jongpute.cfg|jongputeが動作しない代わり。|
