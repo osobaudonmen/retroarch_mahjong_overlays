@@ -60,6 +60,17 @@ When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the
 |<img src="overlays/mahjong/coin.png" width="25">| Insert coin |
 |<img src="overlays/mahjong/play.png" width="25">| Start game |
 
+#### Game buttons
+
+|Button|Description|
+|---|---|
+|<img src="overlays/mahjong/chi.png" width="50">| Chi |
+|<img src="overlays/mahjong/pon.png" width="50">| Pon |
+|<img src="overlays/mahjong/kan.png" width="50">| Kan |
+|<img src="overlays/mahjong/reach.png" width="50">| Reach |
+|<img src="overlays/mahjong/z.png" width="50">| Agari (Ron/Tsumo) |
+|<img src="overlays/mahjong/bet.png" width="50">| BET |
+
 ### Mahjong game list
 
 I prepared lists of mahjong games from FBNeo and MAME DAT files.

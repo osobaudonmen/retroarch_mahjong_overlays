@@ -48,7 +48,7 @@ cfgファイル名の形式：`mahjong_(ROMファイル名).cfg`
 
 「クイックメニュー > OSDオーバーレイ > オーバーレイの自動回転」を有効にすると、画面の縦横比に応じて通常ボタンレイヤーが自動的に切り替わります。
 
-#### ボタン
+#### システムボタン
 
 |ボタン|説明|
 |---|---|
@@ -59,6 +59,17 @@ cfgファイル名の形式：`mahjong_(ROMファイル名).cfg`
 |<img src="overlays/mahjong/layers.png" width="25">| レイヤーを切り替えます |
 |<img src="overlays/mahjong/coin.png" width="25">| コインを投入します |
 |<img src="overlays/mahjong/play.png" width="25">| ゲームをスタートします |
+
+#### ゲームボタン
+
+|ボタン|説明|
+|---|---|
+|<img src="overlays/mahjong/chi.png" width="50">| チー |
+|<img src="overlays/mahjong/pon.png" width="50">| ポン |
+|<img src="overlays/mahjong/kan.png" width="50">| カン |
+|<img src="overlays/mahjong/reach.png" width="50">| リーチ |
+|<img src="overlays/mahjong/z.png" width="50">| アガリ（ロン/ツモ 等） |
+|<img src="overlays/mahjong/bet.png" width="50">| BET ボタン |
 
 ### 麻雀ゲームリスト
 
