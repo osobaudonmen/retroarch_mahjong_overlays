@@ -274,3 +274,5 @@
 |akamj|Aka Mahjong (Double Bet, ver 1 16)|bootleg (Paradise Electronics)|1990|mahjong_akamj.cfg||
 
 <!-- /mame_games -->
+
+- [BET] BET button available
