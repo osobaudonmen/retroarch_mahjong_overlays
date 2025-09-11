@@ -48,7 +48,7 @@ The mahjong overlay uses five layers:
 
 When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the regular button layer switches automatically according to the screen aspect ratio.
 
-#### Buttons
+#### System buttons
 
 |Button|Description|
 |---|---|
