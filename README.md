@@ -443,6 +443,18 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 キーボードなら`Coin1`が`5`、`Start1`が`1`に対応しています。  
 そして`ABCDEF`（または`HIJKLM`)が`上下左右AB`に対応しているようです。
 
+### FBNeoのNeoGeoの麻雀ゲームの操作をJoyStickにする方法
+
+次の方法でJoyStick操作に変更できます。
+
+1. RetroArchのメニューを開く
+2. コアオプションを開く
+3. DIP Switchesを開く
+4. Mahjong control panelをオフにする
+5. ゲームを再起動する
+
+MAMEとか違い、これだけでゲームパッドで操作できるようになります。
+
 ### MAME/FBNeoのキーバインド
 
 |ボタン|MAME|FBNeo|
