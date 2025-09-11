@@ -371,7 +371,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |dunhuang|Mahjong Dunhuang|Spirit|1995|||
 |idolmj|Idol-Mahjong Housoukyoku (Japan)|System Service|1988|||
 |mjnquest|Mahjong Quest (Japan)|Taito Corporation|1990|mahjong_mjnquest.cfg||
-|mjgnight|Mahjong Gorgeous Night (Japan, TSM003-01)|Techno-Top|2000|||
+|mjgnight|Mahjong Gorgeous Night (Japan, TSM003-01)|Techno-Top|2000|mahjong_mjgnight.cfg|[BET]|
 |mjsister|Mahjong Sisters (Japan)|Toaplan|1986|||
 |ojankoc|Ojanko Club (Japan, Program Ver. 1.3, set 1)|V-System Co.|1986|||
 |ojankoy|Ojanko Yakata (Japan)|V-System Co.|1986|||
