@@ -1,22 +1,5 @@
 # retroarch_custom_overlays
 
-## 目次
-
-- [麻雀用オーバーレイ](#麻雀用オーバーレイ)
-  - [注意事項](#注意事項)
-  - [オーバーレイの説明](#オーバーレイの説明)
-    - [レイヤー構成](#レイヤー構成)
-    - [ボタン](#ボタン)
-  - [麻雀ゲームリスト](#麻雀ゲームリスト)
-    - [FBNeo](#fbneo)
-    - [MAME](#mame)
-- [メモ](#メモ)
-  - [動作に関する注意点](#動作に関する注意点)
-  - [MAMEのhotgmckを1画面表示にする方法](#mameのhotgmckを1画面表示にする方法)
-  - [MAMEのNeoGeoの麻雀ゲームの操作をJoyStickにする方法](#mameのneogeoの麻雀ゲームの操作をjoystickにする方法)
-  - [FBNeoのNeoGeoの麻雀ゲームの操作をJoyStickにする方法](#fbneoのneogeoの麻雀ゲームの操作をjoystickにする方法)
-  - [MAME/FBNeoのキーバインド](#mamefbneoのキーバインド)
-
 ## 麻雀用オーバーレイ
 
 RetroArchのMAME/FBNeoで麻雀ゲームをプレイする際、スマートフォンなど物理キーボードのない環境では操作が困難です。
