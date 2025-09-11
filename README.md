@@ -107,8 +107,8 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|Psikyo|2000|mahjong_hotgmck.cfg||
 |hotgmcki|Mahjong Hot Gimmick Integral (Japan)|Psikyo|2001|mahjong_hotgmck.cfg||
 |mahretsu|Mahjong Kyo Retsuden (NGM-004 ~ NGH-004)|SNK|1990||NeoGeoはDIPスイッチでJoyStickが使える|
-|hypreact|Mahjong Hyper Reaction (Japan)|Sammy|1995||Joypadモードがあるので不要|
-|hypreac2|Mahjong Hyper Reaction 2 (Japan)|Sammy|1997||Joypadモードがあるので不要|
+|hypreact|Mahjong Hyper Reaction (Japan)|Sammy|1995||ゲームパッドモードがあるので不要|
+|hypreac2|Mahjong Hyper Reaction 2 (Japan)|Sammy|1997||ゲームパッドモードがあるので不要|
 |mjkjidai|Mahjong Kyou Jidai (Japan)|Sanritsu|1986|mahjong_mjkjidai.cfg||
 |ejanhs|E Jong High School (Japan)|Seibu Kaihatsu|1996|mahjong_ejanhs.cfg||
 |ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|Seibu Kaihatsu|1999|mahjong_ejsakura.cfg||
@@ -116,7 +116,7 @@ FBNeoのDATファイルとソースコードから麻雀ぽいゲームの一覧
 |srmp7|Super Real Mahjong P7 (Japan)|Seta|1997|mahjong_srmp7.cfg||
 |mjnquest|Mahjong Quest (Japan)|Taito Corporation|1990|mahjong_mjnquest.cfg||
 |janjans1|Lovely Pop Mahjong JangJang Shimasho (Japan)|Visco|1996|mahjong_janjans1.cfg||
-|koikois2|Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)|Visco|1997||Joypadモードがあるので不要|
+|koikois2|Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)|Visco|1997||ゲームパッドモードがあるので不要|
 |janjans2|Lovely Pop Mahjong JangJang Shimasho 2 (Japan)|Visco|2000|mahjong_janjans2.cfg||
 |sjryuko|Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)|White Board|1988|mahjong_sjryuko.cfg||
 |mgakuen|Mahjong Gakuen|Yuga|1988|mahjong_mgakuen.cfg||
@@ -240,13 +240,13 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |tct2p|Tarzan Chuang Tian Guan 2 Jiaqiang Ban (V306CN)|IGS|2003||麻雀ではない|
 |cjddz|Chaoji Dou Dizhu (V219CN)|IGS|2004||麻雀ではない|
 |cjddzp|Chaoji Dou Dizhu Jiaqiang Ban (S300CN)|IGS|2004||麻雀ではない|
-|lhzb4|Long Hu Zhengba 4 (V104CN)|IGS|2004||Joypadが使える|
-|lhzb4dhb|Long Hu Zhengba 4 Dui Hua Ban (V203CN)|IGS|2004||Joypadが使える|
+|lhzb4|Long Hu Zhengba 4 (V104CN)|IGS|2004||ゲームパッドが使える|
+|lhzb4dhb|Long Hu Zhengba 4 Dui Hua Ban (V203CN)|IGS|2004||ゲームパッドが使える|
 |cjddzlf|Chaoji Dou Dizhu Liang Fu Pai (V109CN)|IGS|2005||麻雀ではない|
 |cjtljp|Chaoji Tuolaji Jiaqiang Ban (V206CN)|IGS|2005||麻雀ではない|
 |xypdk|Xingyun Pao De Kuai (V106CN)|IGS|2005||麻雀ではない|
 |tswxp|Taishan Wuxian Jiaqiang Ban (V101CN)|IGS|2006||麻雀ではない|
-|mgcs3|Manguan Caishen 3 (V101CN)|IGS|2007||Joypadが使える|
+|mgcs3|Manguan Caishen 3 (V101CN)|IGS|2007||ゲームパッドが使える|
 |kakumei|Mahjong Kakumei (Japan)|Jaleco|1990|||
 |suchiesp|Idol Janshi Suchie-Pai Special (Japan)|Jaleco|1993|||
 |suchie2|Idol Janshi Suchie-Pai II (ver 1.1)|Jaleco|1994|mahjong_suchie2.cfg||
@@ -342,8 +342,8 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |mjgtaste|Mahjong G-Taste|Psikyo|2002|mahjong_mjgtaste.cfg||
 |ippatsu|Ippatsu Gyakuten (Japan)|Public Software / Paradais|1986|||
 |royalqn|Royal Queen (Japan 841010 RQ 0-07)|Royal Denshi|1984|||
-|hypreact|Mahjong Hyper Reaction (Japan)|Sammy|1995||Joypadモードがあるので不要|
-|hypreac2|Mahjong Hyper Reaction 2 (Japan)|Sammy|1997||Joypadモードがあるので不要|
+|hypreact|Mahjong Hyper Reaction (Japan)|Sammy|1995||ゲームパッドモードがあるので不要|
+|hypreac2|Mahjong Hyper Reaction 2 (Japan)|Sammy|1997||ゲームパッドモードがあるので不要|
 |jantotsu|4nin-uchi Mahjong Jantotsu|Sanritsu|1983|||
 |mjkjidai|Mahjong Kyou Jidai (Japan)|Sanritsu|1986|mahjong_mjkjidai.cfg||
 |chinsan|Ganbare Chinsan Ooshoubu (MC-8123A, 317-5012)|Sanritsu|1987|mahjong_chinsan.cfg||
@@ -393,7 +393,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |mjyuugi|Mahjong Yuugi (Japan set 1)|Visco|1990|||
 |ponchin|Mahjong Pon Chin Kan (Japan set 1)|Visco|1991|||
 |janjans1|Lovely Pop Mahjong JangJang Shimasho (Japan)|Visco|1996|mahjong_janjans1.cfg||
-|koikois2|Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)|Visco|1997||Joypadモードがあるので不要|
+|koikois2|Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)|Visco|1997||ゲームパッドモードがあるので不要|
 |janjans2|Lovely Pop Mahjong JangJang Shimasho 2 (Japan)|Visco|2000|mahjong_janjans2.cfg||
 |mahjngoh|Mahjong Oh (V2.06J 1999/11/23 08:52:22)|Warashi / Mahjong Kobo / Taito|1999|||
 |usagi|Usagi (V2.02J 2001/10/02 12:41:19)|Warashi / Mahjong Kobo / Taito|2001|||
