@@ -204,7 +204,7 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 |sryudens|Mahjong Seiryu Densetsu (Japan, NM502)|Dynax / Face|1996|||
 |dtoyoken|Mahjong Dai Touyouken (Japan)|Dynax / Sigma|1996|||
 |janshinp|Mahjong Janshin Plus (Japan)|Dynax / Sigma|1996|||
-|daimyojn|Mahjong Daimyojin (Japan, T017-PB-00)|Dynax / Techno-Top / Techno-Planning|2002|||
+|daimyojn|Mahjong Daimyojin (Japan, T017-PB-00)|Dynax / Techno-Top / Techno-Planning|2002|mahjong_daimyojn.cfg|[BET]|
 |neruton|Mahjong Neruton Haikujiradan (Japan, Rev. B?)|Dynax / Yukiyoshi Tokoro|1990|||
 |mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|Face|1989|mahjong_mgakuen.cfg||
 |cultures|Jibun wo Migaku Culture School Mahjong Hen|Face|1994|mahjong_cultures.cfg||
