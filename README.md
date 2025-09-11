@@ -8,12 +8,14 @@
     - [レイヤー構成](#レイヤー構成)
     - [ボタン](#ボタン)
   - [麻雀ゲームリスト](#麻雀ゲームリスト)
-      - [FBNeo](#fbneo)
-      - [MAME](#mame)
+    - [FBNeo](#fbneo)
+    - [MAME](#mame)
 - [メモ](#メモ)
   - [動作に関する注意点](#動作に関する注意点)
-  - [トラブルシューティング](#トラブルシューティング)
   - [MAMEのhotgmckを1画面表示にする方法](#mameのhotgmckを1画面表示にする方法)
+  - [MAMEのNeoGeoの麻雀ゲームの操作をJoyStickにする方法](#mameのneogeoの麻雀ゲームの操作をjoystickにする方法)
+  - [FBNeoのNeoGeoの麻雀ゲームの操作をJoyStickにする方法](#fbneoのneogeoの麻雀ゲームの操作をjoystickにする方法)
+  - [MAME/FBNeoのキーバインド](#mamefbneoのキーバインド)
 
 ## 麻雀用オーバーレイ
 
