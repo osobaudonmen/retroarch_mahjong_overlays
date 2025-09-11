@@ -20,6 +20,8 @@
 RetroArchのMAME/FBNeoで麻雀ゲームをプレイする際、スマートフォンなど物理キーボードのない環境では操作が困難です。
 この問題を解決するため、麻雀専用のOSDオーバーレイを作成しました。
 
+`overlays/mahjong/`ディレクトリを、RetroArchの`overlays`ディレクトリにコピーして使用してください。
+
 ### 注意事項
 
 * スマートフォンなどの広い画面で牌とボタンがずれる問題を防ぐため、「クイックメニュー > OSDオーバーレイ > オーバーレイの自動スケーリング」は無効にしてください。
@@ -37,8 +39,6 @@ overlays/mahjong/
 
 ディレクトリには、ゲームごとにボタン配置を最適化したcfgファイルとオーバーレイで使用する画像が含まれています。  
 cfgファイル名の形式：`mahjong_(ROMファイル名).cfg`
-
-`overlays/mahjong/`ディレクトリを、RetroArchの`overlays`ディレクトリにコピーしてください。
 
 #### レイヤー構成
 
@@ -428,6 +428,16 @@ MAMEのDATファイルから麻雀ぽいゲームの一覧を作成した。
 4. Screen #0を選択
 5. Screen 0 Standard (4:3)またはScreen 0 Pixel Aspect (10:7)を選択
 6. MAMEのオプションメニューが閉じるまでEscキーを押す
+
+### MAMEのNeoGeoの麻雀ゲームの操作をJoyStickにする方法
+
+次の方法でJoyStick操作に変更できますが、ボタンを押しても反応しません。  
+どこかで麻雀用コントローラ前提の実装がされてる箇所があるためと予想しています。
+
+1. ゲーム中にTabキーでMAMEのメニューを開く
+2. DIP Switchesを選ぶ
+3. ControllerをJoystickにする
+4. Reset Systemでゲームを再起動する
 
 ### MAME/FBNeoのキーバインド
 
