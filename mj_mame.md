@@ -18,7 +18,7 @@
 |mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|mahjong_mjnanpas.cfg||
 |apparel|Apparel Night (Japan 860929)|Central Denshi|1986|mahjong_apparel.cfg||
 |livegal|Live Gal (Japan 870530)|Central Denshi|1987|mahjong_livegal.cfg|[F/F]|
-|mjgaiden|Mahjong Gaiden (Japan 870803)|Central Denshi|1987|||
+|mjgaiden|Mahjong Gaiden (Japan 870803)|Central Denshi|1987||Keys are not working as expected at v0.280.|
 |orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)|Daiichi Denshi|1988|||
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|Data East Corporation|1981|mahjong_cdsteljn.cfg||
 |swinggal|Swing Gal (Japan 871221)|Digital Denshi|1987|||
