@@ -47,11 +47,12 @@ for ($i = 0; $i < $n; $i++) {
             }
         }
         if ($near) {
+            $formatter = fn($v) => is_numeric($v) ? sprintf('%.6f', $v) : $v;
             if ($first) {
                 $first = false;
-                printf("%10s [%s]\n", $ni, implode(', ', array_map(fn($v) => sprintf('%.6f', $v), $gi)));
+                printf("%10s [%s]\n", $ni, implode(', ', array_map($formatter, $gi)));
             }
-            printf("  %8s [%s]\n", $nj, implode(', ', array_map(fn($v) => sprintf('%.6f', $v), $gj)));
+            printf("  %8s [%s]\n", $nj, implode(', ', array_map($formatter, $gj)));
         }
     }
     if (!$first) {
