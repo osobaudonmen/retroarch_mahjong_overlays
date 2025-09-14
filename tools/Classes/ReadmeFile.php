@@ -75,6 +75,9 @@ class ReadmeFile
                 if (str_contains(file_get_contents($path), 'bet.png')) {
                     $extra[] = '[BET]';
                 }
+                if (str_contains(file_get_contents($path), 'ff.png')) {
+                    $extra[] = '[F/F]';
+                }
             }
         }
         foreach ($extra as $e) {

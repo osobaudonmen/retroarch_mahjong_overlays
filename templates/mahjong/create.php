@@ -15,18 +15,35 @@ foreach ($games as $name => $pos) {
         $cfg = preg_replace('/### BEGIN DEBUG.+?### END DEBUG/s', '', $cfg);
     }
 
-    $num = 0;
-    $bet = '';
+    $buttons = [];
     if (in_array('bet', $pos)) {
-        $bet = "\\1";
-        $num++;
+        $buttons[] = ['retrok_num3', 'bet.png'];
+    }
+    if (in_array('ff', $pos)) {
+        $buttons[] = ['retrok_y', 'ff.png'];
     }
 
-    $cfg = preg_replace(
-        ['/%BET:(.+?)%\n/s'],
-        [$bet],
-        $cfg,
-    );
+    $num = 0;
+    for ($i = 0; $i < 1; $i++) {
+        $pattern = "/%EXTRA$i:(.+?)%\n/s";
+        if (array_key_exists($i, $buttons)) {
+            $num++;
+            $button = $buttons[$i];
+            $cfg = preg_replace_callback(
+                $pattern,
+                function ($m) use ($button) {
+                    return str_replace(
+                        ['KEY', 'IMAGE'],
+                        $button,
+                        $m[1],
+                    );
+                },
+                $cfg,
+            );
+        } else {
+            $cfg = preg_replace($pattern, '', $cfg);
+        }
+    }
 
     $cfg = preg_replace_callback(
         '/%NUM:(\\d+)%/',

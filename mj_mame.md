@@ -17,7 +17,7 @@
 |daisyari|Daisyarin (Japan)|Best System|1989|mahjong_daisyari.cfg|[BET]|
 |mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|mahjong_mjnanpas.cfg||
 |apparel|Apparel Night (Japan 860929)|Central Denshi|1986|mahjong_apparel.cfg||
-|livegal|Live Gal (Japan 870530)|Central Denshi|1987|||
+|livegal|Live Gal (Japan 870530)|Central Denshi|1987|mahjong_livegal.cfg|[F/F]|
 |mjgaiden|Mahjong Gaiden (Japan 870803)|Central Denshi|1987|||
 |orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)|Daiichi Denshi|1988|||
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|Data East Corporation|1981|mahjong_cdsteljn.cfg||
@@ -276,3 +276,4 @@
 <!-- /mame_games -->
 
 - [BET] BET button available
+- [F/F] Flip Flop button available
