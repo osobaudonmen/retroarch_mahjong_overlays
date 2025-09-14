@@ -12,7 +12,7 @@
 |hipai2|Hi Pai Paradise 2|Aruze / Seta / Paon|2004|mahjong_hipai.cfg||
 |kiwame|Pro Mahjong Kiwame|Athena|1994|mahjong_kiwame.cfg||
 |kiwames|Pro Mahjong Kiwame S (J 951020 V1.208)|Athena|1995|mahjong_kiwames.cfg|Don't know how to switch to a mahjong controller.|
-|fengyunh|Fengyun Hui|BMC|1998|||
+|fengyunh|Fengyun Hui|BMC|1998|mahjong_fengyunh.cfg|[BET]|
 |mjmaglmp|Mahou no Lamp (v. JAA02)|BMC|2000|mahjong_mjmaglmp.cfg|[BET]|
 |daisyari|Daisyarin (Japan)|Best System|1989|||
 |mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|||
