@@ -14,7 +14,7 @@
 |kiwames|Pro Mahjong Kiwame S (J 951020 V1.208)|Athena|1995|mahjong_kiwames.cfg|Don't know how to switch to a mahjong controller.|
 |fengyunh|Fengyun Hui|BMC|1998|mahjong_fengyunh.cfg|[BET]|
 |mjmaglmp|Mahou no Lamp (v. JAA02)|BMC|2000|mahjong_mjmaglmp.cfg|[BET]|
-|daisyari|Daisyarin (Japan)|Best System|1989|||
+|daisyari|Daisyarin (Japan)|Best System|1989|mahjong_daisyari.cfg|[BET]|
 |mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|||
 |apparel|Apparel Night (Japan 860929)|Central Denshi|1986|mahjong_apparel.cfg||
 |livegal|Live Gal (Japan 870530)|Central Denshi|1987|||
