@@ -15,7 +15,7 @@
 |fengyunh|Fengyun Hui|BMC|1998|mahjong_fengyunh.cfg|[BET]|
 |mjmaglmp|Mahou no Lamp (v. JAA02)|BMC|2000|mahjong_mjmaglmp.cfg|[BET]|
 |daisyari|Daisyarin (Japan)|Best System|1989|mahjong_daisyari.cfg|[BET]|
-|mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|||
+|mjnanpas|Mahjong Nanpa Story (Japan 890713)|Brooks|1989|mahjong_mjnanpas.cfg||
 |apparel|Apparel Night (Japan 860929)|Central Denshi|1986|mahjong_apparel.cfg||
 |livegal|Live Gal (Japan 870530)|Central Denshi|1987|||
 |mjgaiden|Mahjong Gaiden (Japan 870803)|Central Denshi|1987|||
