@@ -1,6 +1,6 @@
 # RetroArch用麻雀オーバーレイ
 
-[日本語](./README.md) | [English](./README_en.md)
+[日本語](./README.md) | [English](./README.en.md)
 
 ## 概要
 
