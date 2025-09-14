@@ -3,8 +3,8 @@
 |ROM set|Game title|Manufacturer|Year|Overlay file|Notes|
 |---|---|---|---|---|---|
 |janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994|mahjong_janshin.cfg||
-|rmhaihai|Real Mahjong Haihai (Japan, newer)|Alba|1985|||
-|rmhaijin|Real Mahjong Haihai Jinji Idou Hen (Japan)|Alba|1986|||
+|rmhaihai|Real Mahjong Haihai (Japan, newer)|Alba|1985|mahjong_rmhaihai.cfg||
+|rmhaijin|Real Mahjong Haihai Jinji Idou Hen (Japan)|Alba|1986|mahjong_rmhaihai.cfg||
 |danchih|Danchi de Hanafuda (J 990607 V1.400)|Altron (Tecmo license)|1999|||
 |otonano|Otona no Mahjong (Japan 880628)|Apple|1988|||
 |ultramhm|Ultra Maru-hi Mahjong (Japan)|Apple|1993|||
