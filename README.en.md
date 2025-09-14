@@ -1,20 +1,34 @@
-# retroarch_custom_overlays
+# RetroArch Mahjong Overlay
 
-## Mahjong overlay
+[日本語](./README.md) | [English](./README.en.md)
+
+## Overview
 
 Playing mahjong games on RetroArch's MAME/FBNeo can be difficult on devices without a physical keyboard, such as smartphones.
 To help with this, I created a dedicated OSD overlay for mahjong games.
 
-Copy the `overlays/mahjong/` directory into RetroArch's `overlays` directory to use it.
+## Usage
 
-### Important notes
+1. Download
+   - Visit the repository main page: `https://github.com/osobaudonmen/retroarch_mahjong_overlays`.
+   - Click the green "Code" button.
+   - Choose "Download ZIP" from the menu.
+2. Extract & Install
+   - Extract the downloaded ZIP file.
+   - Copy the `overlays/mahjong/` directory from the extracted folder into RetroArch's `overlays/` directory.
+3. Apply
+   - Open the game's Quick Menu.
+   - Select "On-Screen Overlay" then "Overlay Preset".
+   - In the file browser, choose the appropriate overlay file from the copied `overlays/mahjong/` directory.
+
+## Important notes
 
 - To prevent tile and button misalignment on wide screens (smartphones, etc.), disable "Overlay Auto-scaling" in "Quick Menu > On-Screen Overlay".
 - Multi-screen games (e.g. `hotgmck`) must be set to single-screen mode via the Dip Switches (see Notes).
 - Some FBNeo versions have a bug where overlay keyboard input does not work as expected; modifying the core may be necessary.
 - The BET button is `3` in MAME and `2` in FBNeo. Because more MAME games require the BET button, the overlays use `3`.
 
-### Overlay description
+## Overlay description
 
 Mahjong overlays for MAME/FBNeo are provided in:
 
@@ -25,7 +39,7 @@ overlays/mahjong/
 The directory contains per-game `cfg` files tuned for button placement and the images used by the overlays.
 Configuration files are named `mahjong_(ROM_filename).cfg`.
 
-#### Layer structure
+### Layer structure
 
 The mahjong overlay uses five layers:
 
@@ -48,7 +62,7 @@ The mahjong overlay uses five layers:
 
 When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the regular button layer switches automatically according to the screen aspect ratio.
 
-#### System buttons
+### System buttons
 
 |Button|Description|
 |---|---|
@@ -60,7 +74,7 @@ When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the
 |<img src="overlays/mahjong/coin.png" width="25">| Insert coin |
 |<img src="overlays/mahjong/play.png" width="25">| Start game |
 
-#### Game buttons
+### Game buttons
 
 |Button|Description|
 |---|---|
@@ -71,18 +85,18 @@ When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the
 |<img src="overlays/mahjong/z.png" width="50">| Agari (Ron/Tsumo) |
 |<img src="overlays/mahjong/bet.png" width="50">| BET |
 
-### Mahjong game list
+## Mahjong game list
 
 I prepared lists of mahjong games from FBNeo and MAME DAT files.
 Games are sorted by manufacturer and release year, taking into account similarities in control layouts.
 
-#### FBNeo
+### FBNeo
 
 Mahjong games compiled from FBNeo DAT files and source (clones excluded).
 
 [FBNeo mahjong game list](mj_fbneo.md)
 
-#### MAME
+### MAME
 
 Mahjong games extracted from MAME DAT files (v0.280) with the following conditions:
 
