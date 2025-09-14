@@ -5,9 +5,9 @@
 |janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994|mahjong_janshin.cfg||
 |rmhaihai|Real Mahjong Haihai (Japan, newer)|Alba|1985|mahjong_rmhaihai.cfg||
 |rmhaijin|Real Mahjong Haihai Jinji Idou Hen (Japan)|Alba|1986|mahjong_rmhaihai.cfg||
-|danchih|Danchi de Hanafuda (J 990607 V1.400)|Altron (Tecmo license)|1999|||
-|otonano|Otona no Mahjong (Japan 880628)|Apple|1988|||
-|ultramhm|Ultra Maru-hi Mahjong (Japan)|Apple|1993|||
+|danchih|Danchi de Hanafuda (J 990607 V1.400)|Altron (Tecmo license)|1999||Freezes at v0.280|
+|otonano|Otona no Mahjong (Japan 880628)|Apple|1988|mahjong_otonano.cfg||
+|ultramhm|Ultra Maru-hi Mahjong (Japan)|Apple|1993|mahjong_ultramhm.cfg||
 |hipai|Hi Pai Paradise|Aruze / Seta|2003|mahjong_hipai.cfg||
 |hipai2|Hi Pai Paradise 2|Aruze / Seta / Paon|2004|mahjong_hipai.cfg||
 |kiwame|Pro Mahjong Kiwame|Athena|1994|mahjong_kiwame.cfg||
