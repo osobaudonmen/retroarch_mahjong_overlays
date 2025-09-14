@@ -2,7 +2,7 @@
 
 |ROM set|Game title|Manufacturer|Year|Overlay file|Notes|
 |---|---|---|---|---|---|
-|janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994||NeoGeo can use Joystick via DIP switch|
+|janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994|mahjong_janshin.cfg|NeoGeo can use Joystick via DIP switch|
 |ttmahjng|T.T Mahjong|Alpha Denshi Co. (Taito license)|1981|mahjong_jongpute.cfg|Alternative for non-working jongpute|
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|Data East Corporation|1981|mahjong_cdsteljn.cfg||
 |mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|Face|1989|mahjong_mgakuen.cfg||
