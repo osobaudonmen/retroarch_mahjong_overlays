@@ -64,10 +64,10 @@
 |mjmyorntr|Mahjong The Mysterious Orient Returns (Japan, v1.00)|Dynax|1997|Not Created||
 |mjchuuka|Maque Zhonghua Ernu (Taiwan)|Dynax|1998|Not Created||
 |jongtei|Mahjong Jong-Tei (Japan, NM532-01)|Dynax|1999|Not Created||
-|seljan2|Return Of Sel Jan II (Japan, NM557)|Dynax / Face|1996|Not Created||
+|seljan2|Return Of Sel Jan II (Japan, NM557)|Dynax / Face|1996|Created|[BET]|
 |sryudens|Mahjong Seiryu Densetsu (Japan, NM502)|Dynax / Face|1996|Not Created||
 |dtoyoken|Mahjong Dai Touyouken (Japan)|Dynax / Sigma|1996|Not Created||
-|janshinp|Mahjong Janshin Plus (Japan)|Dynax / Sigma|1996|Not Created||
+|janshinp|Mahjong Janshin Plus (Japan)|Dynax / Sigma|1996|Created|[BET]|
 |daimyojn|Mahjong Daimyojin (Japan, T017-PB-00)|Dynax / Techno-Top / Techno-Planning|2002|Created|[BET]|
 |neruton|Mahjong Neruton Haikujiradan (Japan, Rev. B?)|Dynax / Yukiyoshi Tokoro|1990|Not Created||
 |mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|Face|1989|Created||
