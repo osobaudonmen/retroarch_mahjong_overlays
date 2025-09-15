@@ -94,11 +94,35 @@ const xn  = document.querySelector('#xn');
 const yu  = document.querySelector('#yu');
 const yd  = document.querySelector('#yd');
 
+let lastRuler = null;
+
 addRuler(xs, true, false);
 addRuler(xm, true, false);
 addRuler(xn, true, false);
 addRuler(yu, false, true);
 addRuler(yd, false, true);
+
+document.addEventListener("keydown", (e) => {
+    if (lastRuler) {
+        let moved = false;
+        const step = e.shiftKey ? 10 : 1;
+        switch (e.key) {
+            case "ArrowLeft":
+                if (lastRuler.xx) {lastRuler.style.left = `${lastRuler.offsetLeft - step}px`; moved = true;}
+                break;
+            case "ArrowRight":
+                if (lastRuler.xx) {lastRuler.style.left = `${lastRuler.offsetLeft + step}px`; moved = true;}
+                break;
+            case "ArrowUp":
+                if (lastRuler.yy) {lastRuler.style.top = `${lastRuler.offsetTop - step}px`; moved = true;}
+                break;
+            case "ArrowDown":
+                if (lastRuler.yy) {lastRuler.style.top = `${lastRuler.offsetTop + step}px`; moved = true;}
+                break;
+        }
+        if (moved) { displayInfo(); }
+    }
+});
 
 document.querySelector('#scr').onload = displayInfo;
 
@@ -106,10 +130,14 @@ function addRuler(ruler, x = true, y = true)
 {
     let offsetX = 0, offsetY = 0, isDragging = false;
 
+    ruler.xx = x;
+    ruler.yy = y;
+
     ruler.addEventListener("mousedown", (e) => {
         isDragging = true;
-            if (x) {offsetX = e.clientX - ruler.offsetLeft;}
-            if (y) {offsetY = e.clientY - ruler.offsetTop;}
+        if (x) {offsetX = e.clientX - ruler.offsetLeft;}
+        if (y) {offsetY = e.clientY - ruler.offsetTop;}
+        lastRuler = ruler;
     });
 
     document.addEventListener("mousemove", (e) => {
