@@ -33,7 +33,7 @@
 |mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|Created|[BET]|
 |tontonb|Tonton (Japan)|Dynax|1987|Created|[BET]|
 |janyuki|Jong Yu Ki (Japan)|Dynax|1988|Created||
-|majs101b|Mahjong Studio 101 (Japan)|Dynax|1988|Created|[BET]|
+|majs101b|Mahjong Studio 101 (Japan)|Dynax|1988|Created|Need to add Last Chance. [BET]|
 |mjapinky|Almond Pinky (Japan)|Dynax|1988|Not Created||
 |gekisha|Mahjong Gekisha (Japan)|Dynax|1989|Not Created||
 |mjderngr|Mahjong Derringer (Japan)|Dynax|1989|Not Created||
