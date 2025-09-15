@@ -28,7 +28,7 @@
 |jangtaku|Jang Taku (V 1.3)|Dyna Computer|1986|mahjong_jangtaku.cfg|[BET]|
 |dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|mahjong_dondenmj.cfg|[BET]|
 |jongshin|Jong Shin (Japan)|Dyna Electronics|1986|mahjong_jongshin.cfg|[BET]|
-|suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|||
+|suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|mahjong_jongshin.cfg|[BET]|
 |makaijan|Makaijan (Japan)|Dynax|1987|mahjong_makaijan.cfg|[BET]|
 |mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|mahjong_makaijan.cfg|[BET]|
 |tontonb|Tonton (Japan)|Dynax|1987|||
