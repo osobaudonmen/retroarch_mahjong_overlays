@@ -68,17 +68,17 @@ class ReadmeFile
 
         $extra = [];
         $name  = $data[1];
-        if (!$data[5]) {
-            $path = sprintf('overlays/mahjong/mahjong_%s.cfg', $name);
-            if (file_exists($path)) {
-                $data[5] = basename($path);
-                if (str_contains(file_get_contents($path), 'bet.png')) {
-                    $extra[] = '[BET]';
-                }
-                if (str_contains(file_get_contents($path), 'ff.png')) {
-                    $extra[] = '[F/F]';
-                }
+        $path = sprintf('overlays/mahjong/mahjong_%s.cfg', $name);
+        if (file_exists($path)) {
+            $data[5] = 'Created';
+            if (str_contains(file_get_contents($path), 'bet.png')) {
+                $extra[] = '[BET]';
             }
+            if (str_contains(file_get_contents($path), 'ff.png')) {
+                $extra[] = '[F/F]';
+            }
+        } else {
+            $data[5] = 'Not Created';
         }
         foreach ($extra as $e) {
             if (!str_contains($data[6], $e)) {
