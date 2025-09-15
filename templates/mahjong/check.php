@@ -18,13 +18,27 @@ for ($i = 1; $i < $argc; $i++) {
 
 echo "Threshold: $th\n\n";
 
+$sameSet = [];
+
 $n = count($games);
 for ($i = 0; $i < $n; $i++) {
+    $ni    = $names[$i];
+    $gi    = $games[$ni];
+    $done  = [];
+    foreach ($sameSet as $s) {
+        foreach ($s as $ss) {
+            if ($ss !== $ni) {
+                $done[$ss] = true;
+            }
+        }
+    }
+    $same  = [];
     $first = true;
     for ($j = $i + 1; $j < $n; $j++) {
-        $ni = $names[$i];
-        $gi = $games[$ni];
         $nj = $names[$j];
+        if ($done[$nj] ?? false) {
+            continue;
+        }
         $gj = $games[$nj];
         $near = true;
         for ($k = 0; $k < 7; $k++) {
@@ -51,11 +65,14 @@ for ($i = 0; $i < $n; $i++) {
             if ($first) {
                 $first = false;
                 printf("%10s [%s]\n", $ni, implode(', ', array_map($formatter, $gi)));
+                $same[] = $ni;
             }
             printf("  %8s [%s]\n", $nj, implode(', ', array_map($formatter, $gj)));
+            $same[] = $nj;
         }
     }
     if (!$first) {
+        $sameSet[] = $same;
         echo "\n";
     }
 }

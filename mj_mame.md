@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 |janshin|Janshin Densetsu - Quest of Jongmaster|Aicom|1994|Created||
 |rmhaihai|Real Mahjong Haihai (Japan, newer)|Alba|1985|Created||
-|rmhaijin|Real Mahjong Haihai Jinji Idou Hen (Japan)|Alba|1986|Not Created||
+|rmhaijin|Real Mahjong Haihai Jinji Idou Hen (Japan)|Alba|1986|Created||
 |danchih|Danchi de Hanafuda (J 990607 V1.400)|Altron (Tecmo license)|1999|Not Created|Freezes at v0.280|
 |otonano|Otona no Mahjong (Japan 880628)|Apple|1988|Created||
 |ultramhm|Ultra Maru-hi Mahjong (Japan)|Apple|1993|Created||
@@ -70,7 +70,7 @@
 |janshinp|Mahjong Janshin Plus (Japan)|Dynax / Sigma|1996|Not Created||
 |daimyojn|Mahjong Daimyojin (Japan, T017-PB-00)|Dynax / Techno-Top / Techno-Planning|2002|Created|[BET]|
 |neruton|Mahjong Neruton Haikujiradan (Japan, Rev. B?)|Dynax / Yukiyoshi Tokoro|1990|Not Created||
-|mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|Face|1989|Not Created||
+|mgakuen2|Mahjong Gakuen 2 Gakuen-chou no Fukushuu|Face|1989|Created||
 |cultures|Jibun wo Migaku Culture School Mahjong Hen|Face|1994|Created||
 |gal10ren|Mahjong Gal 10-renpatsu (Japan)|Fujic|1993|Not Created||
 |renaiclb|Mahjong Ren-ai Club (Japan)|Fujic|1993|Not Created||
@@ -199,10 +199,10 @@
 |mjsenpu|Mahjong Senpu (Japan)|Oriental Soft|2002|Created|[BET]|
 |kanatuen|Kanatsuen no Onna (Japan 880905)|Panac|1988|Not Created||
 |hotgmck|Taisen Hot Gimmick (Japan)|Psikyo|1997|Created||
-|hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|Psikyo|1998|Not Created||
-|hotgmck3|Taisen Hot Gimmick 3 Digital Surfing (Japan)|Psikyo|1999|Not Created||
-|hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|Psikyo|2000|Not Created||
-|hotgmcki|Mahjong Hot Gimmick Integral (Japan)|Psikyo|2001|Not Created||
+|hgkairak|Taisen Hot Gimmick Kairakuten (Japan)|Psikyo|1998|Created||
+|hotgmck3|Taisen Hot Gimmick 3 Digital Surfing (Japan)|Psikyo|1999|Created||
+|hotgm4ev|Taisen Hot Gimmick 4 Ever (Japan)|Psikyo|2000|Created||
+|hotgmcki|Mahjong Hot Gimmick Integral (Japan)|Psikyo|2001|Created||
 |mjgtaste|Mahjong G-Taste|Psikyo|2002|Created||
 |ippatsu|Ippatsu Gyakuten (Japan)|Public Software / Paradais|1986|Not Created||
 |royalqn|Royal Queen (Japan 841010 RQ 0-07)|Royal Denshi|1984|Not Created||
@@ -268,7 +268,7 @@
 |mjclub|Mahjong Club (Japan)|Xex|1986?|Not Created||
 |yujan|Yu-Jan|Yubis / T.System|1999|Created||
 |mgakuen|Mahjong Gakuen|Yuga|1988|Created||
-|marukin|Super Marukin-Ban (Japan 911128)|Yuga|1990|Not Created||
+|marukin|Super Marukin-Ban (Japan 911128)|Yuga|1990|Created||
 |touryuu|Touryuumon (V1.1)?|Yuki Enterprise|2005|Not Created|Not a mahjong game|
 |janputer|New Double Bet Mahjong (bootleg of Royal Mahjong, set 1)|bootleg (Paradise Denshi Ltd. / Mes)|1981|Not Created||
 |akamj|Aka Mahjong (Double Bet, ver 1 16)|bootleg (Paradise Electronics)|1990|Created||
