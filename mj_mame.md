@@ -21,13 +21,13 @@
 |mjgaiden|Mahjong Gaiden (Japan 870803)|Central Denshi|1987||Keys are not working as expected at v0.280.|
 |orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)|Daiichi Denshi|1988|mahjong_orangec.cfg||
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|Data East Corporation|1981|mahjong_cdsteljn.cfg||
-|swinggal|Swing Gal (Japan 871221)|Digital Denshi|1987|||
+|swinggal|Swing Gal (Japan 871221)|Digital Denshi|1987|mahjong_swinggal.cfg|[BET]|
 |bananadr|Mahjong Banana Dream (Japan 891124)|Digital Soft|1989|mahjong_bananadr.cfg|[BET]|
 |idhimitu|Idol no Himitsu (Japan 890304)|Digital Soft|1989|mahjong_idhimitu.cfg|[BET]|
 |vsmjtria|VS Mahjong Triangle|Dyna|1986||Method to display 2-player screen on 1 screen is unknown|
 |jangtaku|Jang Taku (V 1.3)|Dyna Computer|1986|mahjong_jangtaku.cfg|[BET]|
-|dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|||
-|jongshin|Jong Shin (Japan)|Dyna Electronics|1986|||
+|dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|mahjong_dondenmj.cfg|[BET]|
+|jongshin|Jong Shin (Japan)|Dyna Electronics|1986|mahjong_jongshin.cfg|[BET]|
 |suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|||
 |makaijan|Makaijan (Japan)|Dynax|1987|mahjong_makaijan.cfg|[BET]|
 |mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|mahjong_makaijan.cfg|[BET]|
