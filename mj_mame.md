@@ -31,7 +31,7 @@
 |suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|Created|[BET]|
 |makaijan|Makaijan (Japan)|Dynax|1987|Created|[BET]|
 |mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|Created|[BET]|
-|tontonb|Tonton (Japan)|Dynax|1987|Not Created||
+|tontonb|Tonton (Japan)|Dynax|1987|Created|[BET]|
 |janyuki|Jong Yu Ki (Japan)|Dynax|1988|Not Created||
 |majs101b|Mahjong Studio 101 (Japan)|Dynax|1988|Not Created||
 |mjapinky|Almond Pinky (Japan)|Dynax|1988|Not Created||
