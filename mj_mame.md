@@ -216,8 +216,8 @@
 |ejanhs|E Jong High School (Japan)|Seibu Kaihatsu|1996|Created||
 |ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|Seibu Kaihatsu|1999|Created||
 |goodejan|Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)|Seibu Kaihatsu (Tecmo license)|1991|Created||
-|totmejan|Tottemo E Jong|Seibu Kaihatsu (Tecmo license)|1991|Not Created||
-|srmp1|Super Real Mahjong Part 1 (Japan)|Seta|1987|Not Created||
+|totmejan|Tottemo E Jong|Seibu Kaihatsu (Tecmo license)|1991|Created||
+|srmp1|Super Real Mahjong Part 1 (Japan)|Seta|1987|Created||
 |srmp2|Super Real Mahjong Part 2 (Japan)|Seta|1987|Not Created||
 |srmp3|Super Real Mahjong Part 3 (Japan)|Seta|1988|Not Created||
 |srmp4|Super Real Mahjong PIV (Japan)|Seta|1993|Created||
