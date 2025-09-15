@@ -215,7 +215,7 @@
 |mahmajn2|Tokoro San no MahMahjan 2 (Japan, ROM Based)|Sega|1994|Not Created||
 |ejanhs|E Jong High School (Japan)|Seibu Kaihatsu|1996|Created||
 |ejsakura|E-Jan Sakurasou (Japan, SYS386F V2.0)|Seibu Kaihatsu|1999|Created||
-|goodejan|Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)|Seibu Kaihatsu (Tecmo license)|1991|Not Created||
+|goodejan|Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)|Seibu Kaihatsu (Tecmo license)|1991|Created||
 |totmejan|Tottemo E Jong|Seibu Kaihatsu (Tecmo license)|1991|Not Created||
 |srmp1|Super Real Mahjong Part 1 (Japan)|Seta|1987|Not Created||
 |srmp2|Super Real Mahjong Part 2 (Japan)|Seta|1987|Not Created||
