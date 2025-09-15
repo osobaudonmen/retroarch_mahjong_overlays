@@ -19,7 +19,7 @@
 |apparel|Apparel Night (Japan 860929)|Central Denshi|1986|mahjong_apparel.cfg||
 |livegal|Live Gal (Japan 870530)|Central Denshi|1987|mahjong_livegal.cfg|[F/F]|
 |mjgaiden|Mahjong Gaiden (Japan 870803)|Central Denshi|1987||Keys are not working as expected at v0.280.|
-|orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)|Daiichi Denshi|1988|||
+|orangec|Orange Club - Maruhi Kagai Jugyou (Japan 880213)|Daiichi Denshi|1988|mahjong_orangec.cfg||
 |cdsteljn|DS Telejan (DECO Cassette) (Japan)|Data East Corporation|1981|mahjong_cdsteljn.cfg||
 |swinggal|Swing Gal (Japan 871221)|Digital Denshi|1987|||
 |bananadr|Mahjong Banana Dream (Japan 891124)|Digital Soft|1989|mahjong_bananadr.cfg|[BET]|
