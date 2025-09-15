@@ -9,7 +9,7 @@
 |otonano|Otona no Mahjong (Japan 880628)|Apple|1988|Created||
 |ultramhm|Ultra Maru-hi Mahjong (Japan)|Apple|1993|Created||
 |hipai|Hi Pai Paradise|Aruze / Seta|2003|Created||
-|hipai2|Hi Pai Paradise 2|Aruze / Seta / Paon|2004|Not Created||
+|hipai2|Hi Pai Paradise 2|Aruze / Seta / Paon|2004|Created||
 |kiwame|Pro Mahjong Kiwame|Athena|1994|Created||
 |kiwames|Pro Mahjong Kiwame S (J 951020 V1.208)|Athena|1995|Created|Don't know how to switch to a mahjong controller.|
 |fengyunh|Fengyun Hui|BMC|1998|Created|[BET]|
@@ -28,9 +28,9 @@
 |jangtaku|Jang Taku (V 1.3)|Dyna Computer|1986|Created|[BET]|
 |dondenmj|Don Den Mahjong (Japan)|Dyna Electronics|1986|Created|[BET]|
 |jongshin|Jong Shin (Japan)|Dyna Electronics|1986|Created|[BET]|
-|suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|Not Created|[BET]|
+|suzume|Watashiha Suzumechan (Japan)|Dyna Electronics|1986|Created|[BET]|
 |makaijan|Makaijan (Japan)|Dynax|1987|Created|[BET]|
-|mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|Not Created|[BET]|
+|mjdiplob|Mahjong Diplomat (Japan)|Dynax|1987|Created|[BET]|
 |tontonb|Tonton (Japan)|Dynax|1987|Not Created||
 |janyuki|Jong Yu Ki (Japan)|Dynax|1988|Not Created||
 |majs101b|Mahjong Studio 101 (Japan)|Dynax|1988|Not Created||
@@ -146,7 +146,7 @@
 |crystal2|Crystal Gal 2 (Japan 860620)|Nichibutsu|1986|Not Created||
 |crystalg|Crystal Gal (Japan 860512)|Nichibutsu|1986|Not Created||
 |secolove|Second Love (Japan 861201)|Nichibutsu|1986|Not Created||
-|bijokkoy|Bijokko Yume Monogatari (Japan 870925)|Nichibutsu|1987|Not Created||
+|bijokkoy|Bijokko Yume Monogatari (Japan 870925)|Nichibutsu|1987|Created||
 |housemn2|House Mannequin Roppongi Live hen (Japan 870418)|Nichibutsu|1987|Not Created||
 |housemnq|House Mannequin (Japan 870217)|Nichibutsu|1987|Not Created||
 |iemoto|Iemoto (Japan 871020)|Nichibutsu|1987|Not Created||
@@ -227,7 +227,7 @@
 |srmvs|Super Real Mahjong VS (Rev A)|Seta|1999|Not Created||
 |sengokmj|Sengoku Mahjong (Japan)|Sigma|1991|Not Created||
 |psailor1|Bishoujo Janshi Pretty Sailor 18-kin (Japan)|Sphinx|1994|Created||
-|psailor2|Bishoujo Janshi Pretty Sailor 2 (Japan)|Sphinx|1994|Not Created||
+|psailor2|Bishoujo Janshi Pretty Sailor 2 (Japan)|Sphinx|1994|Created||
 |otatidai|Disco Mahjong Otachidai no Okite (Japan)|Sphinx|1995|Not Created||
 |4psimasy|Mahjong 4P Shimasho (Japan)|Sphinx / AV Japan|1994|Created||
 |imekura|Imekura Mahjong (Japan)|Sphinx / AV Japan|1994|Not Created||
