@@ -10,7 +10,7 @@ To help with this, I created a dedicated OSD overlay for mahjong games.
 ## Usage
 
 1. Download
-   - Visit the repository main page: `https://github.com/osobaudonmen/retroarch_mahjong_overlays`.
+   - Visit the repository main page: [https://github.com/osobaudonmen/retroarch_mahjong_overlays](https://github.com/osobaudonmen/retroarch_mahjong_overlays)
    - Click the green "Code" button.
    - Choose "Download ZIP" from the menu.
 2. Extract & Install
@@ -67,6 +67,7 @@ When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the
 |Button|Description|
 |---|---|
 |<img src="overlays/mahjong/settings.png" width="25">| Toggle menu |
+|<img src="overlays/mahjong/pause.png" width="25">| Pause/Resume |
 |<img src="overlays/mahjong/forward.png" width="25">| Toggle fast-forward |
 |<img src="overlays/mahjong/landscape.png" width="25">| Shown when the landscape regular button layer is active; pressing switches to the portrait layer. When auto-rotation is enabled this is controlled automatically and pressing has no effect. |
 |<img src="overlays/mahjong/portrait.png" width="25">| Shown when the portrait regular button layer is active; pressing switches to the landscape layer. When auto-rotation is enabled this is controlled automatically and pressing has no effect. |
@@ -84,6 +85,7 @@ When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the
 |<img src="overlays/mahjong/reach.png" width="50">| Reach |
 |<img src="overlays/mahjong/z.png" width="50">| Agari (Ron/Tsumo) |
 |<img src="overlays/mahjong/bet.png" width="50">| BET |
+|<img src="overlays/mahjong/ff.png" width="50">| Flip Flop |
 
 ## Mahjong game list
 

@@ -62,6 +62,7 @@ cfgファイルの命名形式は `mahjong_(ROMファイル名).cfg` です。
 |ボタン|説明|
 |---|---|
 |<img src="overlays/mahjong/settings.png" width="25">| メニューを切り替えます |
+|<img src="overlays/mahjong/pause.png" width="25">| 一時停止・再開 |
 |<img src="overlays/mahjong/forward.png" width="25">| 早送りを切り替えます |
 |<img src="overlays/mahjong/landscape.png" width="25">| 横長画面用の通常ボタンレイヤーが使用されているときに表示され、押すと縦長画面用に切り替わります。<br>オーバーレイの自動回転が有効な場合は自動制御されるため、押しても切り替わりません。 |
 |<img src="overlays/mahjong/portrait.png" width="25">| 縦長画面用の通常ボタンレイヤーが使用されているときに表示され、押すと横長画面用に切り替わります。<br>オーバーレイの自動回転が有効な場合は自動制御されるため、押しても切り替わりません。 |
@@ -79,6 +80,7 @@ cfgファイルの命名形式は `mahjong_(ROMファイル名).cfg` です。
 |<img src="overlays/mahjong/reach.png" width="50">| リーチ |
 |<img src="overlays/mahjong/z.png" width="50">| アガリ（ロン/ツモ 等） |
 |<img src="overlays/mahjong/bet.png" width="50">| BET ボタン |
+|<img src="overlays/mahjong/ff.png" width="50">| Flip Flop ボタン |
 
 ## 麻雀ゲームリスト
 
