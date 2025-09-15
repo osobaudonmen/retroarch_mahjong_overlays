@@ -221,10 +221,10 @@
 |srmp2|Super Real Mahjong Part 2 (Japan)|Seta|1987|Created||
 |srmp3|Super Real Mahjong Part 3 (Japan)|Seta|1988|Created||
 |srmp4|Super Real Mahjong PIV (Japan)|Seta|1993|Created||
-|srmp5|Super Real Mahjong P5|Seta|1994|Not Created||
-|srmp6|Super Real Mahjong P6 (Japan)|Seta|1995|Not Created||
+|srmp5|Super Real Mahjong P5|Seta|1994|Created||
+|srmp6|Super Real Mahjong P6 (Japan)|Seta|1995|Created||
 |srmp7|Super Real Mahjong P7 (Japan)|Seta|1997|Created||
-|srmvs|Super Real Mahjong VS (Rev A)|Seta|1999|Not Created||
+|srmvs|Super Real Mahjong VS (Rev A)|Seta|1999|Created||
 |sengokmj|Sengoku Mahjong (Japan)|Sigma|1991|Not Created||
 |psailor1|Bishoujo Janshi Pretty Sailor 18-kin (Japan)|Sphinx|1994|Created||
 |psailor2|Bishoujo Janshi Pretty Sailor 2 (Japan)|Sphinx|1994|Created||
