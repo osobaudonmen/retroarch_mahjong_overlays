@@ -50,18 +50,15 @@ jobs:
         tag_name: "build-${{ github.run_id }}"
         name: "Release #${{ github.run_number }}"
         body: |
-          ## 📦 Build Information
-          - **Build ID**: ${{ github.run_id }}
+          ## Build Information
           - **Commit**: ${{ github.sha }}
           - **Branch**: ${{ github.ref_name }}
           - **Build Date**: ${{ github.event.head_commit.timestamp }}
-
-          ## � Distribution Contents
+          ## Distribution Contents
           This release contains custom overlays for RetroArch mahjong games, optimized for MAME/FBNeo emulators. The archive includes:
           - CFG configuration files for each supported game
           - Overlay image assets (PNG files)
-
-          ## 🚀 Installation Instructions
+          ## Installation Instructions
           1. Download the attached ZIP archive
           2. Extract to your RetroArch overlays directory
           3. Configure your games to use the appropriate overlay files
