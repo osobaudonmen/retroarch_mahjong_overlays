@@ -60,8 +60,8 @@ jobs:
           - Branch: `${{ github.ref_name }}`
           - Build Date: `${{ github.event.head_commit.timestamp }}`
 
-          🎯 **Supported Platforms:**
-          - Universal (`${{ env.PROJECT_NAME }}.zip`)
+          🎯 **Distribution Files:**
+          - `${{ env.PROJECT_NAME }}.zip`
 
           📦 Archive contains:
           - Mahjong overlay configuration files and images (`overlays/mahjong/`)
