@@ -3,10 +3,10 @@ name: RetroArch Custom Overlays - Build and Release
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
-  CORE_NAME: retroarch_custom_overlays
+  PROJECT_NAME: retroarch_custom_overlays
 
 jobs:
   build-and-release:
@@ -29,7 +29,7 @@ jobs:
     - name: Create distribution archives
       run: |
         cd dist
-        zip -r "${{ env.CORE_NAME }}.zip" ../overlays/mahjong/
+        zip -r "${{ env.PROJECT_NAME }}.zip" ../overlays/mahjong/
 
     - name: Verify build artifacts
       run: |
@@ -61,7 +61,7 @@ jobs:
           - Build Date: `${{ github.event.head_commit.timestamp }}`
 
           🎯 **Supported Platforms:**
-          - Universal (`${{ env.CORE_NAME }}.zip`)
+          - Universal (`${{ env.PROJECT_NAME }}.zip`)
 
           📦 Archive contains:
           - Mahjong overlay configuration files and images (`overlays/mahjong/`)
@@ -70,7 +70,7 @@ jobs:
           1. Extract the archive
           2. Copy the `overlays/mahjong/` directory into RetroArch's `overlays` directory
           3. Use the overlays in RetroArch's Quick Menu > On-Screen Overlay
-        files: dist/${{ env.CORE_NAME }}.zip
+        files: dist/${{ env.PROJECT_NAME }}.zip
         draft: false
         prerelease: false
         fail_on_unmatched_files: true
