@@ -10,12 +10,11 @@ To help with this, I created a dedicated OSD overlay for mahjong games.
 ## Usage
 
 1. Download
-   - Visit the repository main page: [https://github.com/osobaudonmen/retroarch_mahjong_overlays](https://github.com/osobaudonmen/retroarch_mahjong_overlays)
-   - Click the green "Code" button.
-   - Choose "Download ZIP" from the menu.
+   - Visit the repository's [Releases page](https://github.com/osobaudonmen/retroarch_custom_overlays/releases).
+   - Download the ZIP file from the latest release.
 2. Extract & Install
    - Extract the downloaded ZIP file.
-   - Copy the `overlays/mahjong/` directory from the extracted folder into RetroArch's `overlays/` directory.
+   - Copy the `mahjong/` directory from the archive into RetroArch's `overlays/` directory.
 3. Apply
    - Open the game's Quick Menu.
    - Select "On-Screen Overlay" then "Overlay Preset".

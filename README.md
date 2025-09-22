@@ -10,16 +10,15 @@ RetroArchのMAME/FBNeoで麻雀ゲームをプレイする際、スマートフ�
 ## 使い方
 
 1. ダウンロード
-  - [リポジトリのトップページ](https://github.com/osobaudonmen/retroarch_mahjong_overlays)にアクセスします。
-  - 緑色の「Code」ボタンをクリックします。
-  - ドロップダウンメニューから「Download ZIP」を選択します。
+  - [リポジトリのReleasesページ](https://github.com/osobaudonmen/retroarch_custom_overlays/releases)にアクセスします。
+  - 最新のリリースからZIPファイルをダウンロードします。
 2. 解凍・設置
   - ダウンロードしたZIPを解凍します。
-  - 解凍したディレクトリの中から`overlays/mahjong/`ディレクトリを、RetroArchの`overlays/`ディレクトリの下にコピーします。
+  - 解凍したアーカイブ内の`mahjong/`ディレクトリを、RetroArchの`overlays/`ディレクトリの下にコピーします。
 3. 適用
   - ゲームのクイックメニューを開きます。
   - 「OSDオーバーレイ」の「オーバーレイプリセット」を選択します。
- - ファイルブラウザでコピーした`overlays/mahjong/`配下から、対応するオーバーレイファイルを選択します。
+  - ファイルブラウザでコピーした`overlays/mahjong/`配下から、対応するオーバーレイファイルを選択します。
 
 ## 注意事項
 
