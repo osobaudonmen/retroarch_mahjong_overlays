@@ -60,7 +60,7 @@ jobs:
           - Branch: `${{ github.ref_name }}`
           - Build Date: `${{ github.event.head_commit.timestamp }}`
 
-          🎯 **Distribution Files:**
+          🗜️ **Distribution Files:**
           - `${{ env.PROJECT_NAME }}.zip`
 
           📦 Archive contains:
