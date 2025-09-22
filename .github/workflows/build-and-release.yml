@@ -26,7 +26,7 @@ jobs:
     - name: Create distribution archives
       run: |
         cd overlays
-        zip -r "dist/${{ env.ARCHIVE_NAME }}.zip" mahjong/
+        zip -r "../dist/${{ env.ARCHIVE_NAME }}.zip" mahjong/
 
     - name: Verify build artifacts
       run: |
