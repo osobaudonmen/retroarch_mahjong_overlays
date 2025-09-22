@@ -1,0 +1,92 @@
+name: RetroArch Custom Overlays - Build and Release
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  CORE_NAME: retroarch_custom_overlays
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup build environment
+      run: |
+        sudo apt update
+        sudo apt install -y zip
+        mkdir -p dist
+
+    - name: Create distribution archives
+      run: |
+        cd dist
+        zip -r "${{ env.CORE_NAME }}.zip" ../overlays/mahjong/
+
+    - name: Verify build artifacts
+      run: |
+        echo "Build verification:"
+        ls -la dist/
+        echo ""
+        echo "Archive contents:"
+        for archive in dist/*.zip; do
+          if [ -f "$archive" ]; then
+            echo "=== $(basename "$archive") ==="
+            unzip -l "$archive" | head -10
+            echo ""
+          fi
+        done
+
+    - name: Create release
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: "build-${{ github.run_id }}"
+        name: "Auto Build #${{ github.run_number }}"
+        body: |
+          **RetroArch Custom Overlays - Release ${{ github.ref_name }}**
+
+          📋 **Build Information:**
+          - Commit: `${{ github.sha }}`
+          - Branch: `${{ github.ref_name }}`
+          - Build Date: `${{ github.event.head_commit.timestamp }}`
+
+          🎯 **Supported Platforms:**
+          - Universal (`${{ env.CORE_NAME }}.zip`)
+
+          📦 Archive contains:
+          - Mahjong overlay configuration files and images (`overlays/mahjong/`)
+
+          🚀 **Installation:**
+          1. Extract the archive
+          2. Copy the `overlays/mahjong/` directory into RetroArch's `overlays` directory
+          3. Use the overlays in RetroArch's Quick Menu > On-Screen Overlay
+        files: dist/${{ env.CORE_NAME }}.zip
+        draft: false
+        prerelease: false
+        fail_on_unmatched_files: true
+
+    - name: Cleanup old releases
+      continue-on-error: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Keep only the latest 5 releases to avoid clutter
+        echo "Cleaning up old releases (keeping latest 5)..."
+        releases=$(gh release list --limit 50 --json tagName,createdAt --jq 'map(select(.tagName | startswith("build-"))) | sort_by(.createdAt) | reverse | .[5:] | map(.tagName) | .[]')
+
+        for tag in $releases; do
+          if [ -n "$tag" ] && [ "$tag" != "build-${{ github.run_id }}" ]; then
+            echo "Deleting release: $tag"
+            gh release delete "$tag" --yes --cleanup-tag || echo "Failed to delete $tag (might not exist)"
+          fi
+        done
