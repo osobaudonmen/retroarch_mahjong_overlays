@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ARCHIVE_NAME: "retroarch_custom_overlays_${{ github.run_id }}"
+  ARCHIVE_NAME: "retroarch_custom_overlays_r${{ github.run_number }}"
 
 jobs:
   build-and-release:
@@ -25,8 +25,7 @@ jobs:
 
     - name: Create distribution archives
       run: |
-        cd dist
-        zip -r "${{ env.ARCHIVE_NAME }}.zip" ../overlays/mahjong/
+        zip -r "dist/${{ env.ARCHIVE_NAME }}.zip" overlays/mahjong/
 
     - name: Verify build artifacts
       run: |
@@ -51,7 +50,6 @@ jobs:
         name: "Release #${{ github.run_number }}"
         body: |
           ## Build Information
-          - **Build ID**: ${{ github.run_id }}
           - **Commit**: ${{ github.sha }}
           - **Branch**: ${{ github.ref_name }}
           - **Build Date**: ${{ github.event.head_commit.timestamp }}
