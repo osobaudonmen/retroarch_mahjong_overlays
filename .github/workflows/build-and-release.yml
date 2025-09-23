@@ -89,6 +89,8 @@ jobs:
         tag_name: "build-${{ github.run_id }}"
         name: "Release #${{ github.run_number }}"
         body: ${{ env.RELEASE_BODY }}
+        files: |
+          dist/${{ env.ARCHIVE_NAME }}.zip
 
     - name: Cleanup old releases
       continue-on-error: true
