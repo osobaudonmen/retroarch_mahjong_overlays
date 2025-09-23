@@ -27,7 +27,7 @@ jobs:
       run: |
         # Create Japanese version archive (default)
         cd overlays
-        zip -r "../dist/${{ env.ARCHIVE_PREFIX }}_ja_${{ github.run_id }}.zip" mahjong/
+        zip -r "../dist/${{ env.ARCHIVE_PREFIX }}_ja_r${{ github.run_number }}.zip" mahjong/
         
         # Create English version archive
         cd ..
@@ -42,7 +42,7 @@ jobs:
         cp templates/mahjong/en/z.png dist/en/mahjong/
         
         cd dist/en
-        zip -r "../${{ env.ARCHIVE_PREFIX }}_en_${{ github.run_id }}.zip" mahjong/
+        zip -r "../${{ env.ARCHIVE_PREFIX }}_en_r${{ github.run_number }}.zip" mahjong/
 
     - name: Verify build artifacts
       run: |
@@ -76,8 +76,8 @@ jobs:
           echo ""
           echo "## Distribution Contents"
           echo "This release contains custom overlays for RetroArch mahjong games, optimized for MAME/FBNeo emulators. Two versions are available:"
-          echo "- **Japanese version** (\`${{ env.ARCHIVE_PREFIX }}_ja_${{ github.run_id }}.zip\`): Original Japanese overlay images"
-          echo "- **English version** (\`${{ env.ARCHIVE_PREFIX }}_en_${{ github.run_id }}.zip\`): Localized with English button labels"
+          echo "- **Japanese version** (\`${{ env.ARCHIVE_PREFIX }}_ja_r${{ github.run_number }}.zip\`): Original Japanese overlay images"
+          echo "- **English version** (\`${{ env.ARCHIVE_PREFIX }}_en_r${{ github.run_number }}.zip\`): Localized with English button labels"
           echo ""
           echo "Each archive includes:"
           echo "- CFG configuration files for each supported game"
@@ -114,8 +114,8 @@ jobs:
         name: "Release #${{ github.run_number }}"
         body: ${{ steps.release_body.outputs.RELEASE_BODY }}
         files: |
-          dist/${{ env.ARCHIVE_PREFIX }}_ja_${{ github.run_id }}.zip
-          dist/${{ env.ARCHIVE_PREFIX }}_en_${{ github.run_id }}.zip
+          dist/${{ env.ARCHIVE_PREFIX }}_ja_r${{ github.run_number }}.zip
+          dist/${{ env.ARCHIVE_PREFIX }}_en_r${{ github.run_number }}.zip
 
     - name: Cleanup old releases
       continue-on-error: true

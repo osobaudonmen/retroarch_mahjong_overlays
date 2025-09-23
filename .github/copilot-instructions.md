@@ -33,7 +33,7 @@ cfgファイルの命名形式は `mahjong_(ROMファイル名).cfg` です。
   - `push`イベントで`main`ブランチにプッシュされた場合にトリガーする。
   - 配布アーカイブは`overlays/mahjong/`ディレクトリにあるすべてのcfgファイルと画像ファイルを含むZIPアーカイブとする。
   - 配布アーカイブのZIPのファイル名にはプロジェクト名とビルドを識別できる情報を含む。
-  - 配布用アーカイブは日本語版と英語版を作成する。アーカイブ名はそれぞれ`retroarch_mahjong_overlays_(ja|en)_<ビルドID>.zip`とする。
+  - 配布用アーカイブは日本語版と英語版を作成する。アーカイブ名はそれぞれ`retroarch_mahjong_overlays_(ja|en)_r${{ github.run_number }}.zip`とする。
     - 日本語版は`overlays/mahjong/`をそのままアーカイブする。
     - 英語版は`overlays/mahjong/`の一部の画像を`template/en/`配下のファイルで置き換えてアーカイブする。
   - ビルド成果物を検証する。
