@@ -35,11 +35,7 @@ jobs:
         cp -r overlays/mahjong/* dist/en/mahjong/
         
         # Replace Japanese images with English versions
-        cp templates/mahjong/en/chi.png dist/en/mahjong/
-        cp templates/mahjong/en/kan.png dist/en/mahjong/
-        cp templates/mahjong/en/pon.png dist/en/mahjong/
-        cp templates/mahjong/en/reach.png dist/en/mahjong/
-        cp templates/mahjong/en/z.png dist/en/mahjong/
+        cp templates/mahjong/en/*.png dist/en/mahjong/
         
         cd dist/en
         zip -r "../${{ env.ARCHIVE_PREFIX }}_en_r${{ github.run_number }}.zip" mahjong/
