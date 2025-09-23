@@ -43,9 +43,15 @@ jobs:
         done
 
     - name: Generate release body
+      env:
+        COMMIT_SHA: ${{ github.sha }}
+        BRANCH: ${{ github.ref_name }}
+        BUILD_DATE: ${{ github.event.head_commit.timestamp }}
+        BEFORE_COMMIT: ${{ github.event.before }}
+        AFTER_COMMIT: ${{ github.event.after }}
       run: |
         # Get added cfg files
-        added_files=$(git diff --name-only --diff-filter=A ${{ github.event.before }} ${{ github.event.after }} | grep 'overlays/mahjong/mahjong_.*\.cfg$')
+        added_files=$(git diff --name-only --diff-filter=A $BEFORE_COMMIT $AFTER_COMMIT | grep 'overlays/mahjong/mahjong_.*\.cfg$')
         
         added_games=""
         if [ -n "$added_files" ]; then
@@ -58,9 +64,9 @@ jobs:
         
         # Create body
         body="## Build Information
-        - **Commit**: ${{ github.sha }}
-        - **Branch**: ${{ github.ref_name }}
-        - **Build Date**: ${{ github.event.head_commit.timestamp }}
+        - **Commit**: $COMMIT_SHA
+        - **Branch**: $BRANCH
+        - **Build Date**: $BUILD_DATE
         ## Distribution Contents
         This release contains custom overlays for RetroArch mahjong games, optimized for MAME/FBNeo emulators. The archive includes:
         - CFG configuration files for each supported game
