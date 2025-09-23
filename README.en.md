@@ -78,11 +78,11 @@ When "Overlay Auto-rotation" is enabled in "Quick Menu > On-Screen Overlay", the
 
 |Button|Description|
 |---|---|
-|<img src="overlays/mahjong/chi.png" width="50">| Chi |
-|<img src="overlays/mahjong/pon.png" width="50">| Pon |
-|<img src="overlays/mahjong/kan.png" width="50">| Kan |
-|<img src="overlays/mahjong/reach.png" width="50">| Reach |
-|<img src="overlays/mahjong/z.png" width="50">| Agari (Ron/Tsumo) |
+|<img src="templates/mahjong/en/chi.png" width="50">| Chi |
+|<img src="templates/mahjong/en/pon.png" width="50">| Pon |
+|<img src="templates/mahjong/en/kan.png" width="50">| Kan |
+|<img src="templates/mahjong/en/reach.png" width="50">| Reach |
+|<img src="templates/mahjong/en/z.png" width="50">| Win (Ron/Tsumo) |
 |<img src="overlays/mahjong/bet.png" width="50">| BET |
 |<img src="overlays/mahjong/ff.png" width="50">| Flip Flop |
 
