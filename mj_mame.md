@@ -228,10 +228,10 @@
 |sengokmj|Sengoku Mahjong (Japan)|Sigma|1991|❌||
 |psailor1|Bishoujo Janshi Pretty Sailor 18-kin (Japan)|Sphinx|1994|✅||
 |psailor2|Bishoujo Janshi Pretty Sailor 2 (Japan)|Sphinx|1994|✅||
-|otatidai|Disco Mahjong Otachidai no Okite (Japan)|Sphinx|1995|❌||
+|otatidai|Disco Mahjong Otachidai no Okite (Japan)|Sphinx|1995|✅||
 |4psimasy|Mahjong 4P Shimasho (Japan)|Sphinx / AV Japan|1994|✅||
-|imekura|Imekura Mahjong (Japan)|Sphinx / AV Japan|1994|❌||
-|mscoutm|Mahjong Scout Man (Japan)|Sphinx / AV Japan|1994|❌||
+|imekura|Imekura Mahjong (Japan)|Sphinx / AV Japan|1994|✅||
+|mscoutm|Mahjong Scout Man (Japan)|Sphinx / AV Japan|1994|✅||
 |dunhuang|Mahjong Dunhuang|Spirit|1995|❌||
 |idolmj|Idol-Mahjong Housoukyoku (Japan)|System Service|1988|❌||
 |mjnquest|Mahjong Quest (Japan)|Taito Corporation|1990|✅||
