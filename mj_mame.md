@@ -136,7 +136,7 @@
 |minasan|Minasan no Okagesamadesu! Dai Sugoroku Taikai (MOM-001 ~ MOH-001)|Monolith Corp.|1990|❌||
 |bakatono|Bakatonosama Mahjong Manyuuki (MOM-002 ~ MOH-002)|Monolith Corp.|1991|❌|NeoGeo can use Joystick via DIP switch|
 |mjflove|Mahjong Fantasic Love (Japan)|Nakanihon|1996|❌||
-|royalmj|Royal Mahjong (Japan, v1.13)|Nichibutsu|1981|❌||
+|royalmj|Royal Mahjong (Japan, v1.13)|Nichibutsu|1981|✅|[BET]|
 |jangou|Jangou (Japan)|Nichibutsu|1983|❌||
 |jngolady|Jangou Lady (Japan)|Nichibutsu|1984|❌||
 |ngtbunny|Night Bunny (Japan 840601 MRN 2-10)|Nichibutsu|1984|❌||
