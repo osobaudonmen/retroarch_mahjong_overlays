@@ -70,7 +70,7 @@ class ReadmeFile
         $name  = $data[1];
         $path = sprintf('overlays/mahjong/mahjong_%s.cfg', $name);
         if (file_exists($path)) {
-            $data[5] = 'Created';
+            $data[5] = '✅';
             if (str_contains(file_get_contents($path), 'bet.png')) {
                 $extra[] = '[BET]';
             }
@@ -78,7 +78,7 @@ class ReadmeFile
                 $extra[] = '[F/F]';
             }
         } else {
-            $data[5] = 'Not Created';
+            $data[5] = '❌';
         }
         foreach ($extra as $e) {
             if (!str_contains($data[6], $e)) {
