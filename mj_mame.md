@@ -62,7 +62,7 @@
 |mjxysl|Majiang Xingyun Shenlong (China, D121)|Dynax|1996|✅|[BET]|
 |janptrsp|Janputer Special (Japan)|Dynax|1997|❌||
 |mjmyorntr|Mahjong The Mysterious Orient Returns (Japan, v1.00)|Dynax|1997|❌||
-|mjchuuka|Maque Zhonghua Ernu (Taiwan)|Dynax|1998|❌||
+|mjchuuka|Maque Zhonghua Ernu (Taiwan)|Dynax|1998|✅|[BET]|
 |jongtei|Mahjong Jong-Tei (Japan, NM532-01)|Dynax|1999|✅|[BET]|
 |seljan2|Return Of Sel Jan II (Japan, NM557)|Dynax / Face|1996|✅|[BET]|
 |sryudens|Mahjong Seiryu Densetsu (Japan, NM502)|Dynax / Face|1996|❌||
@@ -121,8 +121,8 @@
 |mj4simai|Wakakusamonogatari Mahjong Yonshimai (Japan)|Maboroshi Ware|1996|✅||
 |dokyusei|Mahjong Doukyuusei|Make Software / Elf / Media Trading|1995|✅||
 |dokyusp|Mahjong Doukyuusei Special|Make Software / Elf / Media Trading|1995|✅||
-|gakusai|Mahjong Gakuensai (Japan, set 1)|MakeSoft|1997|❌||
-|gakusai2|Mahjong Gakuensai 2 (Japan)|MakeSoft|1998|❌||
+|gakusai|Mahjong Gakuensai (Japan, set 1)|MakeSoft|1997|✅||
+|gakusai2|Mahjong Gakuensai 2 (Japan)|MakeSoft|1998|✅||
 |mjprivat|Mahjong Private (Japan)|Matoba|1991|❌||
 |tmmjprd|Tokimeki Mahjong Paradise - Dear My Love|Media / Sonnet|1997|❌||
 |vmahjong|Virtual Mahjong (J 961214 V1.000)|Micronet|1997|❌||
