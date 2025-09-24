@@ -87,9 +87,9 @@
 |vitaminc|Mahjong Vitamin C (Japan)|Home Data|1989|❌||
 |lemnangl|Mahjong Lemon Angel (Japan)|Home Data|1990|❌||
 |mjkinjas|Mahjong Kinjirareta Asobi (Japan)|Home Data|1991|❌||
-|lhb|Long Hu Bang (China, V035C)|IGS|1995|❌||
-|lhb2|Lung Fu Bong II (Hong Kong, V185H)|IGS|1996|❌||
-|xymg|Xingyun Manguan (China, V651C, set 1)|IGS|1996|❌||
+|lhb|Long Hu Bang (China, V035C)|IGS|1995|✅|[BET]|
+|lhb2|Lung Fu Bong II (Hong Kong, V185H)|IGS|1996|✅|[BET]|
+|xymg|Xingyun Manguan (China, V651C, set 1)|IGS|1996|✅|[BET]|
 |lhdmg|Long Hu Da Manguan (V102C3M)|IGS|1999|✅|[BET]|
 |lhdmgp|Long Hu Da Manguan Duizhan Jiaqiang Ban (V400C3M)|IGS|1999|✅|[BET]|
 |lhzb3|Long Hu Zhengba III (V400CN)|IGS|1999|✅|[BET]|
