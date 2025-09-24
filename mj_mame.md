@@ -90,11 +90,11 @@
 |lhb|Long Hu Bang (China, V035C)|IGS|1995|❌||
 |lhb2|Lung Fu Bong II (Hong Kong, V185H)|IGS|1996|❌||
 |xymg|Xingyun Manguan (China, V651C, set 1)|IGS|1996|❌||
-|lhdmg|Long Hu Da Manguan (V102C3M)|IGS|1999|❌||
-|lhdmgp|Long Hu Da Manguan Duizhan Jiaqiang Ban (V400C3M)|IGS|1999|❌||
-|lhzb3|Long Hu Zhengba III (V400CN)|IGS|1999|❌||
-|lhzb3sjb|Long Hu Zhengba III Shengji Ban (V300C5)|IGS|1999|❌||
-|lthyp|Long Teng Hu Yao Duizhan Jiaqiang Ban (S104CN)|IGS|1999|❌||
+|lhdmg|Long Hu Da Manguan (V102C3M)|IGS|1999|✅|[BET]|
+|lhdmgp|Long Hu Da Manguan Duizhan Jiaqiang Ban (V400C3M)|IGS|1999|✅|[BET]|
+|lhzb3|Long Hu Zhengba III (V400CN)|IGS|1999|✅|[BET]|
+|lhzb3sjb|Long Hu Zhengba III Shengji Ban (V300C5)|IGS|1999|✅|[BET]|
+|lthyp|Long Teng Hu Yao Duizhan Jiaqiang Ban (S104CN)|IGS|1999|✅|[BET]|
 |qlgs|Que Long Gaoshou (S501CN)|IGS|1999|✅|[BET]|
 |tarzanc|Tarzan Chuang Tian Guan (China, V109C, set 1)|IGS|1999|❌|Not a mahjong game|
 |tshs|Tiansheng Haoshou (V201CN)|IGS|2000|❌|Not a mahjong game|
