@@ -125,8 +125,8 @@
 |gakusai2|Mahjong Gakuensai 2 (Japan)|MakeSoft|1998|✅||
 |mjprivat|Mahjong Private (Japan)|Matoba|1991|❌||
 |tmmjprd|Tokimeki Mahjong Paradise - Dear My Love|Media / Sonnet|1997|❌||
-|vmahjong|Virtual Mahjong (J 961214 V1.000)|Micronet|1997|❌||
-|myfairld|Virtual Mahjong 2 - My Fair Lady (J 980608 V1.000)|Micronet|1998|❌||
+|vmahjong|Virtual Mahjong (J 961214 V1.000)|Micronet|1997|✅||
+|myfairld|Virtual Mahjong 2 - My Fair Lady (J 980608 V1.000)|Micronet|1998|❌|Mahjong controller start button not working|
 |kaguya|Mahjong Kaguyahime (Japan 880521)|Miki Syouji|1988|❌||
 |taiwanmb|Taiwan Mahjong (Japan 881208)|Miki Syouji|1988|❌||
 |kaguya2|Mahjong Kaguyahime Sono2 (Japan 890829)|Miki Syouji|1989|❌||
