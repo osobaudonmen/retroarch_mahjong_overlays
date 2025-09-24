@@ -194,7 +194,7 @@
 |mjuraden|Mahjong Uranai Densetsu (Japan)|Nichibutsu / Yubis|1992|❌||
 |musobana|Musoubana (Japan)|Nichibutsu / Yubis|1995|❌||
 |janbari|Mahjong Janjan Baribari (Japan)|Nichibutsu / Yubis / AV Japan|1992|❌||
-|mjreach1|Mahjong Reach Ippatsu (Japan, NM526-NSI)|Nihon System|1998|❌||
+|mjreach1|Mahjong Reach Ippatsu (Japan, NM526-NSI)|Nihon System|1998|✅|[BET]|
 |mmahjong|Micom Mahjong|Nippon Mail Service|1982|❌||
 |mjsenpu|Mahjong Senpu (Japan)|Oriental Soft|2002|✅|[BET]|
 |kanatuen|Kanatsuen no Onna (Japan 880905)|Panac|1988|❌||
@@ -251,7 +251,7 @@
 |nmsengen|Nekketsu Mahjong Sengen! AFTER 5 (Japan)|Video System Co.|1991|❌||
 |fromanc2|Taisen Idol-Mahjong Final Romance 2 (Japan, newer)|Video System Co.|1995|❌||
 |fromancr|Taisen Mahjong Final Romance R (Japan)|Video System Co.|1995|❌||
-|fromanc4|Taisen Mahjong Final Romance 4 (Japan)|Video System Co.|1998|❌||
+|fromanc4|Taisen Mahjong Final Romance 4 (Japan)|Video System Co.|1998|✅|At the game screen, press Tab, then in Video Options, select Screen 0 Pixel Aspect (22:15).|
 |rmhaisei|Real Mahjong Haihai Seichouhen (Japan)|Visco|1986|❌||
 |themj|The Mah-jong (Japan, set 1)|Visco|1987|❌||
 |mjyuugi|Mahjong Yuugi (Japan set 1)|Visco|1990|❌||
