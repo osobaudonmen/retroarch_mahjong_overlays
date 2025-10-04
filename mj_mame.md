@@ -225,7 +225,7 @@
 |srmp6|Super Real Mahjong P6 (Japan)|Seta|1995|✅||
 |srmp7|Super Real Mahjong P7 (Japan)|Seta|1997|✅||
 |srmvs|Super Real Mahjong VS (Rev A)|Seta|1999|✅||
-|sengokmj|Sengoku Mahjong (Japan)|Sigma|1991|❌||
+|sengokmj|Sengoku Mahjong (Japan)|Sigma|1991|✅||
 |psailor1|Bishoujo Janshi Pretty Sailor 18-kin (Japan)|Sphinx|1994|✅||
 |psailor2|Bishoujo Janshi Pretty Sailor 2 (Japan)|Sphinx|1994|✅||
 |otatidai|Disco Mahjong Otachidai no Okite (Japan)|Sphinx|1995|✅||
