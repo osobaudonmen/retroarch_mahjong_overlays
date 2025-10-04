@@ -233,7 +233,7 @@
 |imekura|Imekura Mahjong (Japan)|Sphinx / AV Japan|1994|✅||
 |mscoutm|Mahjong Scout Man (Japan)|Sphinx / AV Japan|1994|✅||
 |dunhuang|Mahjong Dunhuang|Spirit|1995|✅|[BET]|
-|idolmj|Idol-Mahjong Housoukyoku (Japan)|System Service|1988|❌||
+|idolmj|Idol-Mahjong Housoukyoku (Japan)|System Service|1988|✅||
 |mjnquest|Mahjong Quest (Japan)|Taito Corporation|1990|✅||
 |mjgnight|Mahjong Gorgeous Night (Japan, TSM003-01)|Techno-Top|2000|✅|[BET]|
 |mjsister|Mahjong Sisters (Japan)|Toaplan|1986|❌||
