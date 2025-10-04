@@ -64,7 +64,7 @@
 |mjmyorntr|Mahjong The Mysterious Orient Returns (Japan, v1.00)|Dynax|1997|❌||
 |mjchuuka|Maque Zhonghua Ernu (Taiwan)|Dynax|1998|✅|[BET]|
 |jongtei|Mahjong Jong-Tei (Japan, NM532-01)|Dynax|1999|✅|[BET]|
-|seljan2|Return Of Sel Jan II (Japan, NM557)|Dynax / Face|1996|✅|[BET]|
+|seljan2|Return of Sel Jan II (Japan, NM557)|Dynax / Face|1996|✅|[BET]|
 |sryudens|Mahjong Seiryu Densetsu (Japan, NM502)|Dynax / Face|1996|❌||
 |dtoyoken|Mahjong Dai Touyouken (Japan)|Dynax / Sigma|1996|❌||
 |janshinp|Mahjong Janshin Plus (Japan)|Dynax / Sigma|1996|✅|[BET]|

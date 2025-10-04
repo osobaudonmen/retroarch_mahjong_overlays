@@ -99,7 +99,7 @@ Mahjong games compiled from FBNeo DAT files and source (clones excluded).
 
 ### MAME
 
-Mahjong games extracted from MAME DAT files (v0.280) with the following conditions:
+Mahjong games extracted from MAME DAT files (v0.281) with the following conditions:
 
 - Not a device
 - Working
